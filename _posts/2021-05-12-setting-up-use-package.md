@@ -196,8 +196,8 @@ flexibility of use-package. Let's have a look at one final example.
 
 ## Use-package in action: Example 3
 
-Say I want turn on the visualization of matching parentheses. That is,
-when my cursor stops at a parenthesis/bracket/brace, the matching
+Say I want to turn on the visualization of matching parentheses. That
+is, when my cursor stops at a parenthesis/bracket/brace, the matching
 instance on the other end is highlighted. This requires tweaking the
 "paren" package, which is a built-in package in Emacs already. To
 prevent use-package from looking for the paren package in the internet

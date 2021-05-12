@@ -57,4 +57,5 @@ this post.
 
 Currently, I'm Arch Linux on WSL2 and always have Ubuntu 20.04 as my
 backup plan. In fact, I'm writing this very blog post in Ubuntu
-because there are some weird issues going on with Arch + WSL2.
+because there are some weird issues going on with WSL2 Arch and Ruby
+gems.

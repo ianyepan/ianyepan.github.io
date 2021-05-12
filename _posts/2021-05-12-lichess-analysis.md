@@ -41,7 +41,7 @@ first, but you'll soon get used to it.
 
 On the Lichess website, head over to the "Tools" tab on top, and click
 on "Analysis board" in the drop-down. Notice the PGN text box below
-the chess board: this is where we will import the games we played on
+the chessboard: this is where we will import the games we played on
 Chess.com for free analysis here on Lichess. PGN stands for Portable
 Game Notation, and according to Wikipedia, is a "standard plain text
 format for recording chess games (both the moves and related data),
@@ -50,10 +50,10 @@ software."
 
 ##### Find a game you'd like to import
 
-Moving on to the next step, go back to Chess.com to
-find a game you'd like to analyze (completed games can be found under
-your profile). Click on "Analysis". (If no pop-up shows and you still
-have quota to analyze your game, you might as well stop this tutorial
+Moving on to the next step, go back to Chess.com to find a game you'd
+like to analyze (completed games can be found under your
+profile). Click on "Analysis". (If no pop-up shows and you still have
+the quota to analyze your game, you might as well stop this tutorial
 and just analyze the game on Chess.com.) Find the "download" icon
 somewhere on the bottom right of the page. Copy the whole PGN section,
 go back to Lichess' Analysis board, and paste the values in Lichess'

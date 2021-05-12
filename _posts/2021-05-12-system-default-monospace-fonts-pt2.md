@@ -32,7 +32,7 @@ _Consolas_
 
 First on the list is Microsoft's Consolas, which happens to be my
 all-time favorite monospace font. For practical use, I love the
-thicker characters that enhances readability at smaller sizes, and the
+thicker characters that enhance readability at smaller sizes, and the
 generally narrower body to allow more columns to be shown in my code
 editor. The details in the low-hanging "r", slightly triangular angles
 of "M", the slanting vertical line of the dollar symbol, and the
@@ -50,7 +50,7 @@ such as the other fonts on the list.
 However, nothing is perfect, and there are two things that bug me
 about Consolas. First, the italic version of lowercase "k".  Cool as
 it may be, the cursive loop on top makes the character somewhat stand out
-unnecessarily every time I glance through a code base.
+unnecessarily every time I glance through a codebase.
 
 ![italic k Preview](/images/Consolas-k.png){: width="150"}
 _Consolas' italic k can be distracting at times_
@@ -72,12 +72,12 @@ _SF Mono_
 
 Introduced in 2016, SF Mono is part of Apple's San Francisco font
 family. Its license prohibits usage beyond default Apple applications
-like Terminal and Xcode. This means that third party code editors,
+like Terminal and Xcode. This means that third-party code editors,
 such as Sublime Text or Microsoft's Visual Studio Code, will have to
 fall back to the previous default macOS font, Menlo. If you really
 like SF Mono, there are still ways that you could use it anywhere you
 want (the morality of proprietary font usage is controversial, but
-there are a few tutorials online that teach you how do it. Spoiler
+there are a few tutorials online that teach you how to do it. Spoiler
 alert, it's not hard at all).
 
 In terms of the design, I personally find SF Mono more
@@ -87,10 +87,10 @@ especially with the perfectly round curves of 5, 6, and 9. The long
 serifs of 'i', 'j', 'l', and 'r' contribute greatly to the overall
 neat, well-ordered, and rigid feel of the typeface. However, the
 trade-off of tidiness would be the less relaxing vibe that SF Mono
-gives off. Which is why every time I come back to it, I
-psychologically feel more uptight and as a result get tired more
+gives off. This is why every time I come back to it, I
+psychologically feel more uptight and as a result, get tired more
 easily. Regarding readability, Apple has nailed it here &mdash; I can
-recognize characters with easy even at much lower font sizes.
+recognize characters with ease even at much lower font sizes.
 
 ## Menlo
 
@@ -149,7 +149,7 @@ preference list. For the record, I never really enjoyed its cousin,
 the popular Roboto, either, but that's for some other time. I cannot
 enjoy Roboto Mono as much because I feel that it lacks
 personality. More abstractly, it tries to be a "safe monospace" font
-that stays out of the way, and isn't ambitious at all to develop its
+that stays out of the way and isn't ambitious at all to develop its
 own identity.
 
 However, this is just my personal opinion. It doesn't affect the fact
@@ -186,7 +186,7 @@ exaggeratedly curvy parentheses. In fact, if you put an opening and
 closing parenthesis next to each other, they'd almost form a
 circle. Similarly, if you have an empty pair of square brackets,
 they'd almost form a square. Finally, Monaco is somewhat
-narrower than other popular monospace font, so with the same font
+narrower than other popular monospace fonts, so with the same font
 size, you could fit more horizontal content on the screen.
 
 There is one downside to using Monaco, though. Because of its overly
@@ -198,4 +198,4 @@ and each character is ballooned to invade the space of others.
 ## Concluding Words
 
 That's all for this journey of exploring system default monospace
-fonts! Hope you enjoyed reading it, and perhaps learned something new.
+fonts! Hope you enjoyed reading it and perhaps learned something new.

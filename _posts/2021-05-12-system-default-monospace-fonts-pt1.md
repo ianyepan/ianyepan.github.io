@@ -8,7 +8,7 @@ tags: [fonts]
 
 > A week ago (on May 5. 2021), Stack Exchange
 > [announced](https://meta.stackexchange.com/questions/364048/we-are-switching-to-system-fonts-on-may-10-2021)
-> that they are switching to system fonts as the their default font
+> that they are switching to system fonts as their default font
 > stack. This change impacts the way body texts look, as well as the
 > font family used in code blocks. In the following blog post I'll
 > discuss system default monospace fonts, leaving system sans-serif
@@ -18,7 +18,7 @@ tags: [fonts]
 
 If you program at all, you probably have noticed that no matter which
 code editor you use, the default editor font will always be a
-monospace font. These kind of fonts enhance readability for coding,
+monospace font. This kind of fonts enhance readability for coding
 because it visual aligns each character with equal spacing. However,
 monospace fonts are not suitable for general non-code text reading, as
 we are actually trained to read and recognize words faster by taking
@@ -56,7 +56,7 @@ Canonical's own Ubuntu Mono.
 
 The default monospace font not only lives in code editors and
 terminals, but also quite prevalently in modern browsers. Many
-websites, such as StackOverflow and GitHub, uses CSS rules to target
+websites, such as StackOverflow and GitHub, use CSS rules to target
 the font family to show in code blocks. A simple example would be:
 
 
