@@ -50,7 +50,8 @@ body {
   background: var(--body-bg);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
-  font-family: 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
+  // font-family: 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 /* --- Typography --- */
@@ -660,7 +661,7 @@ $sidebar-display: "sidebar-display";
 
   .site-title {
     a {
-      font-weight: 900;
+      font-weight: 600;
       font-size: 1.5rem;
       letter-spacing: 0.5px;
     }
@@ -1432,7 +1433,7 @@ $sidebar-display: "sidebar-display";
   }
 
   .post-content {
-    font-size: 1.03rem;
+    font-size: 1.00rem;
   }
 
   footer > div.d-felx {

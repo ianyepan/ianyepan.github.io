@@ -7,7 +7,8 @@
 %heading {
   color: var(--heading-color);
   font-weight: 400;
-  font-family: 'Lato', 'Microsoft Yahei', sans-serif;
+  // font-family: 'Lato', 'Microsoft Yahei', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 %tag-hover {
@@ -22,8 +23,8 @@
 }
 
 %link-hover {
-  color: #d2603a !important;
-  border-bottom: 1px solid #d2603a;
+  color: #5a95f5 !important;
+  border-bottom: 1px solid #5a95f5;
   text-decoration: none;
 }
 
