@@ -50,8 +50,7 @@ unnecessarily every time I glance through a code base.
 ![italic k Preview](/images/Consolas-k.png){: width="150"}
 _Consolas' italic k_
 
-The other
-problem I have might be due to the
+The other problem I have might be due to the
 [ClearType](https://en.wikipedia.org/wiki/ClearType) technology behind
 the font. Consolas changes the body weight from its regular thickness
 to a lighter version (despite it not "actually" having a light
@@ -96,7 +95,7 @@ _Menlo_
 
 To understand the design of Apple's Menlo, we must first talk about
 Bitstream Vera Sans Mono, perhaps the most influential monospace font
-in recent typography. The later popular DejuVa Sans Mono, for example,
+in recent typography. The later popular DejaVu Sans Mono, for example,
 is based on Vera, with modifications to certain letters, and a greater
 coverage of Unicode characters.
 
@@ -125,3 +124,12 @@ suboptimal screen resolution. However, there is no denying that DejaVu
 is a very practical font with a massive collection of Unicode
 characters, and its derivatives, Menlo and Hack just to name two, are
 tremendously popular among developers.
+
+## Roboto Mono
+
+Roboto Mono is developed by Google as part of the Roboto family, which
+is a constantly evolving typeface that is widely used in Android
+devices and websites for its superior readability. Its non-monospace sans serif
+version, Roboto, is the current [most popular font on Google Fonts](https://fonts.google.com/?sort=popularity).
+
+This font, along with DejaVu Sans Mono, is sadly at the bottom of my list.
