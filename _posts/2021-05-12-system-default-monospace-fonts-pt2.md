@@ -3,7 +3,7 @@ title: Gentle Intro To System Default Monospace Fonts (Part 2)
 author: Ian Y.E. Pan
 date: 2021-05-12 14:31:00 +0800
 categories: [Typography]
-tags: [fonts, tips]
+tags: [fonts]
 ---
 
 In my previous post, I talked about the practical reasons to use
@@ -31,7 +31,33 @@ their respective historical backgrounds. Buckle up and sit tight!
 _Consolas_
 
 First on the list is Microsoft's Consolas, which happens to be my
-all-time favorite monospace font. I love the
+all-time favorite monospace font. For practical use, I love the
+thicker characters that enhances readability at smaller sizes, and the
+generally narrower body to allow more columns to be shown in my code
+editor. The details in the low-hanging "r", slightly triangular angles
+of "M", the slanting vertical line of the dollar symbol, and the
+elongated comma are in my opinion, what makes this font elegantly
+timeless. In general, I also prefer the look of a [looptail
+double-storey](https://en.wikipedia.org/wiki/G#Typographic_variants)
+"g", instead of an opentail single-storey one, which is found on SF
+Mono, Menlo, DejaVu, Roboto Mono etc.
+
+However, nothing is perfect, and there are two things that bug me
+about Consolas. First, the italic version of lowercase "k".  Cool as
+it may be, the cursive loop on top makes the character somewhat stand out
+unnecessarily every time I glance through a code base.
+
+![italic k Preview](/images/Consolas-k.png){: width="150"}
+_Consolas' italic k_
+
+The other
+problem I have might be due to the
+[ClearType](https://en.wikipedia.org/wiki/ClearType) technology behind
+the font. Consolas changes the body weight from its regular thickness
+to a lighter version (despite it not "actually" having a light
+font-weight option) when the font size is smaller than a certain
+threshold. On some screen resolutions, that threshold is somewhere
+around 9 pt.
 
 ## SF Mono
 
@@ -65,6 +91,9 @@ recognize characters with easy even at much lower font sizes.
 > A decade ago, Menlo replaced Monaco as the default monospace font on
 > macOS. After a couple of years, Menlo was replaced by SF Mono.
 
+![Menlo Preview](/images/Menlo.png){: width="200"}
+_Menlo_
+
 To understand the design of Apple's Menlo, we must first talk about
 Bitstream Vera Sans Mono, perhaps the most influential monospace font
 in recent typography. The later popular DejuVa Sans Mono, for example,
@@ -84,6 +113,9 @@ _Source: http://luc.devroye.org/fonts.html_
 
 
 ## DejaVu Sans Mono
+
+![DejaVu Sans Mono Preview](/images/DejaVu-Sans-Mono.png){: width="200"}
+_DejaVu Sans Mono_
 
 Having discussed Menlo, there's little left to say about DejaVu. I
 have never really liked this font because I find the dashes (minus

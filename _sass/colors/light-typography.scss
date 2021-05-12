@@ -13,7 +13,7 @@
   --heading-color: black;
   --blockquote-border-color: #eee;
   --blockquote-text-color: #9a9a9a;
-  --link-color: #2a408e;
+  --link-color: #0077d7;
   --link-underline-color: #dee2e6;
   --text-muted-color: gray;
   --tb-odd-bg: #fbfcfd;
@@ -26,8 +26,10 @@
   --checkbox-checked-color: #07a8f7;
 
   /* Sidebar */
-  --sidebar-bg: radial-gradient(circle, #2A408E 0%, #1d1f27 100%);
+  // --sidebar-bg: radial-gradient(circle, #2A408E 0%, #1d1f27 100%);
+  --sidebar-bg: radial-gradient(circle, #abbfee 0%, #888888 100%);
   --nav-cursor-color: #fcfcfc;
+  --site-subtitle-color: #ffffff88;
 
   /* Topbar */
   --topbar-wrapper-bg: white;

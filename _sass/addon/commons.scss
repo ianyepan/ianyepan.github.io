@@ -1,7 +1,8 @@
 /*
   The common styles
 */
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro:wght@400;600;900&display=swap');
+
+// @import url('https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro:wght@400;600;900&display=swap');
 
 @mixin mode-toggle($dark-mode: false) {
   @if $dark-mode {
@@ -669,7 +670,7 @@ $sidebar-display: "sidebar-display";
 
   .site-subtitle {
     font-size: 95%;
-    color: #bbb;
+    color: var(--site-subtitle-color);
     line-height: 1.2rem;
     word-spacing: 1px;
     margin: 0.5rem 1.5rem 0.5rem 1.5rem;
