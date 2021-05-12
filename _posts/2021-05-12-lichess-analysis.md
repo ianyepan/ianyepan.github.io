@@ -1,5 +1,5 @@
 ---
-title: Analyze Your Chess.com Games For Free With Lichess
+title: Analyze Your Chess.com Games Free with Lichess
 author: Ian Y.E. Pan
 date: 2021-05-12 14:44:00 +0800
 categories: [Chess]
@@ -27,7 +27,7 @@ blocked by a pop-up that asks you to upgrade to a premium
 membership. Many friends of mine have testified that the premium
 membership on Chess.com is well worth the price (especially the
 lessons), but if you're not willing to pay just for the game analysis
-feature, I've got good news for you!
+feature, I've got good news for you.
 
 ## Enter Lichess
 
@@ -59,7 +59,7 @@ somewhere on the bottom right of the page. Copy the whole PGN section,
 go back to Lichess' Analysis board, and paste the values in Lichess'
 PGN text box.
 
-##### Start analyzing!
+##### Start analyzing
 
 The final step is to click on the "toggle local evaluation switch" on
 the top right corner (or press keyboard shortcut "lowercase L") &mdash; and

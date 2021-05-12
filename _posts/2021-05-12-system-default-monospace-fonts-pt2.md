@@ -48,7 +48,7 @@ classified as a
 such as the other fonts on the list.
 
 However, nothing is perfect, and there are two things that bug me
-about Consolas. First, the italic version of lowercase "k".  Cool as
+about Consolas. First, the italic version of lowercase "k". Cool as
 it may be, the cursive loop on top makes the character somewhat stand out
 unnecessarily every time I glance through a codebase.
 
@@ -80,17 +80,17 @@ want (the morality of proprietary font usage is controversial, but
 there are a few tutorials online that teach you how to do it. Spoiler
 alert, it's not hard at all).
 
-In terms of the design, I personally find SF Mono more
+In terms of the design, I find SF Mono more
 [Geometric](https://en.wikipedia.org/wiki/Sans-serif#Geometric) than
 [Neo-grosteque](https://en.wikipedia.org/wiki/Sans-serif#Neo-grotesque),
 especially with the perfectly round curves of 5, 6, and 9. The long
 serifs of 'i', 'j', 'l', and 'r' contribute greatly to the overall
 neat, well-ordered, and rigid feel of the typeface. However, the
 trade-off of tidiness would be the less relaxing vibe that SF Mono
-gives off. This is why every time I come back to it, I
-psychologically feel more uptight and as a result, get tired more
-easily. Regarding readability, Apple has nailed it here &mdash; I can
-recognize characters with ease even at much lower font sizes.
+gives off. This is why every time I come back to it, I psychologically
+feel more uptight and as a result, get tired more easily. Regarding
+readability, Apple has nailed it here &mdash; I can recognize
+characters with ease even at much lower font sizes.
 
 ## Menlo
 
@@ -128,7 +128,7 @@ have never really liked this font because I find the dashes (minus
 symbol) too short and the dots and commas too small &mdash; which are
 two things that Menlo fixed. In addition, the font renders
 suboptimally on the Windows 10 operating system regardless of screen
-resolution. However, there is no denying that DejaVu is a very
+resolution. However, there is no denying that DejaVu is a highly
 practical font with a massive collection of Unicode characters, and
 its derivatives, Menlo and Hack just to name two, are tremendously
 popular among developers.
@@ -152,7 +152,7 @@ personality. More abstractly, it tries to be a "safe monospace" font
 that stays out of the way and isn't ambitious at all to develop its
 own identity.
 
-However, this is just my personal opinion. It doesn't affect the fact
+However, this is just my opinion. It doesn't affect the fact
 that Roboto Mono is beloved by many developers, especially if they
 want to convey a "modern" touch to their projects. Examples in the
 Emacs community include the [lsp-mode
@@ -162,7 +162,7 @@ used in the code blocks) and the
 
 Structurally and stylistically I find this font comparable to SF
 Mono's uptight neatness, albeit an inferior version of the latter. The
-upside is that the entire Roboto family has a very liberal license,
+upside is that the entire Roboto family has a highly liberal license,
 and is free to use however you like.
 
 ## Monaco
@@ -170,7 +170,7 @@ and is free to use however you like.
 ![Monaco Preview](/images/Monaco.png){: width="200"}
 _Monaco_
 
-Last but not least, we have Monaco &mdash; and man is this font
+Finally, we have Monaco &mdash; and man is this font
 adorable! Monaco is my favorite Apple font, and I use it a lot
 (alternately with Consolas) back in my MacBook days. When I switched
 over to Windows 10 and WSL2, one of the first things I did was try to
@@ -185,9 +185,9 @@ gives off such a bald character with its angled ovals in "a", "g",
 exaggeratedly curvy parentheses. In fact, if you put an opening and
 closing parenthesis next to each other, they'd almost form a
 circle. Similarly, if you have an empty pair of square brackets,
-they'd almost form a square. Finally, Monaco is somewhat
-narrower than other popular monospace fonts, so with the same font
-size, you could fit more horizontal content on the screen.
+they'd almost form a square. Lastly, Monaco is somewhat narrower than
+other popular monospace fonts, so with the same font size, you could
+fit more horizontal content on the screen.
 
 There is one downside to using Monaco, though. Because of its overly
 curvy appearance, it's sometimes hard to align the code visually

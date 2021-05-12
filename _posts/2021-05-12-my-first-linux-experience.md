@@ -11,7 +11,7 @@ tags: [linux]
 > Originally written on April 10. 2018
 
 For my future self and those interested in GNU/Linux overall and my
-one-and-a-half-week journey with it.  I first got into Linux because
+one-and-a-half-week journey with it. I first got into Linux because
 of 'Mr. Robot' (still my all-time favorite TV show by the way), so
 naturally the first distro I chose was “Kali Linux”, which I didn’t
 know then, was possibly the worst beginners’ choice available. Not
@@ -22,7 +22,7 @@ far), I also dangerously run as root from default.
 I decided that I’ll need to choose a daily distro for general use
 (file editing, coding), instead of making Kali my main operating
 system and use it only when I want to practice penetration test
-exercises (i.e. hacking, in a legal way).  After some decent research
+exercises (i.e. hacking, in a legal way). After some decent research
 from browsing through no less than 10 books from our library, hours of
 YouTube and mainstream forums, I narrowed down the options to 4
 choices, namely Ubuntu, Mint, Debian, and Fedora.

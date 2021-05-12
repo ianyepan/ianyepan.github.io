@@ -11,7 +11,7 @@ tags: [fonts]
 > that they are switching to system fonts as their default font
 > stack. This change impacts the way body texts look, as well as the
 > font family used in code blocks. In the following blog post I'll
-> discuss system default monospace fonts, leaving system sans-serif
+> discuss system default monospace fonts, leaving system sans serif
 > fonts for some other time.
 
 ## Why monospace fonts
