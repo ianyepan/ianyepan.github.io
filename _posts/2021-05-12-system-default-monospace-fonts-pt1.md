@@ -54,11 +54,11 @@ Canonical's own Ubuntu Mono.
 
 ## The importance of system default monospace fonts
 
-The default monospace font not only lives in code editor and
+The default monospace font not only lives in code editors and
 terminals, but also quite prevalently in modern browsers. Many
-websites, such as StackOverflow and GitHub, uses CSS
-rules to target the font family to show in code blocks. A simple example
-would be:
+websites, such as StackOverflow and GitHub, uses CSS rules to target
+the font family to show in code blocks. A simple example would be:
+
 
 ```css
 font-family: Menlo, Consolas, "Ubuntu Mono",
@@ -71,12 +71,15 @@ A [more specific example](https://meta.stackexchange.com/questions/364048/we-are
 (including StackOverflow) defines its monospace options:
 ```scss
 @ff-mono:
-    ui-monospace,  // San Francisco Mono on macOS and iOS
+    ui-monospace,
     "Cascadia Mono", "Segoe UI Mono",
     "Ubuntu Mono",
     "Roboto Mono",
     Menlo, Monaco, Consolas,
-    monospace;  // The final fallback for rendering in monospace.
+    monospace;
 ```
+
+Here, `ui-monospace` targets SF Mono on macOS and iOS devices, and the
+last entry `monospace` is the final fallback font on each system.
 
 That's all for part 1, feel free to visit part 2 for a subjective comparison!

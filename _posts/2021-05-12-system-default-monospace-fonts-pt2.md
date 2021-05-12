@@ -1,7 +1,7 @@
 ---
 title: Gentle Intro To System Default Monospace Fonts (Part 2)
 author: Ian Y.E. Pan
-date: 2021-05-12 14:31:00 +0800
+date: 2021-05-12 18:34:00 +0800
 categories: [Typography]
 tags: [fonts]
 ---
@@ -40,7 +40,12 @@ elongated comma are in my opinion, what makes this font elegantly
 timeless. In general, I also prefer the look of a [looptail
 double-storey](https://en.wikipedia.org/wiki/G#Typographic_variants)
 "g", instead of an opentail single-storey one, which is found on SF
-Mono, Menlo, DejaVu, Roboto Mono etc.
+Mono, Menlo, DejaVu, Roboto Mono etc. On top of that, Consolas is also
+classified as a
+"[humanist](https://en.wikipedia.org/wiki/Sans-serif#Humanist)" font
+(my favorite category), as opposed to being
+[neo-grosteque](https://en.wikipedia.org/wiki/Sans-serif#Neo-grotesque)
+such as the other fonts on the list.
 
 However, nothing is perfect, and there are two things that bug me
 about Consolas. First, the italic version of lowercase "k".  Cool as
@@ -48,7 +53,7 @@ it may be, the cursive loop on top makes the character somewhat stand out
 unnecessarily every time I glance through a code base.
 
 ![italic k Preview](/images/Consolas-k.png){: width="150"}
-_Consolas' italic k_
+_Consolas' italic k can be distracting at times_
 
 The other problem I have might be due to the
 [ClearType](https://en.wikipedia.org/wiki/ClearType) technology behind
@@ -56,7 +61,9 @@ the font. Consolas changes the body weight from its regular thickness
 to a lighter version (despite it not "actually" having a light
 font-weight option) when the font size is smaller than a certain
 threshold. On some screen resolutions, that threshold is somewhere
-around 9 pt.
+around 9 pt. The behavior is kind of hard to describe, but if you
+manually zoom in and out of the display font size (not from a
+screenshot, of course), you might pick up what I am talking about.
 
 ## SF Mono
 
@@ -127,9 +134,61 @@ tremendously popular among developers.
 
 ## Roboto Mono
 
+![Roboto Mono Preview](/images/Roboto-Mono.png){: width="200"}
+_Roboto Mono_
+
 Roboto Mono is developed by Google as part of the Roboto family, which
 is a constantly evolving typeface that is widely used in Android
-devices and websites for its superior readability. Its non-monospace sans serif
-version, Roboto, is the current [most popular font on Google Fonts](https://fonts.google.com/?sort=popularity).
+devices and websites for its superior readability. Its non-monospace
+sans serif version, Roboto, is currently the [most popular font on
+Google Fonts](https://fonts.google.com/?sort=popularity).
 
-This font, along with DejaVu Sans Mono, is sadly at the bottom of my list.
+This font, along with DejaVu Sans Mono, is sadly at the bottom of my
+preference list. For the record, I never really enjoyed the popular
+Roboto either, but that's for some other time. I cannot enjoy Roboto
+Mono as much because I feel that it lacks personality. More
+abstractly, it tries to be a "safe monospace" font that stays out of
+the way, and isn't ambitious at all to develop its own identity.
+
+However, this is just my personal opinion. It doesn't affect the fact
+that Roboto Mono is beloved by many developers, especially if they
+want to convey a "modern" touch to their projects. Examples in the
+Emacs community include the [lsp-mode
+documentation](https://emacs-lsp.github.io/lsp-mode/) (notice the font
+used in the code blocks) and the
+[elegant-emacs](https://github.com/rougier/elegant-emacs) project.
+
+Structurally and stylistically I find this font comparable to SF
+Mono's uptight neatness, albeit an inferior version of the latter. The
+upside is that the entire Roboto family has a very liberal license,
+and is free to use however you like.
+
+## Monaco
+
+![Monaco Preview](/images/Monaco.png){: width="200"}
+_Monaco_
+
+Last but not least, we have Monaco &mdash; and man is this font
+adorable! Monaco is my favorite Apple font, and I use it a lot
+(alternately with Consolas) back in my MacBook days. When I switched
+over to Windows 10 and WSL2, one of the first things I did was try to
+install the Monaco TTF file on my machine. Sadly, the font isn't meant
+for operating systems other than macOS, so although it technically
+shows up rather correctly, you could always tell that some tiny
+details in the font's proportions are a bit off.
+
+It's almost impossible "not" to identify this font &mdash; Monaco
+gives off such a bald character with its angled ovals in "a", "g",
+"q", zigzagging "i" and "l", and perhaps most noticeably in code, the
+exaggeratedly curvy parentheses. In fact, if you put an opening and
+closing parenthesis next to each other, they'd almost form a
+circle. Similarly, if you have an empty pair of square brackets,
+they'd almost form a square. Finally, Monaco is somewhat
+narrower than other popular monospace font, so with the same font
+size, you could fit more horizontal content on the screen.
+
+There is one downside to using Monaco, though. Because of its overly
+curvy appearance, it's sometimes hard to align the code visually
+despite it being a monospace font. Metaphorically, it's like the
+parentheses are fighting to leave the places they are positioned at,
+and each character is ballooned to invade the space of others.
