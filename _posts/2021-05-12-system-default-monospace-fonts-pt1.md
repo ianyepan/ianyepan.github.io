@@ -19,7 +19,7 @@ tags: [fonts]
 If you program at all, you probably have noticed that no matter which
 code editor you use, the default editor font will always be a
 monospace font. This kind of fonts enhance readability for coding
-because it visual aligns each character with equal spacing. However,
+because it visually aligns each character with equal spacing. However,
 monospace fonts are not suitable for general non-code text reading, as
 we are actually trained to read and recognize words faster by taking
 advantage of the differences in character width.
