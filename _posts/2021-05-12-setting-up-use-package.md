@@ -1,9 +1,9 @@
 ---
 title: A Quick Tutorial on Use-package for Emacs
 author: Ian Y.E. Pan
-date: 2021-05-12 19:30:00 +0800
+date: 2021-05-12 21:18:00 +0800
 categories: [Emacs]
-tags: [linux, emacs]
+tags: [linux, emacs, tutorial, tips]
 ---
 
 ## Brief introduction
@@ -23,14 +23,14 @@ I encourage you to read the official GitHub README linked above.
 To install a desired package without using use-package, one may have
 to manually install it from GitHub and put it under a load path where
 Emacs can find it, for instance with `(add-to-list 'load-path
-"/path/to/markdown-mode-repo")`. Alternatively, you could open up the
-package list in Emacs with `M-x list-packages`, navigate your cursor
-to find the package you want, and press `i` followed by `x` on the row
-containing the package. Either way, you'd have to explicitly call
-`(require 'package-name)` in your `init.el` before you could do any
-configuration. Lastly, any configuration of the package may need to be
-wrapped in a `(with-eval-after-load 'package-name ...)` block, to
-avoid running into undefined variables and functions before your
+"/path/to/installed-package-repo")`. Alternatively, you could open up
+the package list in Emacs with `M-x list-packages`, navigate your
+cursor to find the package you want, and press `i` followed by `x` on
+the row containing the package. Either way, you'd have to explicitly
+call `(require 'package-name)` in your `init.el` before you could do
+any configuration. Lastly, any configuration of the package may need
+to be wrapped in a `(with-eval-after-load 'package-name ...)` block,
+to avoid running into undefined variables and functions before your
 package is fully loaded
 ([Reference](https://www.emacswiki.org/emacs/InstallingPackages#h5o-7)).
 
@@ -42,15 +42,7 @@ of this away from you.
 The following snippet, to be put at the top of your `init.el`, takes
 care of connecting to the GNU and MELPA package archives over the
 internet, and download use-package for you if it's not
-installed. Setting `use-package-always-ensure` to true saves us the
-trouble of having to specify `:ensure t` in any future packages we'd
-like to declare and install. The `:ensure` macro basically makes sure
-that the packages are correctly installed at every startup. Otherwise
-use-package will install the missing ones for you.
-
-This is extremely useful when you frequently move between different
-machines and need to port your entire Emacs config over to a new setup.
-
+installed.
 ```emacs-lisp
 (require 'package)
 (add-to-list 'package-archives '("gnu"   . "https://elpa.gnu.org/packages/"))
@@ -65,7 +57,15 @@ machines and need to port your entire Emacs config over to a new setup.
         use-package-expand-minimally t))
 ```
 
-## Use-package in action
+Setting `use-package-always-ensure` to `t` (meaning "true") saves
+us the trouble of having to specify `:ensure t` in any future packages
+we'd like to declare and install. The `:ensure` macro basically makes
+sure that the packages are correctly installed at every startup, and
+automatically installs the missing ones for you. This is extremely
+useful when you frequently move between different machines and need to
+port your entire Emacs config over to a new setup.
+
+## Use-package in action: Example 1
 
 
 Say you want to write Typescript in Emacs and need language-specific
@@ -96,14 +96,14 @@ Here we see our first use-package keyword `:mode`.
 All it does is that it internally expands to the normal Emacs Lisp
 syntax of`(add-to-list 'auto-mode-alist '("\\.tsx?\\'"
 . typescript-mode))`, which essentially states that all files ending
-with `ts` or `tsx` will be recognized by Emacs as a buffer suitable to
-be opened in typescript-mode.
+with `.ts` or `.tsx` will be recognized by Emacs as a suitable buffer
+to be opened in typescript-mode.
 
 Normal package configuration (to be executed after a package is
-loaded) should go after the `:config` keyword. This should be the
-use-package keyword that you use most often. For example, say I want
-to set the default Typescript indent level to 2 spaces (like most
-modern developers do), I can add on:
+loaded) should go after the `:config` keyword, which is the
+use-package keyword that you'll probably be using the most often. For
+example, say I want to set the default Typescript indent level to 2
+spaces (like most modern developers do), I can add on:
 
 ```emacs-lisp
 (use-package typescript-mode
@@ -111,8 +111,8 @@ modern developers do), I can add on:
   :config
   (setq typescript-indent-level 2))
 ```
-If you really dislike using other keywords other than `:config`, you
-are welcome to refactor it to:
+If you really dislike using keywords other than `:config` (and want to
+be a purist), you are welcome to refactor it to:
 ```emacs-lisp
 (use-package typescript-mode
   :config
@@ -123,6 +123,8 @@ are welcome to refactor it to:
 Which of course is more verbose, less abstracted, and more close to
 the default configuration syntax. At the end of the day, it's down to
 personal preference.
+
+## Use-package in action: Example 2
 
 Let's have a look at another example:
 
@@ -143,17 +145,18 @@ you when the suitable time comes (that is, when you open up a `*.md` buffer).
 Say I want to enable auto-fill-mode whenever I'm editing
 Markdown. Auto-fill-mode is just a mode that adjusts the width of the
 buffer content and makes it more readable by automatically breaking
-lines on the fly while you're typing. To enable auto-fill-mode
-automatically when entering a markdown-mode buffer, we can add a hook
-as follows:
+lines on the fly while you're typing. To tell Emacs to enable
+auto-fill-mode whenever we open a markdown-mode buffer, we can add a
+hook as follows:
 
 ```emacs-lisp
 (use-package markdown-mode
   :hook (markdown-mode . auto-fill-mode))
 ```
 
-Say I also want to let markdown-mode's code font style inherit the
-style of an org-mode source block:
+Say I also want to let markdown-mode's code-font style inherit the
+style of an [Org Mode](https://orgmode.org/features.html) source
+block:
 
 
 ```emacs-lisp
@@ -176,9 +179,9 @@ also refactor this snippet to be:
   (set-face-attribute 'markdown-code-face nil :inherit 'org-block))
 ```
 
-Some packages don't even need the auto-mode-alist to be modified for a
-new file extension regex, as it is handled by the package itself. For
-instance:
+Some packages don't even require us to modify the auto-mode-alist for
+file extension regex recognition, as they're handled by the packages
+themselves. For instance:
 
 ```emacs-lisp
 (use-package json-mode)
@@ -191,13 +194,15 @@ instance:
 By now, you are probably starting to realize both the simplicity and
 flexibility of use-package. Let's have a look at one final example.
 
-Say I want turn on the parentheses matching visualization. That is,
+## Use-package in action: Example 3
+
+Say I want turn on the visualization of matching parentheses. That is,
 when my cursor stops at a parenthesis/bracket/brace, the matching
 instance on the other end is highlighted. This requires tweaking the
-`paren` package, which is a built-in package in Emacs already. To
-prevent use-package from looking for the `paren` package in the
-internet archives, we turn off the `:ensure` flag. In the `:config`
-section, we turn on the desired show-paren-mode:
+"paren" package, which is a built-in package in Emacs already. To
+prevent use-package from looking for the paren package in the internet
+archives, we turn off the `:ensure` flag. Then, in the `:config`
+section, we specify the desired show-paren-mode:
 
 ```emacs-lisp
 (use-package paren
@@ -209,11 +214,13 @@ section, we turn on the desired show-paren-mode:
 You notice that there is always a slight lag before the matching
 parenthesis is highlighted. This is actually not a performance issue
 from Emacs, but rather because the default value of show-paren-delay
-is set to 0.125 (weird choice to be honest). Now this special variable
-needs to be set "before" the paren package is loaded, so we can't put
-in under the section of `:config` as usual. Luckily, use-package
-provides the `:init` keyword for exactly this purpose. Putting it all
-together, we have:
+is set to 0.125. Weird choice, if I may say so myself. Let's make
+it 0. Now this special variable "show-paren-delay" needs to be set
+"before" the paren package is loaded, so we can't put in under the
+section of `:config` as usual. Luckily, use-package provides the
+`:init` keyword for exactly this purpose.
+
+Putting it all together, we have:
 
 ```emacs-lisp
 (use-package paren
@@ -225,4 +232,15 @@ together, we have:
 ```
 
 That's all I have for you this time, hope you enjoyed my quick
-tutorial on use-package!
+tutorial on use-package! If you're an Emacs beginner feeling lost
+about where to start, I might just have the perfect solution for
+you. I'm maintaining the
+[Yay-evil-emacs](https://github.com/ianpan870102/yay-evil-emacs)
+project, which is a lightweight literate Emacs config with better
+defaults. The actual goal of my project is not to give people a
+plug-and-play starter config (though of course you may use it that
+way), but rather to [document
+neatly](https://github.com/ianpan870102/yay-evil-emacs/blob/master/config.org)
+the meaning behind each configuration snippet in a structural manner,
+so Emacs beginners wouldn't feel overwhelmed by the syntax of Emacs
+Lisp right off the bat.
