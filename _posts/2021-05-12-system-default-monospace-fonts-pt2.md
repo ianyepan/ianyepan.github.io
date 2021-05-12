@@ -1,5 +1,5 @@
 ---
-title: Gentle Intro To System Default Monospace Fonts (Part 2)
+title: Gentle Intro to System Default Monospace Fonts (Part 2)
 author: Ian Y.E. Pan
 date: 2021-05-12 18:34:00 +0800
 categories: [Typography]
