@@ -17,7 +17,7 @@ timezone: Asia/Shanghai
 # --------------------------
 title: Ian Y.E. Pan                          # the main title
 
-tagline: computer science student, Emacs enthusiast, keyboard lover. Occasionally nerdy. # it will display as the sub-title
+tagline: computer science student, emacs enthusiast, keyboard lover. occasionally nerdy. # it will display as the sub-title
 
 
 description: >-                        # used by seo meta and the atom feed
