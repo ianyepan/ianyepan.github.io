@@ -125,12 +125,13 @@ _DejaVu Sans Mono_
 
 Having discussed Menlo, there's little left to say about DejaVu. I
 have never really liked this font because I find the dashes (minus
-symbol) too short, and the dots and commas too small. In addition, the
-font renders rather poorly on the Windows 10 operating system with
-suboptimal screen resolution. However, there is no denying that DejaVu
-is a very practical font with a massive collection of Unicode
-characters, and its derivatives, Menlo and Hack just to name two, are
-tremendously popular among developers.
+symbol) too short and the dots and commas too small &mdash; which are
+two things that Menlo fixed. In addition, the font renders
+suboptimally on the Windows 10 operating system regardless of screen
+resolution. However, there is no denying that DejaVu is a very
+practical font with a massive collection of Unicode characters, and
+its derivatives, Menlo and Hack just to name two, are tremendously
+popular among developers.
 
 ## Roboto Mono
 
@@ -143,12 +144,13 @@ devices and websites for its superior readability. Its non-monospace
 sans serif version, Roboto, is currently the [most popular font on
 Google Fonts](https://fonts.google.com/?sort=popularity).
 
-This font, along with DejaVu Sans Mono, is sadly at the bottom of my
-preference list. For the record, I never really enjoyed the popular
-Roboto either, but that's for some other time. I cannot enjoy Roboto
-Mono as much because I feel that it lacks personality. More
-abstractly, it tries to be a "safe monospace" font that stays out of
-the way, and isn't ambitious at all to develop its own identity.
+Roboto Mono, along with DejaVu Sans Mono, is sadly at the bottom of my
+preference list. For the record, I never really enjoyed its cousin,
+the popular Roboto, either, but that's for some other time. I cannot
+enjoy Roboto Mono as much because I feel that it lacks
+personality. More abstractly, it tries to be a "safe monospace" font
+that stays out of the way, and isn't ambitious at all to develop its
+own identity.
 
 However, this is just my personal opinion. It doesn't affect the fact
 that Roboto Mono is beloved by many developers, especially if they
@@ -192,3 +194,8 @@ curvy appearance, it's sometimes hard to align the code visually
 despite it being a monospace font. Metaphorically, it's like the
 parentheses are fighting to leave the places they are positioned at,
 and each character is ballooned to invade the space of others.
+
+## Concluding Words
+
+That's all for this journey of exploring system default monospace
+fonts! Hope you enjoyed reading it, and perhaps learned something new.
