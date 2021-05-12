@@ -52,7 +52,7 @@ Linux community, and I’m proud to be a part of it.
 > May 12. 2021
 
 After 3 years of daily Linux CLI interaction (I'm a CS student after
-all), I've become somewhat more knowledgeable then when I first wrote
+all), I've become somewhat more knowledgeable than when I first wrote
 this post.
 
 Currently, I'm Arch Linux on WSL2 and always have Ubuntu 20.04 as my
