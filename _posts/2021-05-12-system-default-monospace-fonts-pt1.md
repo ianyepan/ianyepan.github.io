@@ -86,4 +86,6 @@ Here, `ui-monospace` targets SF Mono on macOS and iOS devices, and the
 last entry `monospace` is the final fallback font on each system
 ([Reference](https://meta.stackexchange.com/questions/364048/we-are-switching-to-system-fonts-on-may-10-2021)).
 
+## Concluding words
+
 That's all for part 1, feel free to visit part 2 for a subjective comparison!

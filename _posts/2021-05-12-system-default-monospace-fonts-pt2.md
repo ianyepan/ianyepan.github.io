@@ -195,7 +195,7 @@ despite it being a monospace font. Metaphorically, it's like the
 parentheses are fighting to leave the places they are positioned at,
 and each character is ballooned to invade the space of others.
 
-## Concluding Words
+## Concluding words
 
 That's all for this journey of exploring system default monospace
 fonts! Hope you enjoyed reading it and perhaps learned something new.

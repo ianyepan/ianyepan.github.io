@@ -3,7 +3,7 @@ title: A Quick Tutorial on Use-package for Emacs
 author: Ian Y.E. Pan
 date: 2021-05-12 21:18:00 +0800
 categories: [Emacs]
-tags: [linux, emacs, tutorial, tips]
+tags: [linux, emacs, tutorial, tips, workflow]
 ---
 
 ## Brief introduction
@@ -230,6 +230,8 @@ Putting it all together, we have:
   :config
   (show-paren-mode +1))
 ```
+
+# Concluding words
 
 That's all I have for you this time, hope you enjoyed my quick
 tutorial on use-package! If you're an Emacs beginner feeling lost
