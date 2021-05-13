@@ -67,8 +67,11 @@ font-family: Menlo, Consolas, "Ubuntu Mono",
 ```
 
 
-A [more specific example](https://meta.stackexchange.com/questions/364048/we-are-switching-to-system-fonts-on-may-10-2021) would be how the entire Stack Exchange family
-(including StackOverflow) defines its monospace options:
+A [more specific
+example](https://meta.stackexchange.com/questions/364048/we-are-switching-to-system-fonts-on-may-10-2021)
+would be how the entire Stack Exchange family (which includes
+StackOverflow) defines its monospace options:
+
 ```scss
 @ff-mono:
     ui-monospace,
