@@ -13,7 +13,7 @@ package to organize your Emacs configuration and load your installed
 packages efficiently. According to the official README, use-package is
 a macro that allows you to isolate package configuration in a way
 that's both performance-oriented and tidy. It also provides additional
-useful macros, such as `:custom-face`, `:config`, `:hook`, `:bind`,
+useful keywords, such as `:custom-face`, `:config`, `:hook`, `:bind`,
 `:init`, among many others. If you're serious about mastering
 use-package and abstract your Emacs configuration as much as possible,
 I encourage you to read the official GitHub README linked above.
