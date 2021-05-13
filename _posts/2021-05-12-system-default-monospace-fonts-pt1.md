@@ -6,7 +6,7 @@ categories: [Typography]
 tags: [fonts]
 ---
 
-> A week ago (on May 5. 2021), Stack Exchange
+> A week ago (on May 4. 2021), Stack Exchange
 > [announced](https://meta.stackexchange.com/questions/364048/we-are-switching-to-system-fonts-on-may-10-2021)
 > that they are switching to system fonts as their default font
 > stack. This change impacts the way body texts look, as well as the
