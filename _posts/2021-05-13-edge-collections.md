@@ -11,14 +11,15 @@ tags: [tips]
 Ever wanted to combine browser bookmarks and your scattered sticky
 notes?  If so, I highly recommend you try out the
 "[Collections](https://support.microsoft.com/en-us/microsoft-edge/organize-your-ideas-with-collections-in-microsoft-edge-60fd7bba-6cfd-00b9-3787-b197231b507e)"
-features in Microsoft new Chromium-based Edge browser. By the way,
+features in Microsoft's new Chromium-based Edge browser. By the way,
 this newly [re-branded Edge](https://www.microsoft.com/en-us/edge)
-browser takes up less resource than Chrome from my experience, and
-since both are based on Chromium, provides a near-identical user
+takes up less resource than Google Chrome from my experience, and
+since both are based on [the Chromium
+project](https://www.chromium.org/), provides a near-identical user
 experience. It should be a no-pain switch from Chrome if you're
 willing to give this new browser a try. I like how Microsoft is adding
 its own features on top of the Chromium project to differentiate
-itself from Chrome, such as improved PDF workflow, or Collections
+itself from Chrome, such as an improved PDF workflow, or Collections
 &mdash; our topic today.
 
 ## What should I put in my Collections?
@@ -26,10 +27,12 @@ itself from Chrome, such as improved PDF workflow, or Collections
 There's no right or wrong answer here. For me, it's mostly the sites I
 came across and found interesting, but didn't have time to read at
 that moment. In other words, I use Collections as a place to "save
-sites for later" &mdash; kind of like the YouTube "Watch Later"
-feature, except for indexing websites. You can create multiple
-collections and organize them by topic, which is similar to having
-folders for your bookmarks. This brings us to the next question:
+sites for later" &mdash; kind of like YouTube's "Watch Later" feature,
+except for indexing websites. You can create multiple collections and
+organize them by topic, which is similar to having folders for your
+bookmarks.
+
+This brings us to the next question:
 
 ## Why don't I just use Bookmarks (i.e. Favorites)?
 
@@ -46,7 +49,7 @@ export it to Microsoft Word, OneNote, and Excel.
 
 
 
-## I want to see it in action
+## Collections in action
 
 Just like anything else in modern-day browsing, as long as you log in
 to your PC Edge and mobile Edge with the same account, Collections
@@ -71,4 +74,7 @@ _Cool Emacs Stuff_
 
 ## Concluding words
 
-That's all I have for you today, hope you liked it!
+Collections are cool and if you struggle with losing websites you
+wanted to read because you didn't want to overflow your bookmarks, you
+could consider trying it out. That's all I have for you today, hope
+you liked it!

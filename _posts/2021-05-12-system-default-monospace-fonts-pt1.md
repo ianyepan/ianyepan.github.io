@@ -18,11 +18,11 @@ tags: [fonts]
 
 If you program at all, you probably have noticed that no matter which
 code editor you use, the default editor font will always be a
-monospace font. This kind of fonts enhance readability for coding
-because it visually aligns each character with equal spacing. However,
-monospace fonts are not suitable for general non-code text reading, as
-we are actually trained to read and recognize words faster by taking
-advantage of the differences in character width.
+monospace font. This kind of fonts enhance readability for programming
+because it visually aligns each character with equal
+spacing. (However, monospace fonts are not suitable for general text
+reading, as we are actually trained to read and recognize words faster
+by taking advantage of the differences in character width.)
 
 ## System defaults
 
@@ -88,4 +88,5 @@ last entry `monospace` is the final fallback font on each system
 
 ## Concluding words
 
-That's all for part 1, feel free to visit part 2 for a subjective comparison!
+That's all for Part 1, feel free to visit [Part
+2](../system-default-monospace-fonts-pt2) for a subjective comparison!

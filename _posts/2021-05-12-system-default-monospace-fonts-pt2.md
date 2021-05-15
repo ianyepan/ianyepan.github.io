@@ -6,7 +6,7 @@ categories: [Typography]
 tags: [fonts]
 ---
 
-In my previous post, I talked about the practical reasons to use
+In my [previous post](../system-default-monospace-fonts-pt1), I talked about the practical reasons to use
 monospace fonts and introduced four system default fonts: Consolas, SF
 Mono, DejaVu Sans Mono, and Roboto Mono.
 
