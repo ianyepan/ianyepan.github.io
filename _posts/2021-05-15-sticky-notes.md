@@ -22,14 +22,15 @@ temporarily store some text. I differentiate sticky notes and To-Do's
 by their importance &mdash; To-Do's are things I have to finish by a
 specific deadline whether I want to or not.
 
+> To sync notes between laptop and mobile automatically, you must have
+> Sticky Notes installed and signed in with your Microsoft account on
+> both platforms.
+
 Ideas often strike when I'm taking public transportation. That's why I
 mostly create new sticky notes on my phone. When I get home and sit
 before the laptop ready to work, I can put my phone aside and view the
 same notes that I took during the day on my laptop. The syncing
 feature also allows easy copy-and-pasting across different platforms.
-
-To sync notes between laptop and mobile automatically, you must sign
-in with your Microsoft account on both platforms.
 
 ## Sticky Notes on different platforms.
 
@@ -43,14 +44,15 @@ OneNote. Therefore, you would have to download OneNote on your mobile
 phone even if you just want to use the Sticky Notes feature.
 
 On **macOS**, Sticky Notes is also integrated as a part of
-OneNote. You could head over to the URL
-[onenote.com/stickynotes](https://www.onenote.com/stickynotes) to enjoy the sync.
+OneNote. You could launch a browser and head over to the URL
+[onenote.com/stickynotes](https://www.onenote.com/stickynotes) to
+enjoy the sync.
 
 ## Concluding words
 
 If you are in search of an app for storing random thoughts and sudden
-inspirations, try out Sticky Notes! If you are already using Sticky
+inspirations, try out Sticky Notes! If you're already using Sticky
 Notes but didn't know about the syncing feature, I'm glad my post
 helped!
 
-Either way, that's all for this time, cheers.
+Either way, that's all for this time. Cheers.
