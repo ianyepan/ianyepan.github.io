@@ -77,8 +77,22 @@ next step is to put back the five essentials listed above into my
 ### Goal 1: A nice prompt
 
 This one is easy &mdash; I just need my prompt to be shortened and
-easy to notice. With the script `PROMPT='ianpan@arch:%1~/ %# '` placed
-somewhere in `.zshrc`, I can make my shell prompt look like this:
+easy to notice. With the simple script `PROMPT='ianpan@arch:%1~/ %# '`
+placed somewhere in `.zshrc`, I can make my shell prompt look like
+this:
 
 ![Zsh prompt 1](/images/zsh-prompt1.png){: width="80%"}
 _PROMPT='ianpan@arch:%1~/ %# '_
+
+There's just one problem left to address: the prompt can easily be
+buried with a load of command line output, and scrolling back to find
+which prompt started the command could be hard. For this reason, I
+added a gradient "bling" to my prompt by using the 256-color-codes of
+shades of blue and cyan.
+
+I modified my simple script to
+`PROMPT='%F{33}i%f%F{39}a%f%F{38}n%f%F{44}pan%f%F{50}@%f%F{43}ar%f%F{44}ch%f%F{38}:%1~/%f
+%F{44}%#%f '` and my prompt got a 10X upgrade.
+
+![Zsh prompt 2](/images/zsh-prompt2.png){: width="80%"}
+_Manually added gradient color codes for my prompt_
