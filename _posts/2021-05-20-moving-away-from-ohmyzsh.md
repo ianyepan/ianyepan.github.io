@@ -204,5 +204,17 @@ of my zsh configuration file:
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
 
-> Note: the exact directory to "source" depends on where you installed
-> the syntax-highlighting package.
+Note that the exact directory to "source" depends on where you
+installed the syntax-highlighting package. "Sourcing" is nothing
+complicated, it's simply taking the file you want to source and
+dumping it in your `.zshrc`.
+
+## Concluding words
+
+If you were an oh-my-zsh user and followed everything in this article,
+congratulations! Your shell should definitely feel more snappy and
+responsive, especially when launching a new instance. If you are a
+proud oh-my-zsh user who has brilliantly fast hardware or doesn't care
+about the extra second of load time &mdash; that's fine, too!
+
+That's all for today, cheers.
