@@ -43,25 +43,42 @@ need them installed on my machine? It's also not uncommon to think
 that "I might as well enable these plugins now that they're installed
 anyways" and bit by bit the load time of launching a shell grows.
 
-## My essentials
+## What are my essentials?
 
-Around two weeks ago, I sat down before my `.zshrc` config file and
-inspected it. I had made a list of the essentials I need, and if by
-the end of my small research, I can do without oh-my-zsh, then I'd
-uninstall it.
+So last week, I sat down before my `.zshrc` config file and inspected
+it. I had made a list of the essentials I need, and if by the end of
+my small research, I can do without oh-my-zsh, then I'd uninstall it.
 
 The essential list was:
 
 - A nice prompt.
 - No duplicate history when reverse-searching my command history.
 - Case insensitive completion.
-- Emacs-style keybindings in zsh's line editor (that is, when typing
-  out the commands).
+- Emacs-style keybindings in zsh's line editor (the place where you
+  type out the commands).
 - zsh syntax highlighting.
 
-In the process I eliminated "git integration" from my command line,
-since 99% of the time I deal with git stuff in Emacs using the "Magit"
-package anyways. I have developed a rather sophisticated workflow in
-Magit that allows me to stage, commit, push, pull, stash, rebase,
-reword commits, and squash etc. Showing the git status in my shell
-prompt is cool, but not essential.
+In the process of listing my essentials, I eliminated "git
+integration" from my command line, since 99% of the time I deal with
+git stuff in Emacs using the "Magit" package anyways. I have developed
+a rather sophisticated workflow in
+[Magit](https://emacsair.me/2017/09/01/magit-walk-through/) that
+allows me to stage, commit, push, pull, stash, rebase, reword, and
+squash etc. Showing the git status in my shell prompt is cool, but not
+essential.
+
+## Uninstalling oh-my-zsh and plugging in my essentials
+
+With a clear goal in mind, I [uninstalled
+oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh#uninstalling-oh-my-zsh). The
+next step is to put back the five essentials listed above into my
+`.zshrc` file.
+
+### Goal 1: A nice prompt
+
+This one is easy &mdash; I just need my prompt to be shortened and
+easy to notice. With the script `PROMPT='ianpan@arch:%1~/ %# '` placed
+somewhere in `.zshrc`, I can make my shell prompt look like this:
+
+![Zsh prompt 1](/images/zsh-prompt1.png){: width="80%"}
+_PROMPT='ianpan@arch:%1~/ %# '_
