@@ -9,10 +9,9 @@ tags: [workflow, linux]
 > about this topic, I highly recommend watching Brodie
 > Robertson's [YouTube video on why you should uninstall oh-my-zsh](https://www.youtube.com/watch?v=21_WkzBErQk).
 
-I started using zsh around 4 years ago, when macOS was still using
-bash as the default shell just like most Linux distributions. The
-reason I made the switch from bash to zsh was because Linux YouTubers
-like [Luke
+I started using zsh around 4 years ago when macOS was still using bash
+as the default shell just like most Linux distributions. The reason I
+made the switch from bash to zsh was that Linux YouTubers like [Luke
 Smith](https://www.youtube.com/channel/UC2eYFnH61tmytImy1mTYvhA) and
 [DistroTube](https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg)
 were popularizing and advocating it. Another shell in question was
@@ -30,7 +29,7 @@ with significant ease.
 
 Technically, using the term
 "[plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)" is a bit
-of a stretch. Every zsh "plugin", for instance "autojump", or
+of a stretch. Every zsh "plugin", for instance, "autojump", or
 "colored-man-pages", is just a small shell script, that can be
 "plugged into" your `.zshrc` configuration when loading up your zsh.
 
@@ -64,8 +63,8 @@ git stuff in Emacs using the "Magit" package anyways. I have developed
 a rather sophisticated workflow in
 [Magit](https://emacsair.me/2017/09/01/magit-walk-through/) that
 allows me to stage, commit, push, pull, stash, rebase, reword, and
-squash etc. Showing the git status in my shell prompt is cool, but not
-essential.
+squash, etc. Showing the git status in my shell prompt is cool, but
+not essential.
 
 ## Uninstalling oh-my-zsh and plugging in my essentials
 
@@ -212,9 +211,9 @@ dumping it in your `.zshrc`.
 ## Concluding words
 
 If you were an oh-my-zsh user and followed everything in this article,
-congratulations! Your shell should definitely feel more snappy and
-responsive, especially when launching a new instance. If you are a
-proud oh-my-zsh user who has brilliantly fast hardware or doesn't care
-about the extra second of load time &mdash; that's fine, too!
+congratulations! Your shell should feel more snappy and responsive,
+especially when launching a new instance. If you are a proud oh-my-zsh
+user who has brilliantly fast hardware or doesn't care about the extra
+second of load time &mdash; that's fine, too!
 
 That's all for today, cheers.
