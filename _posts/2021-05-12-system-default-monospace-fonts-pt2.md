@@ -109,10 +109,10 @@ coverage of Unicode characters.
 Apple's Menlo, the default system font from Snow Leopard to El
 Capitan, is in turn based on DejaVu with little modification. In fact,
 in the following picture you can see that Apple's Menlo barely changed
-from DejaVu Sans Mono, except for the lower position of the asterisk,
-the enlargement of quotes and periods, and changing a dotted zero to a
-slashed zero. The differences are highlighted in red for DejaVu and
-cyan for Menlo.
+anything from DejaVu Sans Mono, except for the lower position of the
+asterisk, the enlargement of quotes and periods, and changing a dotted
+zero to a slashed zero. The differences are highlighted in red for
+DejaVu and cyan for Menlo.
 
 ![Menlo vs. DejaVu](http://luc.devroye.org/DejaVuSansMono-vs-AppleMenloSansMono--both-based-on-BitstreamVeraSansMono-2011.png){: width="300"}
 _Source: http://luc.devroye.org/fonts.html_
@@ -125,13 +125,13 @@ _DejaVu Sans Mono_
 
 Having discussed Menlo, there's little left to say about DejaVu. I
 have never really liked this font because I find the dashes (minus
-symbol) too short and the dots and commas too small &mdash; which are
-two things that Menlo fixed. In addition, the font renders
-suboptimally on the Windows 10 operating system regardless of screen
-resolution. However, there is no denying that DejaVu is a highly
-practical font with a massive collection of Unicode characters, and
-its derivatives, Menlo and Hack just to name two, are tremendously
-popular among developers.
+symbol) too short and the dots and commas too small &mdash; two things
+that Menlo fixed. In addition, the font renders suboptimally on the
+Windows 10 operating system regardless of screen resolution. However,
+there is no denying that DejaVu Sans Mono is a highly practical font
+with a massive collection of Unicode characters, and its derivatives,
+Menlo and Hack just to name two, are tremendously popular among
+developers.
 
 ## Roboto Mono
 
