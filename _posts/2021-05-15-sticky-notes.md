@@ -34,9 +34,9 @@ feature also allows easy copy-and-pasting across different platforms.
 
 ## Sticky Notes on different platforms.
 
-On **Windows 10**, Sticky Notes is a standalone application that is most
-likely preinstalled. If it isn't (or if you deleted it), you can
-still download it freely [from the Microsoft
+On **Windows 10**, Sticky Notes is a standalone application that is
+most likely preinstalled. If it isn't (or if you deleted it), you can
+still download it free [from the Microsoft
 Store](https://www.microsoft.com/en-us/p/microsoft-sticky-notes/9nblggh4qghw?activetab=pivot:overviewtab).
 
 On both **Android** and **iOS**, Sticky Notes is integrated as a part of

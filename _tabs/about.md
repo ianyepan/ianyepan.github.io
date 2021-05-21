@@ -4,7 +4,7 @@ icon: fas fa-info
 order: 1
 ---
 
-Hi, I'm Ian. Welcome to my personal website, where I mostly blog about
+Hi, Ian here. Welcome to my personal website, where I mostly blog about
 programming stuff and nerdy things I'm interested in.
 
 I am an incoming computer science graduate student at Columbia
