@@ -10,7 +10,7 @@ tags: [emacs, vim, linux]
 > and only 1% in Vim &mdash; read on to find out why.
 
 I first heard of the names "Emacs" and "Vim" in the TV Show Silicon
-Valley [when protagonist Richard was arguing with his new software
+Valley [when the protagonist Richard was arguing with his new software
 developer girlfriend about Tabs
 vs. Spaces](https://www.youtube.com/watch?v=SsoOG6ZeyUI) (probably not
 the best topic when you're trying to get laid).
@@ -69,9 +69,9 @@ and basically anything that you thought Vim is good at.
 You might wonder, if Emacs exists, why would anyone still choose Vim
 over it? The answer is simple: because they never gave Emacs the try
 it deserves. Go on the internet now and you'll see blog posts of
-people sharing the experience moving from Vim to Emacs. Why is there
-barely anyone talking about moving from Emacs to Vim? Well, because
-once you exposed yourself to this brilliantly magical piece of
+people sharing the experience of moving from Vim to Emacs. Why is
+there barely anyone talking about moving from Emacs to Vim? Well,
+because once you exposed yourself to this brilliantly magical piece of
 software that is Emacs, there's no turning back.
 
 A common argument from the Vim community is that Emacs is super
@@ -96,20 +96,20 @@ decent extent before worrying about which editor to master. In the
 first couple of months, just use Visual Studio Code or Sublime Text or
 Atom or whichever IDE your professor or supervisor recommends. Once
 you're comfortable with programming in a couple of languages and
-gradually notice that editing speed has become the bottle neck of your
+gradually notice that editing speed has become the bottleneck of your
 coding efficiency, you can start learning Vim.
 
 The beauty of Vim is that [it fundamentally
 changes](https://www.youtube.com/watch?v=ST7vnfKjfvY) the way you
 perceive text editing. You no longer operate on mere characters with
 your cursor, but rather on text objects like words, sentences, lines,
-paragraphs, and contents within parentheses, quotes and tags. You
+paragraphs, and contents within parentheses, quotes, and tags. You
 seldom have to touch the mouse again because Vim's efficient
 keybindings will help you glide through your coding buffer from one
 position to another. Having mastered this ubiquitous editor, you will
 find yourself editing system configuration files with ease and
 eventually learning more about the computer architecture and structure
-of your operating system because this terminal editor has open the
+of your operating system because this terminal editor has opened the
 doors for you to operate on any system file you wish.
 
 After spending a year or two in Vim, I would recommend that you try
