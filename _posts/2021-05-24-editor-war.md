@@ -56,7 +56,7 @@ self-hypnotizing perseverance to get through the first few weeks of
 psychological pain and counter-productivity. The few people I know
 who've tried could not get over this phase.
 
-## My subjective take
+## My subjective take on the Editor War
 
 Vim has condescendingly superior keybindings and hence better
 text-editing efficiency, while Emacs has the upper hand in pretty much
@@ -91,10 +91,36 @@ buried somewhere deep in the file system, Vim may be your only friend.
 
 ## My subjective suggestion for newbie programmers/developers/CS students
 
-Learn to touch type before anything else. Learn programming first
-before worrying about which editor to master. Just use Visual Studio
-Code or Sublime Text or Atom or whichever IDE your professor or
-supervisor recommends. Once you're comfortable with programming with a
-couple of languages and gradually notice that editing speed has become
-the bottle neck of your coding efficiency, you should start learning
-Vim.
+Learn to touch type before anything else. Then, learn programming to a
+decent extent before worrying about which editor to master. In the
+first couple of months, just use Visual Studio Code or Sublime Text or
+Atom or whichever IDE your professor or supervisor recommends. Once
+you're comfortable with programming in a couple of languages and
+gradually notice that editing speed has become the bottle neck of your
+coding efficiency, you can start learning Vim.
+
+The beauty of Vim is that [it fundamentally
+changes](https://www.youtube.com/watch?v=ST7vnfKjfvY) the way you
+perceive text editing. You no longer operate on mere characters with
+your cursor, but rather on text objects like words, sentences, lines,
+paragraphs, and contents within parentheses, quotes and tags. You
+seldom have to touch the mouse again because Vim's efficient
+keybindings will help you glide through your coding buffer from one
+position to another. Having mastered this ubiquitous editor, you will
+find yourself editing system configuration files with ease and
+eventually learning more about the computer architecture and structure
+of your operating system because this terminal editor has open the
+doors for you to operate on any system file you wish.
+
+After spending a year or two in Vim, I would recommend that you try
+out Emacs. By then, you'd probably heard some Vim users claiming the
+holy status of their beloved editor and belittling Emacs as a bloated
+kitchen sink that is slow and useless. Don't listen to them! They
+probably spent only a day or two in Emacs before jumping right back to
+their comfort zone. There's a reason that the creator of Python, the
+creator of Java, the creator of Ruby, the creator of Clojure, the
+creator of TeX, the creator of Erlang, the author of MySQL, the
+creator of JavaScript, the founder of WikiLeaks, and the founder of
+Facebook (yes, Mark Zuckerburg) all used or still use Emacs as their
+main editor ([Reference 1](http://wenshanren.org/?p=418) and
+[Reference 2](http://ergoemacs.org/misc/famous_emacs_users.html))
