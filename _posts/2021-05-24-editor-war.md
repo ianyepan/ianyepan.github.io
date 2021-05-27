@@ -56,7 +56,7 @@ self-hypnotizing perseverance to get through the first few weeks of
 psychological pain and counter-productivity. The few people I know
 who've tried could not get over this phase.
 
-## Which one should I use, Emacs or Vim?
+## My subjective take
 
 Vim has condescendingly superior keybindings and hence better
 text-editing efficiency, while Emacs has the upper hand in pretty much
@@ -89,4 +89,12 @@ installed on nearly any machine I could imagine. When you're dropped
 into a foreign command line and need to edit some configuration files
 buried somewhere deep in the file system, Vim may be your only friend.
 
-## My suggestion for newbie programmers/developers/CS students
+## My subjective suggestion for newbie programmers/developers/CS students
+
+Learn to touch type before anything else. Learn programming first
+before worrying about which editor to master. Just use Visual Studio
+Code or Sublime Text or Atom or whichever IDE your professor or
+supervisor recommends. Once you're comfortable with programming with a
+couple of languages and gradually notice that editing speed has become
+the bottle neck of your coding efficiency, you should start learning
+Vim.
