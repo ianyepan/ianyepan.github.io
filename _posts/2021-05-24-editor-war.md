@@ -29,7 +29,7 @@ experiences and subjective opinions about these tools.
 Before getting into my take on the editor war, let's start with a few
 frequently asked questions.
 
-#### FAQ1: Should I give up Visual Studio Code and use Emacs or Vim?
+#### FAQ 1: Should I give up Visual Studio Code and use Emacs or Vim?
 
 No, no one should ever tell you what you should use.
 
@@ -42,14 +42,14 @@ inventing LSP (Language Server Protocol), which is now widely adopted
 by almost every editor through plugins and packages, including Emacs
 and Vim.
 
-#### FAQ2: What's with you Emacs/Vim users, what *"eXactLY iS sO goOd"* about them?
+#### FAQ 2: What's with you Emacs/Vim users, what *"eXactLY iS sO goOd"* about them?
 
 It's impossible to explain it in a few words, and I won't even bother
 trying. What I will say is, once you grok it, it's like Christopher
 Columbus discovering the Americas. You will chuckle at yourself for
 not learning it sooner.
 
-#### FAQ3: Is Emacs/Vim for everyone?
+#### FAQ 3: Is Emacs/Vim for everyone?
 
 I wish it were, but it isn't. It takes a massive amount of time and
 self-hypnotizing perseverance to get through the first few weeks of
@@ -82,22 +82,23 @@ it's because its ease of extension oftentimes makes you lose yourself
 in the sea of packages. And as a new user, it's easy to think that
 "more is better".
 
-So, is Vim completely worthless?
+So, is Vim completely worthless? No, absolutely not! Vim (or its
+predecessor, Vi) is ubiquitously installed on nearly any machine I
+could imagine. When you're dropped into a foreign command line and
+need to edit some configuration files buried somewhere deep in the
+file system, Vim may be your only friend.
 
-No, absolutely not! Vim (or its predecessor, Vi) is ubiquitously
-installed on nearly any machine I could imagine. When you're dropped
-into a foreign command line and need to edit some configuration files
-buried somewhere deep in the file system, Vim may be your only friend.
+At this point you might ask, what would be beneficial to a newbie
+programmer/developer/CS student?
 
-## My subjective suggestion for newbie programmers/developers/CS students
-
-Learn to touch type before anything else. Then, learn programming to a
-decent extent before worrying about which editor to master. In the
-first couple of months, just use Visual Studio Code or Sublime Text or
-Atom or whichever IDE your professor or supervisor recommends. Once
-you're comfortable with programming in a couple of languages and
-gradually notice that editing speed has become the bottleneck of your
-coding efficiency, you can start learning Vim.
+My recommendation would be the following. Learn to touch type before
+anything else. Then, learn programming to a decent extent before
+worrying about which editor to master. In the first couple of months,
+just use Visual Studio Code or Sublime Text or Atom or whichever IDE
+your professor or supervisor recommends. Once you're comfortable with
+programming in a couple of languages and gradually notice that editing
+speed has become the bottleneck of your coding efficiency, you can
+start learning Vim.
 
 The beauty of Vim is that [it fundamentally
 changes](https://www.youtube.com/watch?v=ST7vnfKjfvY) the way you
@@ -113,14 +114,30 @@ of your operating system because this terminal editor has opened the
 doors for you to operate on any system file you wish.
 
 After spending a year or two in Vim, I would recommend that you try
-out Emacs. By then, you'd probably heard some Vim users claiming the
-holy status of their beloved editor and belittling Emacs as a bloated
-kitchen sink that is slow and useless. Don't listen to them! They
-probably spent only a day or two in Emacs before jumping right back to
-their comfort zone. There's a reason that the creator of Python, the
-creator of Java, the creator of Ruby, the creator of Clojure, the
-creator of TeX, the creator of Erlang, the author of MySQL, the
-creator of JavaScript, the founder of WikiLeaks, and the founder of
-Facebook (yes, Mark Zuckerburg) all used or still use Emacs as their
-main editor ([Reference 1](http://wenshanren.org/?p=418) and
-[Reference 2](http://ergoemacs.org/misc/famous_emacs_users.html))
+out Emacs, specifically with the [Evil
+Mode](https://github.com/emacs-evil/evil) package, so that you can
+re-use all the muscle memories you acquired in your time with Vim, now
+in Emacs' superior computing environment. You'd probably have heard
+some Vim users claiming the holy status of their beloved editor and
+belittling Emacs as a bloated kitchen sink that is slow and
+useless. Don't listen to them! They most likely spent only a day or
+two in Emacs before jumping right back to their comfort zone. There's
+a reason that the creator of Python, the creator of Java, the creator
+of Ruby, the creator of Clojure, the creator of TeX, the creator of
+Erlang, the author of MySQL, the creator of JavaScript, the founder of
+WikiLeaks, and the founder of Facebook (yes, Mark Zuckerburg) all used
+or still use Emacs as their main editor ([Reference
+1](http://wenshanren.org/?p=418) and [Reference
+2](http://ergoemacs.org/misc/famous_emacs_users.html))
+
+And that reason is simple. Emacs is the best editor in the world.
+
+## Concluding words
+
+In this post, I shared my view of Emacs and Vim, the two subjects in
+the Editor War. Do take this opinionated article with a (big) grain of
+salt, as I'm obviously partial to Emacs. Objectively speaking, it
+doesn't matter which editor you use &mdash; at the end of the day,
+they're just tools. And the bottom line is you won't get paid based on
+which computing environment you use to accomplish the work. You get
+paid for how good your work is.
