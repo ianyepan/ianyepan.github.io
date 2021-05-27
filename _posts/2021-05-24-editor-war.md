@@ -61,15 +61,15 @@ who've tried could not get over this phase.
 Vim has condescendingly superior keybindings and hence better
 text-editing efficiency, while Emacs has the upper hand in pretty much
 anything else, including better GUI support, greater extensibility,
-better configuration language, superior package designs (such as Magit
-and Org). Most important of all, Emacs allows you to completely
-emulate Vim's keybindings and its superior text-editing efficiency,
-and basically anything that you thought Vim is good at.
+better configuration language, and superior package designs (such as
+Magit and Org). On top of that, Emacs allows you to completely emulate
+Vim's keybindings and its superior text-editing efficiency, and
+basically anything that you thought Vim is good at.
 
 You might wonder, if Emacs exists, why would anyone still choose Vim
 over it? The answer is simple: because they never gave Emacs the try
 it deserves. Go on the internet now and you'll see blog posts of
-people sharing the experience of moving from Vim to Emacs. Why is
+people sharing their experience of moving from Vim to Emacs. Why is
 there barely anyone talking about moving from Emacs to Vim? Well,
 because once you exposed yourself to this brilliantly magical piece of
 software that is Emacs, there's no turning back.
@@ -96,9 +96,8 @@ anything else. Then, learn programming to a decent extent before
 worrying about which editor to master. In the first couple of months,
 just use Visual Studio Code or Sublime Text or Atom or whichever IDE
 your professor or supervisor recommends. Once you're comfortable with
-programming in a couple of languages and gradually notice that editing
-speed has become the bottleneck of your coding efficiency, you can
-start learning Vim.
+programming and gradually notice that editing speed has become the
+bottleneck of your coding efficiency, you can start learning Vim.
 
 The beauty of Vim is that [it fundamentally
 changes](https://www.youtube.com/watch?v=ST7vnfKjfvY) the way you
@@ -113,12 +112,14 @@ eventually learning more about the computer architecture and structure
 of your operating system because this terminal editor has opened the
 doors for you to operate on any system file you wish.
 
-After spending a year or two in Vim, I would recommend that you try
-out Emacs, specifically with the [Evil
+After spending a year or two in Vim, it'd be time for you to try out
+Emacs, specifically with the [Evil
 Mode](https://github.com/emacs-evil/evil) package, so that you can
-re-use all the muscle memories you acquired in your time with Vim, now
-in Emacs' superior computing environment. You'd probably have heard
-some Vim users claiming the holy status of their beloved editor and
+[re-use all the muscle
+memories](https://www.youtube.com/watch?v=JWD1Fpdd4Pc) you acquired
+during your time with Vim, except now in Emacs' superior computing
+environment. Again, you might hear some Vim users (cough cough, on the
+r/vim subreddit) claiming the holy status of their beloved editor and
 belittling Emacs as a bloated kitchen sink that is slow and
 useless. Don't listen to them! They most likely spent only a day or
 two in Emacs before jumping right back to their comfort zone. There's
@@ -130,7 +131,16 @@ or still use Emacs as their main editor ([Reference
 1](http://wenshanren.org/?p=418) and [Reference
 2](http://ergoemacs.org/misc/famous_emacs_users.html))
 
-And that reason is simple. Emacs is the best editor in the world.
+And that reason is simple. **Because Emacs is the best editor in the
+world.**
+
+Could you jump straight to Emacs before learning Vim? Well, no one is
+stopping you, but I believe that the best way to learn Vim bindings is
+to use Vim. And despite being a die-hard Emacs enthusiast, I must
+admit that Emacs has inferior (straight-up awful) default hotkeys, and
+the [Vim bindings will blow your mind once you learn
+it](https://www.youtube.com/watch?v=wlR5gYd6um0). Bottom line is, use
+Vim bindings in Emacs. You'll get the best of both worlds.
 
 ## Concluding words
 
@@ -138,6 +148,6 @@ In this post, I shared my view of Emacs and Vim, the two subjects in
 the Editor War. Do take this opinionated article with a (big) grain of
 salt, as I'm obviously partial to Emacs. Objectively speaking, it
 doesn't matter which editor you use &mdash; at the end of the day,
-they're just tools. And the bottom line is you won't get paid based on
+they're just tools. The brutal truth is you won't get paid based on
 which computing environment you use to accomplish the work. You get
 paid for how good your work is.
