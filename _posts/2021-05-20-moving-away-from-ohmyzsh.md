@@ -176,7 +176,7 @@ page](https://en.wikipedia.org/wiki/GNU_Readline).
 My final goal on my essential list is to enable syntax highlighting in
 the zsh command line editor. For instance, when I type an invalid
 command, it would be red, and when I type a correct command, such as
-"ls" or "CD", it'd be green.
+"ls" or "cd", it'd be green.
 
 Here's a screenshot to explain what I meant by zsh syntax highlighting:
 
