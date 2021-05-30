@@ -136,7 +136,7 @@ shell correcting your lowercase to uppercase or vice versa, when you
 use `TAB` to autocomplete a file or directory name.
 
 TL;DR: just put these two lines somewhere in your
-`.zshrc` and your done:
+`.zshrc` and you're done:
 
 ```sh
 autoload -U compinit && compinit
