@@ -144,7 +144,7 @@ Vim bindings in Emacs. You'll get the best of both worlds.
 
 ## Concluding words
 
-In this post, I shared my view of Emacs and Vim, the two subjects in
+In this post, I shared my view on Emacs and Vim, the two subjects in
 the Editor War. Do take this opinionated article with a (big) grain of
 salt, as I'm obviously partial to Emacs. Objectively speaking, it
 doesn't matter which editor you use &mdash; at the end of the day,
