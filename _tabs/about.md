@@ -8,8 +8,8 @@ Hi, Ian here. Welcome to my personal website, where I mostly blog about
 programming stuff and nerdy things I'm interested in.
 
 I am an incoming computer science graduate student at Columbia
-University, having recently graduated from CUHK with a major in
-Computer Science and minor in Finance.
+University, and will soon graduate from CUHK with a major in Computer
+Science and minor in Finance.
 
 I'm currently developing novel multi-armed bandit greedy algorithms
 and researching dynamic pricing models. I am also a former machine
