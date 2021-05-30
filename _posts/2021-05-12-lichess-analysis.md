@@ -31,10 +31,10 @@ feature, I've got good news for you.
 
 ## Enter Lichess
 
-[Lichess](lichess.org) is an open-source featured-packed chess website, and the
-second most popular chess platform right after Chess.com. The UI may
-be a bit primitive and counter-intuitive in comparison to Chess.com at
-first, but you'll soon get used to it.
+[Lichess](https://lichess.org) is an open-source featured-packed chess
+website, and the second most popular chess platform right after
+Chess.com. The UI may be a bit primitive and counter-intuitive in
+comparison to Chess.com at first, but you'll soon get used to it.
 
 
 ##### Open up the Analysis board on Lichess
