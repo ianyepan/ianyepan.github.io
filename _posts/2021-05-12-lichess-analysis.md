@@ -16,10 +16,11 @@ tags: [chess, lichess, tips, tutorial]
 
 One of the best ways to improve in chess is to at least run through a
 basic analysis after a game and learn from your own mistakes and your
-opponent's. With the "Analysis" feature on [Chess.com](chess.com), you can see the
-best move at each turn, as well as a live computer evaluation of who
-is in a more advantageous position in a given time (positive for
-White, negative for Black).
+opponent's. With the "Analysis" feature on
+[Chess.com](https://chess.com), you can see the best move at each
+turn, as well as a live computer evaluation of who is in a more
+advantageous position in a given time (positive for White, negative
+for Black).
 
 However, free accounts on Chess.com only have limited access to the
 "Analysis" tab, and if you play as often as I do, you'll soon be
