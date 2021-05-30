@@ -183,8 +183,8 @@ Here's a screenshot to explain what I meant by zsh syntax highlighting:
 ![Zsh syntax highlighting](/images/zsh-prompt4.png){: width="80%"}
 _Zsh syntax highlighting_
 
-This can save you the hassle from pressing enter and "then" finding
-out the command you just typed has a typo.
+This can save you the hassle of pressing `Enter` and only then finding
+out the command you typed had a typo.
 
 To enable this cool little feature, we need to install [this package,
 which is conveniently named
