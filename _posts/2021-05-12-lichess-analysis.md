@@ -58,15 +58,17 @@ the quota to analyze your game, you might as well stop this tutorial
 and just analyze the game on Chess.com.) Find the "download" icon
 somewhere on the bottom right of the page. Copy the whole PGN section,
 go back to Lichess' Analysis board, and paste the values in Lichess'
-PGN text box.
+PGN text box. If you see 2 checkboxes above the PGN section in
+Chess.com, be sure to check the one in a human form.
 
 ##### Start analyzing
 
-The final step is to click on the "toggle local evaluation switch" on
-the top right corner (or press keyboard shortcut "lowercase L") &mdash; and
-voila! You can now browse through each step with the left and right
-arrow and see what the engine suggests at each move. You can even
-adjust the evaluation "depth" if you are feeling adventurous.
+In Lichess, the final step is to click on the "Toggle local evaluation
+switch" on the top right corner (or press keyboard shortcut "lowercase
+L") &mdash; and voila! You can now browse through each step with the
+left and right arrow and see what the engine suggests at each
+move. You can even adjust the evaluation "depth" if you are feeling
+adventurous.
 
 ## Concluding words
 
