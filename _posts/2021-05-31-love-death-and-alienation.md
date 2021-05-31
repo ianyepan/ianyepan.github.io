@@ -28,7 +28,7 @@ disturbing.
 
 At first, there were the unfamiliar brushes of my legs against the blanket. It was an alien feeling, a foreign touch. For some reason, my head hurt, and the dim sky didn’t help either. There was a weird sensation when I turned my eyes to look at the window, but I couldn’t make out what it was.
 
-“About time you woke up,” I heard my mother say across from the dining room. The clouds were menacingly low, a hint of thunder mingled in the hassling of the traffic downstairs. Cars were honking, as I thought to myself, perhaps someone is going to be late for work.
+“About time you woke up,” I heard my mother say across from the dining room. The clouds were menacingly low, a hint of thunder mingled in the hassling of the traffic downstairs. Cars were honking as I thought to myself, perhaps someone is going to be late for work.
 
 “The milk’s turning warm now.”
 
