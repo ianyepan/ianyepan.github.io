@@ -22,7 +22,7 @@ tags: [essay]
 > reference and inspiration to my essay. I hope you enjoy it.
 
 **Warning**: Some readers may find the contents in this essay
-uncomfortable.
+disturbing.
 
 ## Love, Death, and Alienation
 
