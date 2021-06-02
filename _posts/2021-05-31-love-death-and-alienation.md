@@ -11,7 +11,7 @@ tags: [essay]
 > This writing is adapted from an essay I wrote for a university
 > humanity/literature class.
 >
-> It is my attempt at using the narrative method of “stream of
+> It is an attempt at using the narrative method of “stream of
 > consciousness”, in conjunction with fantasy. The thoughts of the
 > main character drifted between topics of God and alienation (both
 > social and family), among others. The references are subtle and
