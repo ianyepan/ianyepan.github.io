@@ -4,12 +4,12 @@ icon: fas fa-info
 order: 1
 ---
 
-Hi, Ian here. Welcome to my personal website, where I mostly blog about
-programming stuff and nerdy things I'm interested in.
+Hi, I'm Ian Pan. Welcome to my personal website, where I mostly blog
+about programming stuff and nerdy things I'm interested in.
 
-I am an incoming computer science graduate student at Columbia
-University, and will soon graduate from CUHK with a major in Computer
-Science and minor in Finance.
+I am an incoming computer science master's student at Columbia
+University, and will soon graduate from CUHK with a major in computer
+science and minor in finance.
 
 I'm currently developing novel multi-armed bandit greedy algorithms
 and researching dynamic pricing models. I am also a former machine
