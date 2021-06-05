@@ -3,7 +3,7 @@ title: A Quick Tutorial on Use-package for Emacs
 author: Ian Y.E. Pan
 date: 2021-05-12 21:18:00 +0800
 categories: [Emacs]
-tags: [linux, emacs, tutorial, tips, workflow]
+tags: [linux, emacs, tutorial, tips, workflow, programming]
 ---
 
 ## Brief introduction

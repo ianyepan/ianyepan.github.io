@@ -3,7 +3,7 @@ title: My First Linux Experience
 author: Ian Y.E. Pan
 date: 2021-05-12 11:00:00 +0800
 categories: [Linux]
-tags: [linux]
+tags: [linux, programming]
 ---
 
 ## Journey of a Linux newbie

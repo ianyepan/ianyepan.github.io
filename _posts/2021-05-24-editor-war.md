@@ -3,7 +3,7 @@ title: My Subjective Take on the Editor War
 author: Ian Y.E. Pan
 date: 2021-05-24 14:59:00 +0800
 categories: [Emacs]
-tags: [emacs, vim, linux]
+tags: [emacs, vim, linux, programming]
 ---
 
 > I use both Emacs and Vim. However, I spend 99% of my time in Emacs,
