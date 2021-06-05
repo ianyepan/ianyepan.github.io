@@ -24,10 +24,10 @@ description: >-                        # used by seo meta and the atom feed
   computer science student, emacs enthusiast, keyboard lover. occasionally nerdy.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://ianpan870102.github.io'
+url: 'https://ianyepan.github.io'
 
 github:
-  username: ianpan870102             # change to your github username
+  username: ianyepan             # change to your github username
 
 twitter:
   username:             # change to your twitter username
@@ -39,7 +39,7 @@ social:
   email: ian.pan@columbia.edu             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/ianpan870102       # change to your github homepage
+    - https://github.com/ianyepan       # change to your github homepage
     # - https://twitter.com/username      # change to your twitter homepage
     # Uncomment below to add more social links
     - https://www.facebook.com/ian.y.e.pan

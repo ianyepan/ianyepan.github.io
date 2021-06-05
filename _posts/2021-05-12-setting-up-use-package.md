@@ -237,12 +237,12 @@ That's all I have for you this time, hope you enjoyed my quick
 tutorial on use-package! If you're an Emacs beginner feeling lost
 about where to start, I might just have the perfect solution for
 you. I'm maintaining the
-[Yay-evil-emacs](https://github.com/ianpan870102/yay-evil-emacs)
+[Yay-evil-emacs](https://github.com/ianyepan/yay-evil-emacs)
 project, which is a lightweight literate Emacs config with better
 defaults. The actual goal of my project is not to give people a
 plug-and-play starter config (though of course you may use it that
 way), but rather to [document
-neatly](https://github.com/ianpan870102/yay-evil-emacs/blob/master/config.org)
+neatly](https://github.com/ianyepan/yay-evil-emacs/blob/master/config.org)
 the meaning behind each configuration snippet in a structural manner,
 so Emacs beginners wouldn't feel overwhelmed by the syntax of Emacs
 Lisp right off the bat.
