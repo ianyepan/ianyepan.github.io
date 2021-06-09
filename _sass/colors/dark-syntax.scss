@@ -1,9 +1,9 @@
 /*
- * The syntax dark mode styles.
+ * The syntax dark mode code snippet colors.
  */
 
 @mixin dark-syntax {
-  /* -----  My styles ------ */
+  /* --- custom dark colors --- */
   --highlight-bg-color: #1e1e1e;
   --highlighter-rouge-color: #569cd6;
   --highlight-lineno-color: #6c6c6d;
