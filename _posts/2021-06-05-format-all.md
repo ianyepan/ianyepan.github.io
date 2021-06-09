@@ -7,13 +7,13 @@ tags: [emacs, programming]
 ---
 
 [Format-all](https://github.com/lassik/emacs-format-all-the-code) is a
-simple yet awesome package for Emacs that allows you to "format source
+simple yet awesome Emacs package that allows you to "format source
 code in different programming languages using the same command,
 instead of learning a different Emacs package and formatting command
 for each language"
 ([Reference](https://github.com/lassik/emacs-format-all-the-code#what-does-it-do)). The
-author chose great default formatters for each language, so the
-package is almost plug-and-play. For instance, format-all uses
+author chose great default formatters for each programming language,
+so the package is almost plug-and-play. For instance, format-all uses
 [clang-format](https://clang.llvm.org/docs/ClangFormat.html) for
 C/C++, [prettier](https://prettier.io/) for JavaScript/Typescript, and
 [black](https://github.com/psf/black) or
