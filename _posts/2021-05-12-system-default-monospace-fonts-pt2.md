@@ -114,7 +114,7 @@ asterisk, the enlargement of quotes and periods, and changing a dotted
 zero to a slashed zero. The differences are highlighted in red for
 DejaVu and cyan for Menlo.
 
-![Menlo vs. DejaVu](http://luc.devroye.org/DejaVuSansMono-vs-AppleMenloSansMono--both-based-on-BitstreamVeraSansMono-2011.png){: width="300"}
+![Menlo vs. DejaVu](/images/menlo-vs-dejavu.png){: width="300"}
 _Source: http://luc.devroye.org/fonts.html_
 
 
