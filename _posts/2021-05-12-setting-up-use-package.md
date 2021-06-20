@@ -69,7 +69,7 @@ port your entire Emacs config over to a new setup.
 
 
 Say you want to write Typescript in Emacs and need language-specific
-support (i.e. better syntax highlighting etc.). We can install
+support (i.e. better syntax highlighting, etc.). We can install
 [typescript-mode](https://github.com/emacs-typescript/typescript.el/tree/1043025d42602d560949955410d3afa2562130ee) for this purpose.
 
 Let's start with a simple configuration:

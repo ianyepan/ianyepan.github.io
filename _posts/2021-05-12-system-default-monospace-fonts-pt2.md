@@ -40,8 +40,8 @@ elongated comma are in my opinion, what makes this font elegantly
 timeless. In general, I also prefer the look of a [looptail
 double-storey](https://en.wikipedia.org/wiki/G#Typographic_variants)
 "g", instead of an opentail single-storey one, which is found on SF
-Mono, Menlo, DejaVu, Roboto Mono etc. On top of that, Consolas is also
-classified as a
+Mono, Menlo, DejaVu, Roboto Mono, etc. On top of that, Consolas is
+also classified as a
 "[humanist](https://en.wikipedia.org/wiki/Sans-serif#Humanist)" font
 (my favorite category), as opposed to being
 [neo-grosteque](https://en.wikipedia.org/wiki/Sans-serif#Neo-grotesque)
