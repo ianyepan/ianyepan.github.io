@@ -27,7 +27,7 @@ emotional state towards the observer.
 
 
 ![Ceramic Pillow in The Shape of a Child](/images/ceramic-pillow.jpg){: width="60%"}
-_Fig. 1:Ceramic Pillow in The Shape of a Child_
+_Fig. 1: Ceramic Pillow in The Shape of a Child_
 
 The sculpture is in phenomenal condition, despite the yellowing around
 the feet and head of the child. The otherwise even color scheme
