@@ -69,6 +69,16 @@
   --timeline-node-bg: #c2c6cc;
   --timeline-year-dot-color: #ffffff;
 
+  /* posts' toc, override BS */
+  nav[data-toggle=toc] .nav-link.active,
+  nav[data-toggle=toc] .nav-link.active:focus,
+  nav[data-toggle=toc] .nav-link.active:hover,
+  nav[data-toggle=toc] .nav > li > a:focus,
+  nav[data-toggle=toc] .nav > li > a:hover {
+    color: #0077d7 !important;
+    border-left-color: #0077d7 !important;
+  }
+
   /* Footer */
   --footer-bg-color: #ffffff;
   --footnote-target-bg: lightcyan;
