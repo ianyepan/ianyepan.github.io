@@ -11,7 +11,7 @@ I am an incoming computer science master's student at
 [Columbia](https://en.wikipedia.org/wiki/Columbia_University)
 University. I recently graduated from
 [CUHK](https://en.wikipedia.org/wiki/Chinese_University_of_Hong_Kong)
-with a major in computer science and minor in finance.
+with a major in computer science and a minor in finance.
 
 I'm currently developing novel multi-armed bandit greedy algorithms
 and researching dynamic pricing models. I am also a former machine
