@@ -7,7 +7,7 @@ order: 1
 Hi, I'm Ian Pan. Welcome to my personal website, where I mostly blog
 about programming stuff and nerdy things I'm interested in.
 
-I am an incoming computer science master's student at
+I am a computer science master's student at
 [Columbia](https://en.wikipedia.org/wiki/Columbia_University)
 University. I recently graduated from
 [CUHK](https://en.wikipedia.org/wiki/Chinese_University_of_Hong_Kong)
