@@ -20,8 +20,8 @@ _"Chubby Batman" by me, 2022 Jan._
 I do most of my painting in Krita, a free and open-source digital painting alternative to Adobe Photoshop, which is the industry standard. Its interface may seem complex and daunting at first, but with time one will get used to it. After familiarizing myself with the keyboard shortcuts and the user interface, I find myself rather comfortable and efficient with Krita. My favorite brush is the built-in "Dry Bristles", followed by "Dry Brushing", "Bristles-2 Flat Rough", and "Bristles-3 Large Smooth". I use "Pencil 2b" for the initial sketches, and "Ink pen" for sharper outlining and the final signature. In the future, I might explore more brush options so my preferences are open to change.
 
 
-![Joker](/images/joker.png){: width="40%"}
-_"Why So Serious" by me, 2022 Jan._
+![Joker](/images/flowers2.png){: width="45%"}
+_"Glass Vase" by me, 2022 Jan._
 
 
 When it comes to the hardware, I find my Surface Go 2 with Intel Core m3 and 8GB of memory rather sufficient to run digital painting apps smoothly. There will still be a slight lag after each stroke, but that is to be expected with a heavy application like Krita, and doesn't really affect my practices. The 10.5-inch form factor is a perfect balance for portability, "geeky cuteness", and enough screen real estate to utilize its potential. I am using the Microsoft Surface Pen Platinum Model 1776 as my stylus, and I enjoy the premium heft of it. I haven't yet tried the latest Slim Pen 2, but I've also heard amazing things about it. 
