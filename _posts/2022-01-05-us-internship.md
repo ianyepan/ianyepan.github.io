@@ -1,7 +1,7 @@
 ---
 title: Landing a FAANG internship - 2022美國暑期找實習分享
 author: Ian Y.E. Pan
-date: 2022-01-05 14:52:00 -0400
+date: 2022-01-23 19:49:00 -0500
 categories: [General]
 tags: [tips, chinese, programming]
 ---
@@ -50,6 +50,8 @@ _My LeetCode progress, as of Dec. 2021_
 如果目前沒有刷題方向的朋友們可以參考一位臉書 tech lead 整理出來的黃金七十題，[我也把它整理成一個 GitHub repo](https://github.com/ianyepan/top-70-leetcode-questions)，內含我的解答、思路、和題目連結，可以參考一下。
 
 BQ (behavioral question) 的準備方面我習慣把以前的實習經驗編成情境式的小故事。每個故事我也會有一個長的和一個短的版本。這樣無論時間緊迫與否，我都可以穩定發揮。準備 Amazon 的時候，因為聽說他們家特別看重員工的經驗和價值觀有沒有符合[企業文化](https://www.amazon.jobs/en/principles)，我甚至針對最常考的一些問題打了一份快十頁的個人經驗故事 bullet points，直接當成演講稿在背。依學長姊的建議和我的個人經驗，BQ 非必要不建議即興回答。
+
+另外，我也特別注意在講述自己經驗時，要帶入語氣和用詞的熱情。往往你的 passion 可以感染到面試官，讓他們自然地聽的有興趣一些，對你比較容易留下深刻的印象。
 
 # 面試經驗
 
