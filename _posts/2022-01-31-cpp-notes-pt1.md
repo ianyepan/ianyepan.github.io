@@ -51,7 +51,7 @@ This post (Part 1) consists of my reading notes for chapter 1 through 7, and ser
      enum class Color1 { red, green, blue };
      enum class Color2 { red, yellow, black };
      ```
-      One can distinguish `Color1::red` and `Color2::red`.
+      One can distinguish between `Color1::red` and `Color2::red`.
    - However, in plain enums, this will not compile:
      ```cpp
      enum Color1 { red, green, blue };
