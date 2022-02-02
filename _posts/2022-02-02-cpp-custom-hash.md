@@ -77,25 +77,19 @@ class Example {
 
 In this method, we add a specialization of standard-library's hash function to the namespace `std`. This is quite similar to the first method, except now we must use `hash` as the name of our function object. We also have to specify the template class for which we are defining the specialization. The immediate advantage is that we do not need to pass in any extra template arguments to our unordered container when declaring an instance.
 
-Here is an example of this method:
+Here is an example of this method, suppose we want to be able to hash a user-defined class `XYZ`, which has a member called `value`:
 
 ```cpp
 namespace std {
-template <typename T1, typename T2>
-struct hash<pair<T1, T2>> {
-  auto operator()(const pair<T1, T2> &p) const -> size_t {
-    return hash<T1>{}(p.first) ^ hash<T2>{}(p.second);
+template <>
+struct hash<XYZ> {
+  auto operator()(const XYZ &xyz) const -> size_t {
+    return hash<XYZ>{}(xyz.value);
   }
 };
 }  // namespace std
 
-class Example {
- public:
-  void func() {
-    unordered_set<pair<int, int>> seen;
-    unordered_map<pair<double, string>, int> umap;
-  }
-};
+unordered_set<XYZ> xset;
 ```
 
 ## Overloading operator==()
