@@ -40,9 +40,9 @@ This post (Part 1) consists of my reading notes for chapter 1 through 7, and ser
    int &r2 = y;
    r1 = r2; // x becomes 3. r1 still points to x.
    ```
-4. No uninitialized reference allowed (Ch.1 p.18).
-5. Unions (Ch.2 p.25) can be used when only one of multiple candidate variables can be used at any given time.
-   - That said, STL's `variant` (Ch.2 p.26) since C++17 can replace most usecases of unions. It is a type-safe `union`.
+4. No uninitialized reference is allowed (Ch.1 p.18).
+5. Unions (Ch.2 p.25) can be used when only one of the multiple candidate variables can be used at any given time.
+   - That said, STL's `variant` (Ch.2 p.26) since C++17 can replace most use-cases of unions. It is a type-safe `union`.
    - We can use `try-catch` or `std::holds_alternative` in conjunction with `std::get<type>` to obtain the desired value.
 6. Plain `enum` v.s. `enum class`. The latter is preferred (Ch.2):
    - Enumerator values of plain `enums` are implicitly converted (e.g. to `int`). Also, the enumerator names are "exported to the surrounding scope", potentially causing name clashes.
@@ -75,7 +75,7 @@ class MyClass {
 ```
    Here, `MyClass` is an "abstract class" because it has a "pure virtual" function. We cannot create objects of an abstract class. Therefore, abstract classes usually don't have "constructors" either.
 14. In inheritance, "objects are constructed 'base-class-first' by constructors and destroyed 'derived-class-first' by destructors." (Ch.4 p.61)
-15. We can use `dynamic_cast` to achieve "is intance of" operations. (Ch.4 p.62)
+15. We can use `dynamic_cast` to achieve "is instance of" operations. (Ch.4 p.62)
 ```cpp
 template<typename Base, typename T>
 inline bool instanceof(T *ptr) {
