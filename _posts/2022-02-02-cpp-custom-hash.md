@@ -135,6 +135,6 @@ unordered_set<Record> recordsSet;
 unordered_map<Record, int> recordsMap;
 ```
 
-# Conclusions and Further Readings
+## Conclusions and Further Readings
 
 In this short blog post, I introduced various ways to create custom functions for unordered containers that hold relatively complex STL types or user-defined class objects. If you'd like to read more on this topic, I recommend [this blog post](https://marknelson.us/posts/2011/09/03/hash-functions-for-c-unordered-containers.html) by Mark Nelson and also [this page](https://en.cppreference.com/w/cpp/utility/hash) at Cppreference.com.
