@@ -16,7 +16,7 @@ C++ unordered containers (e.g. `unordered_map`, `unordered_set`, etc.) uses "has
 unordered_set<string> names{"Ian", "Y.E.", "Pan"}; // good
 ```
 
-However, when we want to hold a more complex type, or even a user-defined class, C++ unordered containers would fail to find a hash function for itself to use. This is when custom hash functions come in. We will have to explicitly define a hash function for the type (e.g. `pair<string, int>`) that we want to use as a template argument for some unordered container. 
+However, when we want to hold a more complex type, or even a user-defined class, C++ unordered containers would fail to find a hash function for itself to use. This is when custom hash functions come in. We will have to explicitly define a hash function for the type (e.g. `pair<string, int>`) that we want to use as a template argument for some unordered container.
 
 ## Implementation Idea: Exclusive-Or
 
@@ -33,7 +33,7 @@ The next thing we need to do is to pass that as a template argument when creatin
 
 ## Method 1: Function Object with Struct
 
-Perhaps the most commonly used method (and also my preferred method) is to create a function object (functor) using a struct, and implement its `operator()` function. This function is to be qualified as `const`, and takes a const reference to the custom type and returns a `size_t`. Defining a function object outside as a standalone struct also gives it the flexibility of "generic programming" with templates. Meaning that it can work with pairs of different template arguments, not just strings and ints. 
+Perhaps the most commonly used method (and also my preferred method) is to create a function object (functor) using a struct, and implement its `operator()` function. This function is to be qualified as `const`, and takes a const reference to the custom type and returns a `size_t`. Defining a function object outside as a standalone struct also gives it the flexibility of "generic programming" with templates. Meaning that it can work with pairs of different template arguments, not just strings and ints.
 
 Putting this all together, we have:
 
@@ -56,7 +56,7 @@ class Example {
 
 ## Method 2: Custom Lambda Hash Function
 
-Alternatively, we can also implement our custom hash function as a lambda. Some may find this inline implementation more elegant. A drawback is that C++11 lambdas do not support templates. Fortunately, we have "generic lambdas" since C++14 (as seen below). 
+Alternatively, we can also implement our custom hash function as a lambda. Some may find this inline implementation more elegant. A drawback is that C++11 lambdas do not support templates. Fortunately, we have "generic lambdas" since C++14 (as seen below).
 
 Another drawback is that we need to use `decltype` of the lambda as the extra custom hash function argument for our unordered containers, and also provide constructor arguments in parentheses after the declared variable name. Both `unordered_set` and `unordered_map` have a constructor that takes an initial number of buckets and a hashing object as inputs. Here, I just arbitrarily let the initial buckets be 10.
 
@@ -94,7 +94,8 @@ unordered_set<XYZ> xset;
 
 ## Overloading operator==()
 
-Note that the unordered containers also need the ability to compare two different keys using `==`. Throughout this post, I have been using `std::pair`, and the STL already defines `operator==()` for pairs, so I didn't have to define my own equality logic. However, if we are using our own user-defined class, then we need to define the equality operator. For example, here's how we can define `operator==()` for our custom class `Record`:
+Note that the unordered containers also need the ability to compare
+two different keys using `==`. In previous examples, I have been using `std::pair`, and the STL already defines `operator==()` for pairs, so I didn't have to define my own equality logic. However, if we are using our own user-defined class, then we need to define the equality operator. For example, here's how we can define `operator==()` for our custom class `Record`:
 
 ```cpp
 class Record {
