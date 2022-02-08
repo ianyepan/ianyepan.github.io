@@ -103,3 +103,6 @@ std::pair              p2 = {1, 3.41}; // since C++17
 
 ![A Tour of Cpp](/images/cpp-book.jpg){: width="35%"}
 _It's a pretty good read._
+
+
+Read Part 2 [here](../cpp-notes-pt2).
