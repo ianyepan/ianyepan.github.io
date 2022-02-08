@@ -135,40 +135,40 @@ sort(std::execution::par, begin(vec), end(vec)); // parallel
 
     - We need to specify n as a "const" or a "constexpr" here, like so:
 
-        ```cpp
-        const int n = 3;
-        std::array<char, n> arr{'a', 'b', 'c'}; // good
+      ```cpp
+      const int n = 3;
+      std::array<char, n> arr{'a', 'b', 'c'}; // good
 
-        constexpr int n = 3;
-        std::array<char, n> arr{'a', 'b', 'c'}; // good
-        ```
+      constexpr int n = 3;
+      std::array<char, n> arr{'a', 'b', 'c'}; // good
+      ```
 
     - Note that we cannot use a function parameter as the size of the array, because function parameters are NEVER constant expressions:
 
-        ```cpp
-        void f(const int n) {
-          std::array<char, n> arr{'a', 'b', 'c'}; // error!
-        }
+      ```cpp
+      void f(const int n) {
+        std::array<char, n> arr{'a', 'b', 'c'}; // error!
+      }
 
-        void f(constexpr int n) { // invalid constexpr!
-          std::array<char, n> arr{'a', 'b', 'c'};
-        }
-        ```
+      void f(constexpr int n) { // invalid constexpr!
+        std::array<char, n> arr{'a', 'b', 'c'};
+      }
+      ```
 
     - To solve this, we must make a template like so:
 
-        ```cpp
-        template <int n>
-        auto func2() -> std::array<int, n> {
-          std::array<int, n> a{1, 2, 3};
-          return a;
-        }
+      ```cpp
+      template <int n>
+      auto func2() -> std::array<int, n> {
+        std::array<int, n> a{1, 2, 3};
+        return a;
+      }
 
-        int main() {
-          auto a = func2<3>();
-          // ...
-        }
-        ```
+      int main() {
+        auto a = func2<3>();
+        // ...
+      }
+      ```
 
 
 30. `std::array` can be passed to C-style function that expects a pointer, using `.data()`, or with the explicit address of its first element (Ch.13 p.171):
