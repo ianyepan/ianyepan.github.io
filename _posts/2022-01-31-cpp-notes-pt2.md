@@ -41,29 +41,10 @@ This post (Part 2) consists of my reading notes for chapter 8 through 14. Hopefu
 4. "Short string optimization": short string values are kept in the string object (special optimization), and only longer strings are placed on free store (dynamically allocated memory on the heap) as the usual case. (Ch.9 p.113)
 5. `string_view` is a read-only view of its characters (Ch.9 115).
 6. "Raw string literals" starting with `R"(` and ending with `)"` allows backslashes to be used directly in strings. E.g. `"\\w{2}\\d{4}"` can become  `R"(\w{2}\d{4})"` (Ch.9 p.116).
-7. (Ch.10 p.125) In output streams, the "result of an output expression can be used for further output". Therefore, we can chain multiple "put-to" (`<<`) statements like so:
-   ```cpp
-   std::cout << "Hi, ";
-   std::cout << "my name is ";
-   std::cout << "Ian.";
-
-   // equivalent to
-
-   std::cout << "Hi, " << "my name is " << "Ian.";
-   ```
-8. (Ch.10 p.126) The same can be said for input streams, chaining multiple "get-from" (`>>`) statements:
-   ```cpp
-   int num1, num2;
-   double num3;
-   std::cin >> num1;
-   std::cin >> num2;
-   std::cin >> num3;
-
-   // equivalent to
-
-   std::cin >> num1 >> num2 >> num3;
-   ```
-   The read of an integer will stop when a character is not a digit. Also, `>>` will skip initial whitespaces by default.
+7. (Ch.10 p.125) In output streams, the "result of an output
+   expression can be used for further output". This is why we can chain multiple "put-to" (`<<`) statements.
+8. (Ch.10 p.126) The same can be said for input streams: we can chain multiple "get-from" (`>>`) statements.
+   - The read of an integer will stop when a character is not a digit. Also, `>>` will skip initial whitespaces by default.
 9. We can use `istream1 >> char1` as a condition, meaning "Did we successfully read a character from istream1 into char1?" (Ch.10 p.128)
 10. `istream >> ch` skips whitespace by default, but `istream.get(ch)` does not (Ch.10 p.128).
 11. Formatting with manipulators (placed between the output stream and the target to output) (Ch.10 p.129):
@@ -145,7 +126,7 @@ sort(std::execution::par, begin(vec), end(vec)); // parallel
       std::array<char, n> arr{'a', 'b', 'c'}; // good
       ```
 
-    - Note that we cannot use a function parameter as the size of the array, because function parameters are NEVER constant expressions:
+    - Note that we cannot use a function parameter as the size of the array, because function parameters are **never** constant expressions:
 
       ```cpp
       void f(const int n) {
@@ -194,16 +175,16 @@ sort(std::execution::par, begin(vec), end(vec)); // parallel
 
     ```cpp
     tuple<string, int> tup1{"Ian Pan", 123}; // pre C++17
-    tuple              tup2{"Ian Pan", 123}; // post C++17
+    tuple              tup2{"Ian Pan"s, 123}; // post C++17
     // Alternatively...
-    auto tup3 = make_tuple("Ian Pan", 123);
+    auto tup3 = make_tuple("Ian Pan"s, 123);
     ```
     - Getting an element from a tuple can be done as follows:
       ```cpp
       auto s1 = get<0>(tup1);
       auto s2 = get<string>(tup1);
       ```
-    - We also use `get<>()` to WRITE to the tuple:
+    - We also use `get<>()` to **write** to the tuple:
       ```cpp
       get<0>(tup1) = "Columbia";
       get<string>(tup1) = "University";
