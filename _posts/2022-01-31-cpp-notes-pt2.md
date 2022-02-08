@@ -25,7 +25,8 @@ This post (Part 2) consists of my reading notes for chapter 8 through 14. Hopefu
    #include <cstdlib> 
    ```
 2. `std::string::replace()`'s new replacement string doesn't need to be the same length as the replaced target substring. (Ch.9 p.112)
-3. String literals are `const char*` by default. If we want type `std::string`, we need the `s` suffix (Ch.9 p.113)
+3. String literals are `const char*` by default. If we want type `std::string`, we need the `s` suffix (Ch.9 p.113).
+
    ```cpp
    /*
     * The "s" suffix needs one of the following namespace to be included:
@@ -36,6 +37,7 @@ This post (Part 2) consists of my reading notes for chapter 8 through 14. Hopefu
    auto s1 = "Ian";  // const char* (C-style)
    auto s2 = "Pan"s; // std::string
    ```
+
 4. "Short string optimization": short string values are kept in the string object (special optimization), and only longer strings are placed on free store (dynamically allocated memory on the heap) as the usual case. (Ch.9 p.113)
 5. `string_view` is a read-only view of its characters (Ch.9 115).
 6. "Raw string literals" starting with `R"(` and ending with `)"` allows backslashes to be used directly in strings. E.g. `"\\w{2}\\d{4}"` can become  `R"(\w{2}\d{4})"` (Ch.9 p.116).
