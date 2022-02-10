@@ -1,5 +1,5 @@
 ---
-title: A Tour of C++ - Reading Notes (Part 2)
+title: A Tour of C++ - Reading Notes (Part 2/2)
 author: Ian Y.E. Pan
 date: 2022-02-07 22:44:00 -0500
 categories: [Programming]
