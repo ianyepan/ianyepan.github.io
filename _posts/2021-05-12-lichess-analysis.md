@@ -2,8 +2,8 @@
 title: Analyze Your Chess.com Games Free with Lichess
 author: Ian Y.E. Pan
 date: 2021-05-12 14:44:00 +0800
-categories: [Chess]
-tags: [chess, lichess, tips, tutorial]
+categories: [General]
+tags: [chess, tips, tutorial]
 ---
 
 ## Foreword
