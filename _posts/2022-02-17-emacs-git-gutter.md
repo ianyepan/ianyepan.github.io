@@ -56,12 +56,15 @@ can install them with use-package by putting this into our config:
 
 Ideally, we'd like git-gutter to show up when the current buffer is
 version-controlled. However, in Emacs there doesn't seem to be a
-built-in variable indicating whether a buffer is in a git
-repository. Not to worry though, we can simply enable git-gutter for
-every buffer that's derived from `prog-mode`, which is a "parent mode"
-for many programming languages. Here, I choose to use the use-package
-macro `:hook`, but you can explicitly set it with `add-hook` as
-well. If you need a quick tutorial on use-package, consider [this post I wrote](../setting-up-use-package).
+built-in variable indicating whether a buffer is in a git repository
+(**Edit:** *There is, you may use the function "vc-backend" to query
+it. Thanks, u/emax-gomax on Reddit!*). Not to worry though, we can
+simply enable git-gutter for every buffer that's derived from
+`prog-mode`, which is a "parent mode" for many programming
+languages. Here, I choose to use the use-package macro `:hook`, but
+you can explicitly set it with `add-hook` as well. If you need a quick
+tutorial on use-package, consider [this post I
+wrote](../setting-up-use-package).
 
 On top of that, I set the git-gutter's update interval/delay to be
 0.02 seconds. I find it a good balance between showing up instantly,
