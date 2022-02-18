@@ -52,6 +52,17 @@ can install them with use-package by putting this into our config:
 (use-package git-gutter-fringe)
 ```
 
+P.s. If you don't have `use-package-always-ensure` set to `t`, then
+you'll need an extra `:ensure t` in the code block for use-package to
+automatically download the packages upon next startup, like so:
+
+```emacs-lisp
+(use-package git-gutter
+  :ensure t)
+
+(use-package git-gutter-fringe
+  :ensure t)
+```
 ## Step 2: Specifying when to enable git-gutter and fine-tuning update interval
 
 Ideally, we'd like git-gutter to show up when the current buffer is
@@ -92,7 +103,7 @@ these 3 lines:
 ```emacs-lisp
 (define-fringe-bitmap 'git-gutter-fr:added [224] nil nil '(center repeated))
 (define-fringe-bitmap 'git-gutter-fr:modified [224] nil nil '(center repeated))
-(define-fringe-bitmap 'git-gutter-fr:deleted [128 192 224 240] nil nil 'bottom))
+(define-fringe-bitmap 'git-gutter-fr:deleted [128 192 224 240] nil nil 'bottom)
 ```
 
 You don't really need to understand how this works, just know that it
