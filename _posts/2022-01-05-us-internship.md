@@ -21,7 +21,7 @@ tags: [tips, chinese, programming]
 -  **2017-2021** 香港中文大學, Bachelor of Science with Honors, Computer Science
 -  **2014-2017** 台北建國高級中學
 
-# TL;DR
+# TLDR
 
 以下是我碩士第一個學期面試拿到的三家軟體工程師 internship offer:
 
