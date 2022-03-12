@@ -13,9 +13,9 @@ tags: [linux, emacs, tutorial, tips, workflow, programming]
 
 ## Backstory
 
-Earlier this afternoon, I was checking out a tutorial series on OpenGL
+Earlier this afternoon, I was browsing a tutorial series on OpenGL
 and GLFW, since I've just finished my midterm exams at Columbia and
-was looking for interesting C++ frameworks to look into. Though the
+was looking for interesting C++ frameworks to check out. Though the
 industry standard is to develop OpenGL on Visual Studio (the IDE, not
 VSCode), me as a proud Emacs user obviously wanted to set it up in my
 beloved editor. So I installed `glfw-x11`, `glew`, and `glut` on my
