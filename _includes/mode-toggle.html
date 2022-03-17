@@ -26,27 +26,30 @@
 
       var self = this;
 
-      /* always use light mode by default: BUG not working */
-      // self.setLight();
+      /* always use light mode by default: Experimental */
+      self.setLight();
 
       /* always follow the system prefers */
+      /*
       this.sysDarkPrefers.addListener(function() {
         if (self.hasMode) {
           if (self.isDarkMode) {
             if (!self.isSysDarkPrefer) {
               self.setDark();
             }
+
           } else {
             if (self.isSysDarkPrefer) {
               self.setLight();
             }
           }
+
           self.clearMode();
         }
+
         self.updateMermaid();
       });
-
-
+      */
 
     } /* constructor() */
 
