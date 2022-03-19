@@ -8,9 +8,9 @@ Hi, I'm Ian Pan. Welcome to my personal website, where I mostly blog
 about programming stuff and nerdy things I'm interested in.
 
 I am a Computer Science Master's student at **Columbia University**. I
-will be joining **Amazon** as a software engineer intern this summer.
-I previously graduated from CUHK with a BSc. in Computer Science (with
-Honors) and a Minor in Finance.
+will be joining **Amazon Web Services (AWS)** as a software engineer intern
+this summer.  I previously graduated from CUHK with a BSc. in Computer
+Science (with Honors) and a Minor in Finance.
 
 As my undergraduate thesis, I've developed novel multi-armed bandit
 greedy algorithms and proposed dynamic pricing models. I am also a
