@@ -13,7 +13,7 @@ _Bjarne Stroustrup, the creator of C++, and my professor at Columbia University_
 
 This post (Part 1) consists of my reading notes for chapter 1 through 7, and serves as personal bullet points for me to look back on. Hopefully, by reading the points you'll find something useful as well.
 
-1. (Ch.1 pp.10) `constexpr` means “to be evaluated at compile time”, which can boost performance. When using a `constexpr` function (which should not have any side-effects and not modify non-local variables) with non-constant parameters passed in, the result will not be a constant expression. E.g.
+1. (Ch.1 p.10) `constexpr` means “to be evaluated at compile time”, which can boost performance. When using a `constexpr` function (which should not have any side-effects and not modify non-local variables) with non-constant parameters passed in, the result will not be a constant expression. E.g.
 
    ```cpp
    constexpr double half(double x) {return x / 2};
@@ -21,7 +21,7 @@ This post (Part 1) consists of my reading notes for chapter 1 through 7, and ser
    constexpr auto numHalf = half(num); // WRONG! "num" is non-constant, 
                                        // result will not be constexpr!
    ```
-2. C++17 If statement with initializer (Ch.1 pp.15). We can initialize a variable **and** use it for a condition all in an “if-statement”. This helps keep variables’ scopes tighter. E.g.
+2. C++17 If statement with initializer (Ch.1 p.15). We can initialize a variable **and** use it for a condition all in an “if-statement”. This helps keep variables’ scopes tighter. E.g.
 
    ```cpp
    if (auto a = arr[0]; a != 's') { /*...*/ }
@@ -33,7 +33,7 @@ This post (Part 1) consists of my reading notes for chapter 1 through 7, and ser
    if (auto sz = vec.size()) { /* loop entered if sz != 0 */}
    ```
 
-3. (Ch.1 pp.17) "Assignment to reference doesn't change what the reference refers to (unlike pointers) but assigns to the referenced object". E.g.
+3. (Ch.1 p.17) "Assignment to reference doesn't change what the reference refers to (unlike pointers) but assigns to the referenced object". E.g.
    ```cpp
    int x = 2, y = 3;
    int &r1 = x;
