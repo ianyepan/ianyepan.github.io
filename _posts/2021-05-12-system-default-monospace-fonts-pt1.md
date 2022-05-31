@@ -16,9 +16,9 @@ tags: [fonts]
 
 ## Why monospace fonts
 
-If you program at all, you probably have noticed that no matter which
+If you program at all, you've probably noticed that no matter which
 code editor you use, the default editor font will always be a
-monospace font. This kind of fonts enhance readability for programming
+monospace font. This class of fonts enhances readability for programming
 because it visually aligns each character with equal
 spacing. (However, monospace fonts are not suitable for general text
 reading, as we are actually trained to read and recognize words faster

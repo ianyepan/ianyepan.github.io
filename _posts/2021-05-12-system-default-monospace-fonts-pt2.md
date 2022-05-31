@@ -81,8 +81,8 @@ there are a few tutorials online that teach you how to do it. Spoiler
 alert, it's not hard at all).
 
 In terms of the design, I find SF Mono more
-[Geometric](https://en.wikipedia.org/wiki/Sans-serif#Geometric) than
-[Neo-grosteque](https://en.wikipedia.org/wiki/Sans-serif#Neo-grotesque),
+[geometric](https://en.wikipedia.org/wiki/Sans-serif#Geometric) than
+[neo-grosteque](https://en.wikipedia.org/wiki/Sans-serif#Neo-grotesque),
 especially with the perfectly round curves of 5, 6, and 9. The long
 serifs of 'i', 'j', 'l', and 'r' contribute greatly to the overall
 neat, well-ordered, and rigid feel of the typeface. However, the
