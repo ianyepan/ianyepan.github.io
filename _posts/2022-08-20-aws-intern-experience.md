@@ -1,7 +1,7 @@
 ---
 title: 灣區AWS軟體工程師實習心得隨筆
 author: Ian Y.E. Pan
-date: 2022-08-19 15:00:00 -0500
+date: 2022-08-30 15:00:00 -0500
 categories: [General]
 tags: [tips, chinese, programming]
 ---
