@@ -143,9 +143,19 @@ is likely to happen, too.
 
 The first thing to look out for is when a variable declared with
 `auto` uses brace initialization, its type could be deduced to
-`std::initializer_list` (especially if it has multiple elements). This
-is probably not what we intend, so we should generally avoid declaring
-an `auto` variable with an initializer list.
+`std::initializer_list` (when you're combining it with the equal sign,
+or if it has multiple elements). This is probably not what we intend,
+so we should generally avoid declaring an `auto` variable with an
+initializer list. In certain cases, it even results in an
+error. Here's a comprehensive example:
+
+```cpp
+auto x{1};       // OK: x is of type int (since C++17)
+auto x = {1};    // x is of type std::initializer_list<int>
+
+auto x{1, 2};    // ERROR: Initializer for variable 'x' with type 'auto' contains multiple expressions.
+auto x = {1, 2}; // x is of type std::initializer_list<int>
+```
 
 The second problem especially confuses C++ beginners when they just
 started out using `std::vectors`. Notice the difference between these
