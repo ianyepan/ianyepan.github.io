@@ -253,3 +253,5 @@ That's all for today, thanks for stopping by.
 - [https://www.oreilly.com/library/view/effective-modern-c/9781491908419/](https://www.oreilly.com/library/view/effective-modern-c/9781491908419/)
 - [https://www.fluentcpp.com/2018/01/30/most-vexing-parse/](https://www.fluentcpp.com/2018/01/30/most-vexing-parse/)
 - [https://en.wikipedia.org/wiki/Most_vexing_parse](https://en.wikipedia.org/wiki/Most_vexing_parse)
+- [https://abseil.io/tips/88](https://abseil.io/tips/88)
+- [https://herbsutter.com/2013/05/09/gotw-1-solution/](https://herbsutter.com/2013/05/09/gotw-1-solution/)
