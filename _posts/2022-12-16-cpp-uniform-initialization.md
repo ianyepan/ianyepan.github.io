@@ -241,6 +241,12 @@ parentheses wherever possible, it is important to know that there are
 scenarios where parentheses won't work (for instance, in the case of
 "most vexing parse").
 
+I highly recommend reading this section in Scott Meyer's "Effective
+Modern C++" book (the beginning of Chapter 3: Moving to Modern
+C++). On top of that, I'd also recommend reading [this blog post by
+Herb Sutter](https://herbsutter.com/2013/05/09/gotw-1-solution/) on
+`()` vs. `{}` initialization.
+
 That's all for today, thanks for stopping by.
 
 ## References:
