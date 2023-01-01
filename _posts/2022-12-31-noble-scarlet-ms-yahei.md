@@ -40,3 +40,7 @@ _優化前_
 
 ![After](/images/yahei-after.png){: width="400"}
 _優化後_
+
+除此之外，Chrome 也在一些 UI 界面使用日語的 Yu Gothic UI 字體來顯示中文內容，例如 tab bar 及 address bar 等處。這時，最直接暴力的解決方法是再次打開 Registry Editor，在 `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts` 下 Yu Gothic 系列的 Data 稍作修改使系統認不出字體檔名（例如，將 `YuGothR.ttc` 改成 `-YuGothR.ttc`）。再前往至 `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink`，將 Yu Gothic UI 的對應連接字體中 “微軟雅黑” 的地位移至最高。
+
+我也試著用同樣的方法用雅黑取代正黑，目前尚未成功（系統如果找不到正黑，只會用一個原始的宋體來顯示，忽視我設定的正黑首選連接字體：雅黑）。若之後發現可行的辦法，會再更新此文。
