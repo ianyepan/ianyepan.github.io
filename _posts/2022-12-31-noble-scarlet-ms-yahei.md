@@ -33,7 +33,7 @@ _優先以微軟雅黑顯示英文系統下的中文字體_
 
 # 瀏覽器裏優化中文顯示
 
-最後，我們在用 Chromium-based 瀏覽器（如 Google Chrome, Microsoft Edge, Brave）時會遇到簡繁字體的字形不同，造成了粗細不均的醜態。我們可以透過將瀏覽器中 Standard Font 設為 Microsoft Yahei (UI)，再搭配 Chrome 插件 "[No Per-Script Font!](https://chrome.google.com/webstore/detail/no-per-script-font/lndmkajeoopejggihiomoaepinlhblmm)"，統一使用雅黑為所有漢字的顯示字符，一併取代了較為劣質的微軟正黑體。效果如下。
+最後，我們在用 Chromium-based 瀏覽器（如 Google Chrome, Microsoft Edge, Brave）時會遇到簡繁字體的字形不同，造成了粗細不均的醜態，其中細體的來源是瀏覽器中默認繁體字應由微軟正黑體顯示。我們可以透過 Chrome 插件 "[Advanced Font Settings](https://chrome.google.com/webstore/detail/advanced-font-settings/caclkomlalccbpcdllchkeecicepbmbm)"，在網站沒有特別定義時（如維基百科）統一使用雅黑為所有漢字的顯示字符，一併取代了較為劣質的微軟正黑體。下載插件之後，需打開插件選項將 "Traditional Han" 的 Standard 及 Sans-Serif 皆設為 Microsoft Yahei (或是 Microsoft Yahei UI）。我們也可順便將 Serif 字體從預設的新細明體（PMingLiU）改成自己喜歡的襯線字體 (serif font)。我最喜歡的漢文襯線字體 “方正新書宋 (FZNewShuSong-Z10)”（需額外下載）。效果如下。
 
 ![Before](/images/jhenghei-before.png){: width="400"}
 _優化前_
@@ -41,6 +41,6 @@ _優化前_
 ![After](/images/yahei-after.png){: width="400"}
 _優化後_
 
-除此之外，Chrome 也在一些 UI 界面使用日語的 Yu Gothic UI 字體來顯示中文內容，例如 tab bar 及 address bar 等處。這時，最直接暴力的解決方法是再次打開 Registry Editor，在 `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts` 下 Yu Gothic 系列的 Data 稍作修改使系統認不出字體檔名（例如，將 `YuGothR.ttc` 改成 `-YuGothR.ttc`）。再前往至 `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink`，將 Yu Gothic UI 的對應連接字體中 “微軟雅黑” 的地位移至最高。
+除此之外，Chromium-based 的瀏覽器也在一些 UI 介面使用日語的 Yu Gothic UI 字體來顯示中文內容，例如 tab bar 及 address bar 等處。這時，最直接暴力的解決方法是再次打開 Registry Editor，在 `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts` 下 Yu Gothic 相關字體的 Data 稍作修改使系統認不出字體檔名（例如，將 `YuGothR.ttc` 改成 `-YuGothR.ttc`）。再前往至 `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink`，將 Yu Gothic UI 的對應連接字體中 “微軟雅黑” 的地位移至最高。不知為何，瀏覽器似乎還是將第二順位給了微軟正黑體以顯示部分 UI 介面。即便如此，使用正黑顯示繁體字介面仍比使用日語字體來的好。
 
-我也試著用同樣的方法用雅黑取代正黑，目前尚未成功（系統如果找不到正黑，只會用一個原始的宋體來顯示，忽視我設定的正黑首選連接字體：雅黑）。若之後發現可行的辦法，會再更新此文。
+我也試著用同樣的暴力覆蓋方用雅黑全面取代正黑，目前尚未成功（系統如果找不到正黑，只會用一個原始的宋體來顯示，忽視我設定的正黑首選連接字體：雅黑）。若之後發現可行的辦法，會再更新此文。
