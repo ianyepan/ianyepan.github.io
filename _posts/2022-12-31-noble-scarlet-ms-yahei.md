@@ -41,6 +41,6 @@ _優化前_
 ![After](/images/yahei-after.png){: width="400"}
 _優化後_
 
-除此之外，Chromium-based 的瀏覽器也在一些 UI 介面使用日語的 Yu Gothic UI 字體來顯示中文內容，例如 tab bar 及 address bar 等處。這時，最直接暴力的解決方法是再次打開 Registry Editor，在 `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts` 下 Yu Gothic 相關字體的 Data 稍作修改使系統認不出字體檔名（例如，將 `YuGothR.ttc` 改成 `-YuGothR.ttc`）。再前往至 `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink`，將 Yu Gothic UI 的對應連接字體中 “微軟雅黑” 的地位移至最高。不知為何，瀏覽器似乎還是將第二順位給了微軟正黑體以顯示部分 UI 介面。即便如此，使用正黑顯示繁體字介面仍比使用日語字體來的好。
+除此之外，Chromium-based 的瀏覽器也在一些 UI 介面使用日語的 Yu Gothic UI 字體來顯示中文內容，例如 tab bar 及 address bar 等處。這時，最直接暴力的解決方法是再次打開 Registry Editor，在 `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts` 下 Yu Gothic 相關字體的 Data 稍作修改使系統認不出字體檔名（例如，將 `YuGothR.ttc` 改成 `-YuGothR.ttc`）。再前往至 `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes`，創兩個 key-value 配對 (值為 string)，分別將 Yu Gothic 和 Yu Gothic UI 對應到 Microsoft YaHei 和 Microsoft YaHei UI.
 
-我也試著用同樣的暴力覆蓋方用雅黑全面取代正黑，目前尚未成功（系統如果找不到正黑，只會用一個原始的宋體來顯示，忽視我設定的正黑首選連接字體：雅黑）。若之後發現可行的辦法，會再更新此文。
+使用同樣的方法也可以將正黑出現之處皆以較優質的雅黑取代。（但在特定情況，瀏覽器（尤其是 Google Chrome）只會用一個原始的宋體來顯示，忽視我設定的正黑替換字體：雅黑。若之後發現可行的辦法，會再更新此文。）
