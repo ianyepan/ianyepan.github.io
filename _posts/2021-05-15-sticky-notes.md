@@ -43,10 +43,7 @@ On both **Android** and **iOS**, Sticky Notes is integrated as a part of
 OneNote. Therefore, you would have to download OneNote on your mobile
 phone even if you just want to use the Sticky Notes feature.
 
-On **macOS**, Sticky Notes is also integrated as a part of
-OneNote. You could launch a browser and head over to the URL
-[onenote.com/stickynotes](https://www.onenote.com/stickynotes) to
-enjoy the sync.
+On **macOS**, the only way to access Sticky Notes is through a web browser (this approach will work on any other platform as well). Sticky Notes in the web is integrated as part of the Outlook web email interface. Sign into your Microsoft account and head over to [outlook.live.com/mail/0/notes](https://outlook.live.com/mail/0/notes) to enjoy the sync.
 
 ## Concluding words
 
