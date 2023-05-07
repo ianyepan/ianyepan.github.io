@@ -120,7 +120,7 @@ if (rv < 0) {
 ```
 
 
-Alternatively, we could use `memcpy()` to "force" copy the binary data
+Alternatively, we could use `memcpy()` to "force" append the full binary data
 as part of the response, without having it stop at the first
 occurrence of a null character. In other words, `memcpy()` is a
 function that copies a specified number of bytes from one memory
