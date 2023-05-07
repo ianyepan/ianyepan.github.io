@@ -179,7 +179,7 @@ before I freed the cache, then I might never have found the bug during
 unit testing (which would definitely backfire some other time). A
 blessing in disguise, I suppose.
 
-## Free your malloc'd variables, and nothing else
+## Free your malloc'ed variables, and nothing else
 
 Our cache structure looks as follows:
 
@@ -224,7 +224,7 @@ that when we want to free the cache entry, we just had to call
 instead we explicitly tried to free the members, the compiler will
 throw an error saying that we attempted to free an invalid pointer.
 
-However, if the members were indeed malloc'd, then it's vital that we
+However, if the members were indeed malloc'ed, then it's vital that we
 free the struct members first before we free the struct. Among the
 struct members, it generally does not matter which order we free
 them. However, the best practice would be that we free the members in
