@@ -167,7 +167,7 @@ in the previous unit test. How could that be? We are freeing the cache
 every time a unit test finishes! I checked my `free_cache()`
 implementation and it looked fine. After an hour of debugging, I
 finally realized that I forgot to initialize the size of the cache
-when I created the cache.
+when I created a new cache.
 
 What happened was that the cache in the previous unit test was
 correctly freed, and the C compiler was smart enough to allocate the
