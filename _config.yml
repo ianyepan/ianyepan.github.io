@@ -17,11 +17,11 @@ timezone: Asia/Shanghai
 # --------------------------
 title: Ian Y.E. Pan                          # the main title
 
-tagline: computer science student, emacs enthusiast, keyboard lover. occasionally nerdy. # it will display as the sub-title
+tagline: software engineer, emacs enthusiast, keyboard lover. occasionally nerdy. # it will display as the sub-title
 
 
 description: >-                        # used by seo meta and the atom feed
-  computer science student, emacs enthusiast, keyboard lover. occasionally nerdy.
+  software engineer, emacs enthusiast, keyboard lover. occasionally nerdy.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://ianyepan.github.io'
