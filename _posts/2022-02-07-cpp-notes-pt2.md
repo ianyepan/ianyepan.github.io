@@ -11,7 +11,7 @@ For Part 1, visit [this previous post](../cpp-notes-pt1).
 The selected following are some modern C++ features that I found interesting or unfamiliar at the time of reading "[A Tour of C++](https://www.google.com/books/edition/_/UGtRtAEACAAJ?hl=en&sa=X&ved=2ahUKEwjRt8jLuN31AhWhZjUKHd2uC2sQre8FegQIFBAG)" by Professor [Bjarne Stroustrup](https://en.wikipedia.org/wiki/Bjarne_Stroustrup), whose C++ course at Columbia University I am currently enrolled in. 
 
 ![Bjarne](/images/bjarne1.jpg){: width="70%"}
-_Bjarne Stroustrup, the creator of C++, and my professor at Columbia University_
+_Bjarne Stroustrup, the creator of C++ and my professor at Columbia University_
 
 This post (Part 2) consists of my reading notes for chapter 8 through 14. Hopefully, by reading the points you'll find something useful as well.
 
