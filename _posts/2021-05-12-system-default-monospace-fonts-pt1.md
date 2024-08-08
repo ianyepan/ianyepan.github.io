@@ -35,7 +35,7 @@ Google Android, and most Linux distributions.
 | Windows 10       | Consolas               |
 | macOS            | SF Mono                |
 | Linux            | DejaVu Sans Mono       |
-| Android          | Roboto Mono            |
+| Android          | Roboto Mono [1*]       |
 
 System default fonts can change over time, and to some degree reflect
 the aesthetics of a generation's typography. For instance, Microsoft's
@@ -90,3 +90,5 @@ last entry `monospace` is the final fallback font on each system
 
 That's all for Part 1, feel free to visit [Part
 2](../system-default-monospace-fonts-pt2) for a subjective comparison!
+
+*[1*]: As Nina P. kindly pointed out, Android's default monospace font is actually Droid Sans Mono, not Roboto Mono. Nevertheless, I've decided to keep Roboto Mono as a comparison candidate in my blog post because it's a more popular monospace font and is often associated with Android and Google.
