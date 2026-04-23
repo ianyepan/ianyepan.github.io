@@ -89,7 +89,7 @@ as follows:
 (use-package format-all
   :preface
   (defun ian/format-code ()
-    "Auto-format whole buffer."
+    "Auto-format region if active, otherwise format whole buffer."
     (interactive)
     (if (derived-mode-p 'prolog-mode)
         (prolog-indent-buffer)
