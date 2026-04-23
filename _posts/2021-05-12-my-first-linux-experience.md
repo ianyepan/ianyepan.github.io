@@ -16,8 +16,8 @@ one-and-a-half-week journey with it. I first got into Linux because of
 naturally the first distro I chose was “Kali Linux”, which I didn’t
 know then, was possibly the worst beginners’ choice available. Not
 only because it comes with 600+ pre-installed hacking tools that I’ll
-probably never use (I’ve only learned to use less than 10 of them so
-far), I also dangerously run as root from default.
+probably never use (I’ve only learned to use fewer than 10 of them so
+far), I also dangerously run as root by default.
 
 I decided that I’ll need to choose a daily distro for general use
 (file editing and programming, etc.), instead of making Kali my main
