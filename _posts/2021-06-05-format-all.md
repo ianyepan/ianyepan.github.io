@@ -64,3 +64,39 @@ of the README. If you are unfamiliar with use-package, you can read my
 quick-start guide [here](../setting-up-use-package).
 
 That's all for today, have a good one.
+
+## Update (Apr 2026)
+
+When I wrote this post back in 2021, I was in university writing
+predominantly personal projects where I controlled the style of the
+entire codebase. A few years into working professionally as a software
+engineer, I've found myself reaching for `format-all-region` far more
+often than `format-all-buffer`. Most days I'm working on shared
+codebases and only want to format the new code I'm adding - formatting
+an entire file touched by other authors generates whitespace noise in
+my commits and is frowned upon in most engineering teams.
+
+The format-all package has since implemented the very handy
+`format-all-region-or-buffer` command that will intelligently call
+either `format-all-region` or `format-all-buffer` depending on whether
+a region is active. In addition, format-all also supports customizing
+specific formatters. So for instance, if I want to use `yapf` to
+format Python code instead of the default `black`, I can set it
+locally whenever I visit a Python buffer. My updated configuration is
+as follows:
+
+```elisp
+(use-package format-all
+  :preface
+  (defun ian/format-code ()
+    "Auto-format whole buffer."
+    (interactive)
+    (if (derived-mode-p 'prolog-mode)
+        (prolog-indent-buffer)
+      (format-all-region-or-buffer)))
+  :config
+  (global-set-key (kbd "M-F") #'ian/format-code)
+  (add-hook 'prog-mode-hook #'format-all-ensure-formatter)
+  (add-hook 'python-mode-hook #'(lambda ()
+                                  (setq-local format-all-formatters '(("Python" yapf))))))
+```
