@@ -106,9 +106,29 @@ these 3 lines:
 (define-fringe-bitmap 'git-gutter-fr:deleted [128 192 224 240] nil nil 'bottom)
 ```
 
-You don't really need to understand how this works, just know that it
-is setting the vector values of the bitmap and correctly align them at
-the fringe to mimic the appearance of VSCode's git indicators.
+Each integer in the vector is a row of the bitmap, where the 8 bits
+(MSB-first, left-to-right) represent which pixels are lit across the
+fringe width.
+
+```text
+224 = 0b11100000  ->  ███░░░░░
+```
+
+With `'(center repeated)` it stacks this single row vertically to fill
+the line height, giving us a solid left-aligned bar.
+
+Similarly, for `git-gutter-fr:deleted` we have:
+
+```text
+128 = 0b10000000  ->  █░░░░░░░
+192 = 0b11000000  ->  ██░░░░░░
+224 = 0b11100000  ->  ███░░░░░
+240 = 0b11110000  ->  ████░░░░
+```
+
+This produces a partial arrow/triangle anchored to the bottom of a
+line, which is conventional for deleted indicators since there's no
+line to sit on, only a position between lines.
 
 ## Wrapping it up
 
@@ -129,3 +149,44 @@ these pretty git-gutters in Emacs:
 ```
 
 That's all for today, thanks for stopping by.
+
+## Update (May 2026):
+
+I have since found a much more visual way to define the fringe bitmaps
+via `fringe-helper-define`. Improvements were made to the "deleted"
+arrow shape too:
+
+```elisp
+  (fringe-helper-define 'git-gutter-fr:added '(center repeated)
+    "XXX....."
+    "XXX....."
+    "XXX....."
+    "XXX.....")
+  (fringe-helper-define 'git-gutter-fr:modified '(center repeated)
+    "XXX....."
+    "XXX....."
+    "XXX....."
+    "XXX.....")
+  (fringe-helper-define 'git-gutter-fr:deleted 'bottom
+    "X......."
+    "XX......"
+    "XXX....."
+    "XXXX...."
+    "XXXXX..."
+    "XXXXXX.."
+    "XXXXXXX."
+    "XXXXXXXX"
+    "XXXXXXX."
+    "XXXXXX.."
+    "XXXXX..."
+    "XXXX...."
+    "XXX....."
+    "XX......"
+    "X.......")
+```
+
+`fringe-helper` converts the ASCII grid to the bit vector internally,
+so we get identical output with none of the manual bit
+arithmetic. The deleted arrow in particular would have been tedious to
+tune pixel-by-pixel in the original form.
+
