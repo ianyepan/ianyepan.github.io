@@ -129,7 +129,7 @@ Erlang, the author of MySQL, the creator of JavaScript, the founder of
 WikiLeaks, and the founder of Facebook (yes, Mark Zuckerburg) all used
 or still use Emacs as their main editor ([Reference
 1](http://wenshanren.org/?p=418) and [Reference
-2](http://ergoemacs.org/misc/famous_emacs_users.html))
+2](http://xahlee.info/emacs/misc/famous_emacs_users.html))
 
 And that reason is simple. **Because Emacs is the best editor in the
 world.**
