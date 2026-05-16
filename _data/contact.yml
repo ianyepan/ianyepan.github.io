@@ -17,18 +17,27 @@
 #   noblank: true
 
 # Uncomment and complete the url below to enable more contact options
-# -
-#   type: mastodon
+#
+# - type: mastodon
 #   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
-#   url:  ''                  # Fill with your mastodon account page
-# -
-#   type: linkedin
+#   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
+#
+# - type: linkedin
 #   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
 #   url:  ''                  # Fill with your Linkedin homepage
-# -
-#   type: twitter
-#   icon: 'fab fa-twitter'
-# -
-#   type: stack-overflow
+#
+# - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
 #   url:  ''                  # Fill with your stackoverflow homepage
+#
+# - type: bluesky
+#   icon: 'fa-brands fa-bluesky'
+#   url: ''                   # Fill with your Bluesky profile link
+#
+# - type: reddit
+#   icon: 'fa-brands fa-reddit'
+#   url: ''                   # Fill with your Reddit profile link
+#
+# - type: threads
+#   icon: 'fa-brands fa-threads'
+#   url: ''                   # Fill with your Threads profile link
