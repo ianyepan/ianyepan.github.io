@@ -325,7 +325,7 @@ From the `build/` directory, run the following command:
 ```log
 % ./qemu-system-arm -m 1G \
     -M ast2600-evb \
-    -drive file=path/to/ast2600-flash.mtd,format=raw,if=pflash \
+    -drive file=path/to/ast2600-flash.mtd,format=raw,if=mtd \
     -nographic
 ```
 
@@ -333,7 +333,7 @@ When prompted, the default username is `root` and the password is
 `0penBmc` (note the `0` (zero) instead of `O`).
 
 P.s. The flag `-m` sets the startup RAM size to 1G. `-M` specifies the
-machine (in our case, Aspeed AST2600 EVB). `-drive ..... if=pflash`
+machine (in our case, Aspeed AST2600 EVB). `-drive ..... if=mtd`
 loads the OpenBMC image into virtual flash memory. Lastly,
 `-nographic` disables graphical output and diverts the BMC's serial
 console directly to your terminal.
