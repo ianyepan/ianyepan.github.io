@@ -33,6 +33,10 @@ Evil-mode) on any line runs the command
 window that shows the full commit hash, author name, email, exact
 timestamp of the change along with the complete git commit message.
 
+![Emacs CV](/images/emacs-vc.png){: width="90%"}
+_Emacs' native VC package, showing colored git history in a separate window on
+the right_
+
 VC is a powerful Emacs built-in package that's often slept on. I
 started using Magit very early in my Emacs journey almost 10 years ago
 so I never really got the chance to dive deep into VC. If you're
@@ -68,6 +72,10 @@ want to inspect any other code chunks that were committed along with
 that piece of code. Hitting "Q" in the Magit blame buffer restores
 the original code view and removes all blame annotations.
 
+![Emacs Magit blame addition](/images/emacs-magit-blame.png){: width="90%"}
+_Magit's inline annotation, hitting 'enter' on a line opens the full
+commit details to the right_
+
 ## External package #2: Blamer.el
 
 This is great and all, but there are also times when I just wanna quickly
@@ -84,9 +92,13 @@ title, and relative time when the code was written. The git blame info
 updates and follows your cursor whenever you jump to a new line. It's
 designed to be an on-the-fly and non-intrusive version control hint
 provider. Blamer also allows you to configure many options, including
-date/time format, max text length, and pop-up delay in seconds. The
-following is my preferred setting. I set the keyboard shortcut of the
-blamer toggle command to `Ctrl-c g`.
+date/time format, max text length, and pop-up delay in seconds.
+
+![Emacs blamer](/images/emacs-blamer.png){: width="90%"}
+_Minimal, on-the-fly git annotation. Powered by blamer.el_
+
+The following is my preferred setting. I set the keyboard shortcut of
+the blamer toggle command to `Ctrl-c g`.
 
 ```emacs-lisp
 (use-package blamer
