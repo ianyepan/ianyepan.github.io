@@ -8,7 +8,7 @@ tags: [linux, emacs, tutorial, tips, workflow, programming]
 
 Many times when working on open-source codebases, I encounter a
 piece of code that I'd like to learn more context about or simply want
-to know who wrote it or when it was written. In most modern IDEs,
+to know *who* wrote it or *when* it was written. In most modern IDEs,
 there's some sort of "git blame" functionality to show the history of
 any line of code, either built-in natively or through extensions like
 VSCode's GitLens. In this short post, let's explore how we can achieve
@@ -16,13 +16,13 @@ the same in Emacs.
 
 ## Emacs built-in: the VC way
 
-Emacs' native version control interface, VC, provides the command
+Emacs' native version control interface, **VC**, provides the command
 `vc-annotate`. When invoked on a version controlled buffer, VC opens a
 new split window and shows for each line when it was last edited and
 by whom. This git blame info appears on the left side of the code
 content, similar to how modern editors expand the left fringe to
 display the git history. Each line is highlighted in different colors
-depending on how recent it was last changed. If you've ever used
+depending on how recently it was last changed. If you've ever used
 [Intellij IDEA's VCS annotation
 function](https://www.jetbrains.com/help/idea/investigate-changes.html#annotate_blame),
 it's clear where the powerful Java IDE got its inspiration from (possibly
@@ -45,12 +45,12 @@ packages.
 
 ## External package #1: git blame via Magit
 
-**Magit** is a package that needs no introduction. It's the center of
-most Emacs user's git workflow and makes non-trivial git operations
-like interactive rebasing or selecting chunks to stage/unstage in a
-changed file more intuitive and efficient. For many people, Magit
-along with Org Mode were the "killer apps" that converted them to
-becoming full-time Emacsers in the first place.
+**Magit** is a package that needs no introduction. It's the center
+piece of most Emacs user's git workflow and makes non-trivial git
+operations like interactive rebasing or selecting chunks to
+stage/unstage in a changed file more intuitive and efficient. For many
+people, Magit along with Org Mode were the "killer apps" that
+converted them to becoming full-time Emacsers in the first place.
 
 I've been a happy Magit user for years but only recently did I find
 out about the handy `magit-blame-addition` command. This command turns
@@ -100,11 +100,11 @@ blamer toggle command to `Ctrl-c g`.
   (setq blamer-min-offset 70))
 ```
 
-P.s. If you're unfamiliar with the usage of use-package, check out my
+*P.s. If you're unfamiliar with the usage of use-package, check out my
 [2021 blog post](../setting-up-use-package) detailing how to use its
 syntax to organize your config. As of Emacs 29.1 (released 2023 July),
 use-package is a built-in feature and you no longer need to install it
-from external repos.
+from external repos.*
 
 That's it for today! Thanks for reading and hope you picked up
 something new.
