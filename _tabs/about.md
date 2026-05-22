@@ -4,6 +4,8 @@ icon: fas fa-info
 order: 1
 ---
 
+# About Me
+
 Hi, I'm Ian Pan. Welcome to my personal website, where I mostly blog
 about programming stuff and nerdy things I'm interested in.
 
