@@ -6,9 +6,9 @@ categories: [Emacs]
 tags: [linux, emacs, tutorial, tips, workflow, programming]
 ---
 
-When I first started programming using Visual Studio Code, I've
+When I first started programming, I used Visual Studio Code. I've
 benefited much from the git gutter indicators that show
-added/deleted/modified code blocks that haven't been committed by
+added/deleted/modified code blocks that haven't been committed via
 git. This allows for a quick overview of the lines I've changed and
 helps me keep track of my actions since the last commit.
 
@@ -33,6 +33,10 @@ point me](https://github.com/hlissner/doom-emacs/issues/2246) to how
 he's done it. In the following paragraphs, I'll show you how you can
 achieve the same visuals and functionalities in your own
 configuration, without having to use Doom Emacs.
+
+*P.s. Doom is truly an awesome project. But some people, like myself,
+simply find joy in tinkering and maintaining their own configuration
+from scratch.*
 
 ## First, let's see the result
 
