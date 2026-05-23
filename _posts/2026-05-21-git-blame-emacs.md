@@ -76,9 +76,15 @@ the original code view and removes all blame annotations.
 _Magit's inline annotation, hitting 'enter' on a line opens the full
 commit details to the right_
 
+*u/JDRiverRun* on Reddit wrote a package
+[magit-blame-color-by-age](https://github.com/jdtsmith/magit-blame-color-by-age)
+that provides recency-aware color coding for the left fringe and magit
+blame headers. Check it out if you find the default magit blame UI too
+plain.
+
 ## External package #2: Blamer.el
 
-This is great and all, but there are also times when I just wanna quickly
+So far so good, but there are also times when I just wanna quickly
 see the commit author or the commit date of a piece of code without
 having to enter Magit blame buffer view, open the full commit details
 in a new window, and later restore both.
