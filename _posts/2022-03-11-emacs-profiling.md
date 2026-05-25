@@ -54,12 +54,12 @@ it's because this `glew.h` file has more than 26,000 lines of code,
 right? But seriously, 15 seconds?
 
 I needed to compare. I opened VSCode to try the same LSP actions: and
-it took only 1-2 seconds. My stomach started to ache as I fired up Vim
+it took only 1-2 seconds. My stomach started to ache as I fired up Neovim
 (with LSP configured) and tried doing the same thing... only 2-3
 seconds!
 
 > My sight grew dim as I felt the world collapsing on me -- NO! Emacs
-> can't lose to Visual Studio Code or (neo)vim! It's the holy grail of
+> can't be losing to Visual Studio Code or Neovim! It's the holy grail of
 > all editors!
 
 I started disabling fancy minor modes and unimportant features to see
@@ -72,8 +72,8 @@ the C file that's 26K+ lines long.
 
 ## Builtin profiler support in Emacs
 
-Just when I was about to give up, I came across a post on Reddit that
-was talking about "profiling" in Emacs. I followed the steps and typed
+Just when I was about to give up, I came across a post on Reddit
+talking about "profiling" in Emacs. I followed the steps and typed
 `M-x profiler-start`, chose "CPU" as the mode, invoked a couple of F12
 go-to-definitions of my OpenGL code for Emacs to "record", and ended
 the session by typing `M-x profiler-stop`.
@@ -127,3 +127,18 @@ the trouble under the hood. This is my first time using the builtin
 profiler, and I've been using Emacs for years! I suppose you learn
 something new every day, and this brilliant piece of software from the
 70s never ceases to amaze me.
+
+## Update (May 2026)
+
+Starting with stable version 29.1 (released July 2023), Emacs includes
+built-in support for tree-sitter. I've yet to find a strong reason to
+experiment with it since I'm pretty content with the default
+regex-based syntax highlighting, and the additional tree-sitter
+intelligent features are mostly (if not all) achievable by
+LSP. Setting up tree-sitter is also non-trivial and requires users to
+rebind any custom hook functions on the original language modes to the
+new `*-ts-mode`, which means I gotta replicate and migrate a
+substantial part of my configuration.
+
+Perhaps one day I'll give tree-sitter another shot. But for now I'm
+happy with what I have.
