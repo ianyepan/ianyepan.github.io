@@ -154,7 +154,7 @@ these pretty git-gutters in Emacs:
 
 That's all for today, thanks for stopping by.
 
-## Update (May 2026):
+## Update (May 2026)
 
 I have since found a much more visual way to define the fringe bitmaps
 via `fringe-helper-define`. Improvements were made to the "deleted"
