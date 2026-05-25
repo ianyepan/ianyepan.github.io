@@ -1576,14 +1576,14 @@ $sidebar-display: "sidebar-display";
           }
 
           > i {
-            @include icon-round(1.65rem);
+            // @include icon-round(1.65rem);
 
             line-height: 1.5rem;
-            font-size: 0.6rem;
+            font-size: 0.9rem;
             padding-top: 1px;
             padding-left: 1px;
             position: relative;
-            bottom: 1px;
+            bottom: 1.0px;
 
             &.unloaded {
               display: inline-block !important;
@@ -1610,7 +1610,7 @@ $sidebar-display: "sidebar-display";
       }
 
       i {
-        @include icon-round(2rem);
+        // @include icon-round(2rem);
 
         padding-top: 0.44rem;
         margin-top: .7rem; // multi line space
