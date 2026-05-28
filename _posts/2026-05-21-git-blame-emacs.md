@@ -124,5 +124,20 @@ syntax to organize your config. As of Emacs 29.1 (released 2023 July),
 use-package is a built-in feature and you no longer need to install it
 from external repos.*
 
+## Concluding words
+
+This post shows three different ways of git blaming in Emacs. You
+don't have to choose one over the other. In practice, I use all
+three. When I wanna quickly check how old a line of code is (or who
+the author of an ugly piece of code is...), I use `C-c g` to toggle
+blamer-mode. When I want maximal context of just the one commit
+associated with some chunk of code, I use `magit-blame-addition` and
+hit `RET` to take myself to the full details via
+`magit-show-commit`. I don't stay in magit-blame-mode for long, as I
+find the horizontal inserting of commits between my code distracting
+-- I use it mostly as a stepping stone for
+`magit-show-commit`. Finally, if I want an overview of the entire
+file's sectional history, I use the built-in color-coded VC annotate.
+
 That's it for today! Thanks for reading and hope you picked up
 something new.
