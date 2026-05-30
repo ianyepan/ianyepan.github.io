@@ -7,10 +7,10 @@ tags: [linux, emacs, tutorial, tips, workflow, programming]
 ---
 
 When I first started programming, I used Visual Studio Code. I've
-benefited much from the git gutter indicators that show
+benefited much from the git gutter indicators showing
 added/deleted/modified code blocks that haven't been committed via
 git. This allows for a quick overview of the lines I've changed and
-helps me keep track of my actions since the last commit.
+helps me keep track of my actions relative to git HEAD.
 
 
 ![VSCode Git Gutter](/images/vscode-gutter.png){: width="50%"}
