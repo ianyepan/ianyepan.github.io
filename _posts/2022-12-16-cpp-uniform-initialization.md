@@ -82,7 +82,7 @@ consistently off by a few decimals -- turns out it was caused by an
 implicit `double` to `int` conversion deeply buried in my source code.
 
 Another problem that uniform initialization solves is the pitfall of
-"most vexing parse" in C++, which is how the compiler resolves
+**"most vexing parse"** in C++, which is how the compiler resolves
 syntactic ambiguity in certain cases. The definition of "most vexing
 parse" goes like this: *When C++ can't distinguish between "object
 creation" and "function declaration", the compiler defaults to
@@ -135,15 +135,15 @@ class MyClass {
 };
 ```
 
-Since C++17, copy initialization like the one above is guaranteed to
-be optimized (no copy overhead). Even before C++17, the optimization
+Since C++17, copy initialization like the one above is **guaranteed** to
+be optimized (i.e. no copy overhead). Even before C++17, the optimization
 is likely to happen, too.
 
 ## Common Pitfalls of uniform initialization (brace initialization)
 
 The first thing to look out for is when a variable declared with
 `auto` uses brace initialization, its type could be deduced to
-`std::initializer_list` (when you're combining it with the equal sign,
+`std::initializer_list` (e.g. when you're combining it with the equal sign,
 or if it has multiple elements). This is probably not what we intend,
 so we should generally avoid declaring an `auto` variable with an
 initializer list. In certain cases, it even results in an
@@ -168,13 +168,13 @@ std::vector<int> v{5, 0}; // Vector v holds a 5 and a 0 -> {5, 0}
 
 As the author of "Modern Effective C++" stated, this is now viewed as
 a flawed design in `std::vector`. We should learn from this mistake
-and design our constructors such that "the overload called won't be
-affected whether the client uses parentheses or braces."
+and design our constructors such that **"the overload called won't be
+affected whether the client uses parentheses or braces."**
 
 The third issue, and perhaps the most problematic one, is when
 there's an overloading constructor that declares its parameter of type
 `std::initializer_list`. Calling a constructor with the uniform
-initialization syntax will "very strongly" prefer using this
+initialization syntax will "very strongly" prefer using **that**
 overload. Here's an example to illustrate this point:
 
 ```cpp
@@ -192,16 +192,16 @@ int main() {
 We might expect `MyClass obj{5, 1.0};` to call the first constructor
 (the one with an `int` and a `double` as parameters), but since there's a
 constructor overload that has `std::initializer_list` as parameter,
-that constructor will be "very strongly preferred". In this case, C++
-will even throw an error because it detects narrowing conversions from
+that constructor will be **"very strongly preferred"**. In this case, C++
+even throws an error because it detects narrowing conversions from
 `int` and `double` to `bool`. Imagine if there's no narrowing conversion
 involved (for instance, the second constructor takes in
 `std::initializer_list<double>`), the code will silently execute using
 the second constructor (with `int 5` converted to `double 5.0` in the
 initializer list), while the programmer thought it was using the first
-constructor.
+constructor. A ticking time bomb waiting to explode.
 
-The story doesn't end here. There is one exception to this "strongly
+The story doesn't end here. There is one **exception** to this "strongly
 prefer `std::initializer_list` constructors" rule. If we instantiate
 an object with empty braces, and both default constructor and
 `std::initializer_list` overload constructor exist, C++ will use the
@@ -241,9 +241,8 @@ parentheses wherever possible, it is important to know that there are
 scenarios where parentheses won't work (for instance, in the case of
 "most vexing parse").
 
-I highly recommend reading this section in Scott Meyer's "Effective
-Modern C++" book (the beginning of Chapter 3: Moving to Modern
-C++). On top of that, I'd also recommend reading [this blog post by
+I highly recommend reading the third chapter ("Moving to Modern C++") of Scott Meyer's *"Effective
+Modern C++"* book. On top of that, I also recommend reading [this blog post by
 Herb Sutter](https://herbsutter.com/2013/05/09/gotw-1-solution/) on
 `()` vs. `{}` initialization.
 
