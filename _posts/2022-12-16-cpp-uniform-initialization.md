@@ -85,7 +85,7 @@ Another problem that uniform initialization solves is the pitfall of
 "most vexing parse" in C++, which is how the compiler resolves
 syntactic ambiguity in certain cases. The definition of "most vexing
 parse" goes like this: *When C++ can't distinguish between "object
-creation" and "function" declaration", the compiler defaults to
+creation" and "function declaration", the compiler defaults to
 interpret the statement as a "function declaration".* In other words,
 if a line can be interpreted as a function declaration, the compiler
 will interpret it as a function declaration. Consider this commonly
@@ -196,7 +196,7 @@ that constructor will be "very strongly preferred". In this case, C++
 will even throw an error because it detects narrowing conversions from
 `int` and `double` to `bool`. Imagine if there's no narrowing conversion
 involved (for instance, the second constructor takes in
-`std::initializer_list<double>`, the code will silently execute using
+`std::initializer_list<double>`), the code will silently execute using
 the second constructor (with `int 5` converted to `double 5.0` in the
 initializer list), while the programmer thought it was using the first
 constructor.
