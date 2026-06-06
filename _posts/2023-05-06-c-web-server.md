@@ -42,7 +42,7 @@ We want to create a response and send it using the `send()` function
 (again, from `sys/socket.h`). The response has the following format:
 
 
-```log
+```
 HTTP/1.1 200 OK
 Date: Sat May 6 21:05:11 PST 2023
 Connection: close

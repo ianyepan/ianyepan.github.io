@@ -302,9 +302,9 @@ From the root of our QEMU codebase, create a build folder and
 configure it. Since we are targeting the AST2600 (which is an
 ARM-based SoC), we need the `arm-softmmu` target.
 
-```log
-mkdir build && cd build
-../configure --target-list=arm-softmmu
+```sh
+% mkdir build && cd build
+% ../configure --target-list=arm-softmmu
 ```
 
 ### Compile with Ninja
@@ -313,7 +313,7 @@ Use the following command to compile the QEMU source code with
 ninja. Ninja automatically leverages multiple CPU cores to compile in
 parallel.
 
-```log
+```sh
 % ninja -C build
 ```
 
@@ -343,7 +343,7 @@ or CMake. Ninja files are not meant to be edited by hand.
 We're finally ready to launch the AST2600 EVB with our OpenBMC image!
 From the `build/` directory, run the following command:
 
-```log
+```sh
 % ./qemu-system-arm -m 1G \
     -M ast2600-evb \
     -drive file=path/to/ast2600-flash.mtd,format=raw,if=mtd \
@@ -368,7 +368,7 @@ prompt.
 
 At the BMC prompt, we can scan bus 8 to verify our "soldering" job:
 
-```log
+```console
 # i2cdetect -y 8
 
      0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
@@ -406,7 +406,7 @@ source code of our OpenBMC image we should see 0x4d on bus 8 being
 explicitly matched to a kernel driver. In fact, since 8-0x4d is a
 properly-managed device, we can probe it to check its name:
 
-```log
+```console
 # cat /sys/bus/i2c/devices/8-004d/name
 lm75
 ```
@@ -420,7 +420,7 @@ Use `i2cget` to trigger our `recv` function of our sensor at bus 8
 address 0x48. In actual silicon, the sensor chip would toggle I2C's
 SDA line to send the bits of temperature data to the BMC.
 
-```log
+```console
 # i2cget -y 8 0x48
 0x1a
 ```
@@ -435,7 +435,7 @@ hex). The physical equivalent would be the BMC driving the voltage
 transitions of the SDA line to shift data over to the sensor chip,
 who takes the bits and stores them in an internal register.
 
-```log
+```sh
 i2cset -y 8 0x48 0x20
 ```
 

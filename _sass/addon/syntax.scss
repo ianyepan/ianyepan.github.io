@@ -39,12 +39,22 @@ html[mode=dark] {
   padding: 1.5rem;
 }
 
-$code-font-size: 0.85rem;
+$code-font-size: 1rem;
+
+/* Override Bootstrap's $font-family-monospace (code, kbd, pre, samp) */
+code,
+kbd,
+pre,
+samp {
+  font-family: "Ubuntu Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
 
 div > pre {
   @extend %code-snippet-bg;
   @extend %code-snippet-radius;
   @extend %code-snippet-padding;
+  font-size: $code-font-size; /* Match highlighted blocks; override Bootstrap's bare pre */
+  line-height: 1.4rem; /* match .highlight pre */
 }
 
 .highlighter-rouge {

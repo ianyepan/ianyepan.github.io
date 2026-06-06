@@ -43,7 +43,7 @@ Emacs hung for 10 seconds, before it finally took me to the macro
 definition in `/usr/include/GL/glew.h`, which looked something like
 this:
 
-```
+```cpp
 #define glGenBuffers GLEW_GET_FUN(__glewGenBuffers)
 ```
 
@@ -81,7 +81,7 @@ the session by typing `M-x profiler-stop`.
 I then typed `M-x profiler-report` to see what was really going
 on. And these are the results:
 
-```text
+```log
 - redisplay_internal (C function)                                5109  75%
  - jit-lock-function                                             5094  75%
   - jit-lock-fontify-now                                         5094  75%
