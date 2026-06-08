@@ -53,8 +53,8 @@ _Emacs' eshell used to grep and kill Flynn's hacking program_
 P.S. Inspired by this movie scene, I created an Emacs color theme
 based on the color palette of Tron: Legacy. Check it out at
 [https://github.com/ianyepan/tron-legacy-emacs-theme](https://github.com/ianyepan/tron-legacy-emacs-theme). My
-repo passed 200 GitHub stars not too long ago. I suppose I made a
-quite few people happy.
+repo passed 200 GitHub stars not too long ago. I suppose I made
+quite a few people happy.
 
 ## 2014-2019 HBO, *Silicon Valley*
 
