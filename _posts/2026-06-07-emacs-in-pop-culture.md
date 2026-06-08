@@ -150,6 +150,19 @@ but are too good to leave out:
   calling it "a thermonuclear word processor" and "outshines all other
   editing software in approximately the same way that the noonday sun
   does the stars".
+  
+- **And [here is a list of famous Emacs
+  users](http://xahlee.info/emacs/misc/famous_emacs_users.html),
+  curated by Xah Lee.** Notably:
+  - Donald Knuth (Turing Award winner; father of analysis of algorithms)
+  - Guido van Rossum (creator of Python)
+  - Yukihiro Matsumoto (creator of Ruby)
+  - Simon Peyton Jones (creator of Haskell)
+  - Jeff Dean (Google's Chief Scientist and head of Google DeepMind)
+  - Jonathan Blow (game developer; creator of Jai programming language)
+  - Julian Assange (founder of WikiLeaks)
+  - Linus Torvalds (creator of Linux; technically uses micro-emacs, not GNU Emacs)
+  - etc.
 
 
 That's it for today, hope you enjoyed the post as much as I did
@@ -166,3 +179,4 @@ writing it!
 - [https://www.imdb.com/title/tt5218484/](https://www.imdb.com/title/tt5218484/)
 - [https://www.youtube.com/watch?v=V7PLxL8jIl8](https://www.youtube.com/watch?v=V7PLxL8jIl8)
 - [https://web.stanford.edu/class/cs81n/command.txt](https://web.stanford.edu/class/cs81n/command.txt)
+- [http://xahlee.info/emacs/misc/famous_emacs_users.html](http://xahlee.info/emacs/misc/famous_emacs_users.html)
