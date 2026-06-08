@@ -10,7 +10,9 @@ As an Emacs user, few things are as delightful as catching my favorite
 text editor out in the wild. It doesn't happen often though -- Emacs
 is niche, and pop culture rarely gives it a nod. This post tracks down
 every one I know of (as of June 2026), and I'll keep adding to it as I
-stumble across more!
+stumble across more.
+
+Here you go, in no particular order:
 
 ## 2010 Movie, *The Social Network*
 
@@ -131,6 +133,47 @@ Lisp code for slightly better runtime performance, but I suppose a
 hacking script wouldn't care about micro-optimizations in the heat of
 the moment -- as long as it does the job!
 
+## 1994-1996 OVA, *Key the Metal Idol*
+
+> Thank you u/PuercoPop on Reddit for suggesting this entry!
+
+Key the Metal Idol is a Japanese anime series from the 90s. It follows
+the story of a robotic girl Tokiko "Key" Mima and is a "somewhat dark
+drama with elements of mecha and sci-fi". (Disclaimer: quoting
+Wikipedia here. This anime is on my watch list though.)
+
+In episode 9, *Return*, the mysterious character "D" is locked in a
+cell with just computer terminal. In a close-up scene, we see D
+hitting the return key and a scrolling wall of Emacs Lisp show up on
+his terminal screen.
+
+![Key the Metal Idol](/images/key-the-metal-idol-emacs.png){: width="95%"}
+_Emacs Lisp sighting in Key the Metal Idol_
+
+There is no mistaking for other Lisp variants, both `save-excursion`
+and `set-buffer` are Emacs Lisp specific keywords.
+
+## 2023 Hulu, *A Murder at the End of the World*
+
+> Thank you u/xenodium on Reddit for suggesting this entry!
+
+A Murder at the End of the World is a murder mystery / psychological
+thriller TV miniseries. I am definitely watching this very soon.
+
+In a scene, the main character Darby Hart (played by Emma Corrin)
+asked another young lady out of the blue, "Are you Vi or Emacs?" to
+see if she'd show a visible reaction and if not, she was probably not
+a hacker.
+
+![Are you Vi or Emacs](/images/murder-vi-or-emacs.webp){: width="90%"}
+_Are you Vi or Emacs?_
+
+The GIF above is taken from Xenodium's blog post
+[https://xenodium.com/are-you-vi-or-emacs](https://xenodium.com/are-you-vi-or-emacs). The
+author Álvaro Ramírez is also the creator behind the YouTube playlist
+[Bending
+Emacs](https://www.youtube.com/playlist?list=PLudVBwrl_ir84jCQtAzDVtBc_oSIBvdCO).
+
 ## Honorable mentions
 
 A few honorable mentions that may not fall into pop-culture sightings,
@@ -180,3 +223,5 @@ writing it!
 - [https://www.youtube.com/watch?v=V7PLxL8jIl8](https://www.youtube.com/watch?v=V7PLxL8jIl8)
 - [https://web.stanford.edu/class/cs81n/command.txt](https://web.stanford.edu/class/cs81n/command.txt)
 - [http://xahlee.info/emacs/misc/famous_emacs_users.html](http://xahlee.info/emacs/misc/famous_emacs_users.html)
+- [https://www.reddit.com/r/emacs/comments/11kqgav/emacs_lisp_cameo_in_anime_series_key_the_metal/](https://www.reddit.com/r/emacs/comments/11kqgav/emacs_lisp_cameo_in_anime_series_key_the_metal/)
+- [https://xenodium.com/are-you-vi-or-emacs](https://xenodium.com/are-you-vi-or-emacs)
