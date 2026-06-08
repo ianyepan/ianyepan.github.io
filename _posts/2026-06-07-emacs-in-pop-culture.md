@@ -77,11 +77,11 @@ not how all software engineers date, whatever the outside world may
 think), the two clash over the use of spaces versus tabs. Richard, a
 staunch advocate of the tab character for indentation, argues: "*I mean
 I do not get why anyone would use spaces over tabs. I mean, why not just
-Vim over Emacs?*" To which his girlfriend replies, "*I do use Vim over
+Vim over Emacs?*" To which Winnie replies, "*I do use Vim over
 Emacs.*" Richard then breaks down, yelling, "*Oh, God, help us!*"
 
 ![Tabs vs Spaces fight](/images/silicon-valley-fight.png){: width="90%"}
-_Richard argues with his girlfriend over indentation style and choice
+_Richard argues with his girlfriend Winnie over indentation style and choice
 of editor_
 
 Genius scene by HBO, sneaking in a brief reference to [the editor
