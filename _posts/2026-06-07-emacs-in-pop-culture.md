@@ -158,7 +158,7 @@ but are too good to leave out:
   - Guido van Rossum (creator of Python)
   - Yukihiro Matsumoto (creator of Ruby)
   - Simon Peyton Jones (creator of Haskell)
-  - Jeff Dean (Google's Chief Scientist and head of Google DeepMind)
+  - Jeff Dean (Google's Chief Scientist, leading Google AI, Google DeepMind, and Google Research)
   - Jonathan Blow (game developer; creator of Jai programming language)
   - Julian Assange (founder of WikiLeaks)
   - Linus Torvalds (creator of Linux; technically uses micro-emacs, not GNU Emacs)
