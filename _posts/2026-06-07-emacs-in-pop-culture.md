@@ -60,7 +60,7 @@ quite a few people happy.
 
 Silicon Valley is one of my favorite shows (my all-time favorite is
 still Mr. Robot). It's a comedy series parodying tech-industry culture,
-and it packs a surprising amount of insight into the software-engineer
+and it packs a surprising amount of insight into the software engineer
 lifestyle, the dynamics of VC funding, and the underdog startup's fight
 against the big corporations.
 
@@ -74,7 +74,7 @@ think), the two clash over the use of spaces versus tabs. Richard, a
 stubborn advocate of the tab character for indentation, argues: "*I mean
 I do not get why anyone would use spaces over tabs. I mean, why not just
 use Vim over Emacs?*" To which Winnie replies, "*I do use Vim over
-Emacs.*" Richard then breaks down, yelling, "*Oh, God, help us!*"
+Emacs.*" Richard then breaks down, yelling, "*Oh, God help us!*"
 
 ![Tabs vs Spaces fight](/images/silicon-valley-fight.png){: width="90%"}
 _Richard argues with Winnie over indentation style and choice
