@@ -25,7 +25,7 @@ putting together Facemash by scraping pictures from all the Harvard Houses
 (campus dorms), he fires up Emacs and writes a Perl script to crawl
 the website of Leverett House.
 
-![Emacs in The Social Network](/images/social-network-emacs-1.png){: width="90%"}
+![Emacs in The Social Network](/images/social-network-emacs-2.png){: width="90%"}
 _Movie scene where Zuckerberg is shown scripting Perl on Emacs in his
 Harvard dorm room_
 
@@ -33,11 +33,7 @@ As the movie scene plays, Zuckerberg narrates, "*... and there's no way
 I'm gonna go through 500 pages to download pics one at a time. So it's
 definitely necessary to **break out Emacs** and modify that Perl script.*"
 
-![Emacs in The Social Network](/images/social-network-emacs-2.png){: width="90%"}
-_Second angle from the same movie scene_
-
 ## 2010 Movie, *Tron: Legacy*
-
 
 The other movie featuring Emacs coincidentally hit theaters the
 same year, 2010. Tron: Legacy is a well-received sci-fi film and the
@@ -57,8 +53,8 @@ _Emacs' eshell used to grep and kill Flynn's hacking program_
 P.S. Inspired by this movie scene, I created an Emacs color theme
 based on the color palette of Tron: Legacy. Check it out at
 [https://github.com/ianyepan/tron-legacy-emacs-theme](https://github.com/ianyepan/tron-legacy-emacs-theme). My
-repo passed 200 GitHub stars not too long ago. I suppose I made a few
-people happy.
+repo passed 200 GitHub stars not too long ago. I suppose I made a
+quite few people happy.
 
 ## 2014-2019 HBO, *Silicon Valley*
 
@@ -149,9 +145,11 @@ but are too good to leave out:
   ![XKCD Emacs](/images/xkcd-real-programmers.png){: width="60%"}
   _The origin of M-x butterfly_
 
-- **Neal Stephenson, *In the Beginning... Was the Command Line* (1999)**
-  -- the sci-fi novelist devotes a loving passage to Emacs, calling it
-  "a thermonuclear word processor."
+- **Neal Stephenson, *In the Beginning... Was the Command Line*
+  (1999)** -- the sci-fi novelist devotes a loving passage to Emacs,
+  calling it "a thermonuclear word processor" and "outshines all other
+  editing software in approximately the same way that the noonday sun
+  does the stars".
 
 
 That's it for today, hope you enjoyed the post as much as I did
