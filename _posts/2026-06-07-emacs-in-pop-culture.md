@@ -174,6 +174,26 @@ next to him, an all-out war would've started right then and there
 _Scene from The Internship (2013). The presentation slide compares the
 popularity of source code editors_
 
+## 2019-2025 Netflix series, *How to Sell Drugs Online (Fast)*
+
+> Thank you u/MiEdCaLe on Reddit for suggesting this entry!
+
+
+![How to Sell Drugs Online (Fast)](/images/htsdo-poster.jpg){: width="40%"}
+_How to Sell Drugs Online (Fast), Netflix TV series_
+
+In Season 2, Episode 1 of this German Netflix series, Kira, an Emacs
+advocate with elite hacking skills, jokes about "Vi having two modes,
+'beeping non-stop' and 'breaking everything'". Her date, Lenny, argues
+back, "Is that so? Emacs is surely much better - until your hands fall
+off from hitting the shortcuts!" Shortly earning himself a french fry
+thrown at his face...
+
+Jokes on you, Lenny. I use Emacs with Evil-mode. The best of both worlds!
+
+![How to Sell Drugs Online (Fast) - Emacs vs Vi](/images/htsdo-emacs.png){: width="90%"}
+_Lenny, a Vi user, pokes fun at Emacs' nasty default shortcuts_
+
 ## 2023 Hulu miniseries, *A Murder at the End of the World*
 
 > Thank you u/xenodium on Reddit for suggesting this entry!
@@ -181,7 +201,7 @@ popularity of source code editors_
 A Murder at the End of the World is a murder mystery / psychological
 thriller TV miniseries. I am definitely watching this very soon.
 
-In a scene, the main character Darby Hart (played by Emma Corrin)
+In one scene, the main character Darby Hart (played by Emma Corrin)
 asked another young lady out of the blue, "Are you Vi or Emacs?" to
 see if she'd show a visible reaction and if not, she was probably not
 a hacker.
@@ -237,12 +257,6 @@ but are too good to leave out:
   editing software in approximately the same way that the noonday sun
   does the stars".
   
-- **How to Sell Drugs Online (Fast)** -- In Season 2, Episode 1 of
-  the German Netflix series, Kira, a tech-savvy girl with elite
-  hacking skills, jokes about "dissing Vi". This strongly suggests
-  that Kira is an Emacs user herself. (*Thank you u/MiEdCaLe on Reddit
-  for mentioning this show.*)
-
 - **And [here is a list of famous Emacs
   users](http://xahlee.info/emacs/misc/famous_emacs_users.html),
   curated by Xah Lee.** Notably:
