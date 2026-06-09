@@ -142,7 +142,7 @@ drama with elements of mecha and sci-fi".
 
 In episode 9, *Return*, the mysterious character "D" is locked in a
 cell with just computer terminal. In a close-up scene, we see D
-hitting the return key and a scrolling wall of Emacs Lisp show up on
+hitting the return key and a scrolling wall of Emacs Lisp shows up on
 his terminal screen.
 
 ![Key the Metal Idol](/images/key-the-metal-idol-emacs.png){: width="95%"}
@@ -163,9 +163,9 @@ Google, it's still an enjoyable lighthearted movie.
 
 In a scene where character Nick Campbell (played by Owen Wilson) tries
 to impress a Google executive during her presentation, he raised the
-question, "Why not use Emacs rather than Vi as the default editor for
-Ubuntu?" To which the executive (played by Rose Byrne) replied,
-"That's actually a very good thought, Nick." Ironically, the scene is
+question, "*Why not use Emacs rather than Vi as the default editor for
+Ubuntu?*" To which the executive (played by Rose Byrne) replied,
+"*That's actually a very good thought, Nick.*" Ironically, the scene is
 largely unrealistic because if those were real programmers sitting
 next to him, an all-out war would've started right then and there
 (/s).
@@ -183,13 +183,13 @@ popularity of source code editors_
 _How to Sell Drugs Online (Fast), Netflix TV series_
 
 In Season 2, Episode 1 of this German Netflix series, Kira, an Emacs
-advocate with elite hacking skills, jokes about "Vi having two modes,
-'beeping non-stop' and 'breaking everything'". Her date, Lenny, argues
-back, "Is that so? Emacs is surely much better - until your hands fall
-off from hitting the shortcuts!" Shortly earning himself a french fry
+advocate with elite hacking skills, jokes about Vi having two modes,
+'beeping non-stop' and 'breaking everything'. Her date, Lenny, argues
+back, "*Is that so? Emacs is surely much better - until your hands fall
+off from hitting the shortcuts!*" Shortly earning himself a french fry
 thrown at his face...
 
-Jokes on you, Lenny. I use Emacs with Evil-mode. The best of both worlds!
+Jokes on you, Lenny. I use Emacs with Evil-mode -- the best of both worlds!
 
 ![How to Sell Drugs Online (Fast) - Emacs vs Vi](/images/htsdo-emacs.png){: width="90%"}
 _Lenny, a Vi user, pokes fun at Emacs' nasty default shortcuts_
@@ -202,7 +202,7 @@ A Murder at the End of the World is a murder mystery / psychological
 thriller TV miniseries. I am definitely watching this very soon.
 
 In one scene, the main character Darby Hart (played by Emma Corrin)
-asked another young lady out of the blue, "Are you Vi or Emacs?" to
+asked another young lady out of the blue, "*Are you Vi or Emacs?*" to
 see if she'd show a visible reaction and if not, she was probably not
 a hacker.
 
@@ -224,14 +224,14 @@ school friends sharing the passion of hacking and getting themselves in
 trouble with some real gangsters.
 
 In a scene where one of them is having difficulty breaking through a
-firewall, the other suggested, "Have you tried Emacs through
-sendmail?" Now maybe my hacking skills are too amateur for these two,
+firewall, the other suggested, "*Have you tried Emacs through
+sendmail?*" Now maybe my hacking skills are too amateur for these two,
 but I'm not quite sure what that dialogue is supposed to mean. Emacs
 surely can send mail via sendmail, but that's just ... sending an
 email, not some firewall penetration technique. Historically speaking,
 sendmail does have a reputation of being vulnerable, perhaps the
 writer was referring to this. It's also possible that the English
-subtitles didn't do the best job in translating the original Polish
+subtitles didn't do the best job translating the original Polish
 dialogue.
 
 ![Haker Emacs](/images/haker-emacs.png){: width="90%"}
