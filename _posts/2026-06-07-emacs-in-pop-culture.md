@@ -215,6 +215,12 @@ but are too good to leave out:
   editing software in approximately the same way that the noonday sun
   does the stars".
   
+- **How to Sell Drugs Online (Fast)** -- In Season 2, Episode 1 of
+  the German Netflix series, Kira, a tech-savvy girl with elite
+  hacking skills, jokes about "dissing Vi". This strongly suggests
+  that Kira is an Emacs user herself. (*Thank you u/MiEdCaLe on Reddit
+  for mentioning this show.*)
+
 - **And [here is a list of famous Emacs
   users](http://xahlee.info/emacs/misc/famous_emacs_users.html),
   curated by Xah Lee.** Notably:
