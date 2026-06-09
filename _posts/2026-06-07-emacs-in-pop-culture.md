@@ -114,8 +114,7 @@ _The Hacker Files (1992-1993), Issue #1_
 
 Ōsama-tachi no Viking is a Japanese manga series about a high school
 hacker teaming up with a wealthy angel investor to reshape the world
-order (Disclaimer: I have not read the manga yet. I am paraphrasing
-Wikipedia here.)
+order.
 
 In one chapter, an enemy hacker uses Emacs Lisp to exploit security
 cameras (credits to: [this Reddit comment](https://www.reddit.com/r/emacs/comments/1bcxyps/comment/kvk33df/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)).
@@ -139,8 +138,7 @@ the moment -- as long as it does the job!
 
 Key the Metal Idol is a Japanese anime series from the 90s. It follows
 the story of a robotic girl Tokiko "Key" Mima and is a "somewhat dark
-drama with elements of mecha and sci-fi". (Disclaimer: quoting
-Wikipedia here. This anime is on my watch list though.)
+drama with elements of mecha and sci-fi".
 
 In episode 9, *Return*, the mysterious character "D" is locked in a
 cell with just computer terminal. In a close-up scene, we see D
@@ -153,7 +151,30 @@ _Emacs Lisp sighting in Key the Metal Idol_
 There is no mistaking for other Lisp variants, both `save-excursion`
 and `set-buffer` are Emacs Lisp specific keywords.
 
-## 2023 Hulu, *A Murder at the End of the World*
+## 2013 Movie, *The Internship*
+
+> Thank you u/dagobah1202 on Reddit for suggesting this entry!
+
+The Internship is a comedy film following the story of two 40-year-old
+salesmen spending the summer competing with other much younger and
+more technically skilled applicants for a job at Google. Despite its
+many inaccuracies in depicting real software engineer lifestyle at
+Google, it's still an enjoyable lighthearted movie.
+
+In a scene where character Nick Campbell (played by Owen Wilson) tries
+to impress a Google executive during her presentation, he raised the
+question, "Why not use Emacs rather than Vi as the default editor for
+Ubuntu?" To which the executive (played by Rose Byrne) replied,
+"That's actually a very good thought, Nick." Ironically, the scene is
+largely unrealistic because if those were real programmers sitting
+next to him, an all-out war would've started right then and there
+(/s).
+
+![The Internship Emacs vs Vi](/images/the-internship-emacs-vi.png){: width="95%"}
+_Scene from The Internship (2013). The presentation slide compares the
+popularity of source code editors_
+
+## 2023 Hulu miniseries, *A Murder at the End of the World*
 
 > Thank you u/xenodium on Reddit for suggesting this entry!
 
@@ -209,7 +230,9 @@ but are too good to leave out:
 
 
 That's it for today, hope you enjoyed the post as much as I did
-writing it!
+writing it! If you know of a reference that I left out, please don't
+hesitate to send me an email at
+[ian.pan@columbia.edu](mailto:ian.pan@columbia.edu).
 
 ## References
 - [https://medium.com/h0llyw00d-h4x0rs/the-social-network-6591ec03443d](https://medium.com/h0llyw00d-h4x0rs/the-social-network-6591ec03443d)
@@ -225,3 +248,6 @@ writing it!
 - [http://xahlee.info/emacs/misc/famous_emacs_users.html](http://xahlee.info/emacs/misc/famous_emacs_users.html)
 - [https://www.reddit.com/r/emacs/comments/11kqgav/emacs_lisp_cameo_in_anime_series_key_the_metal/](https://www.reddit.com/r/emacs/comments/11kqgav/emacs_lisp_cameo_in_anime_series_key_the_metal/)
 - [https://xenodium.com/are-you-vi-or-emacs](https://xenodium.com/are-you-vi-or-emacs)
+- [https://www.tumblr.com/moviecode/76927836921/from-key-the-metal-idol-episode-9-the-code-shown](https://www.tumblr.com/moviecode/76927836921/from-key-the-metal-idol-episode-9-the-code-shown)
+- [https://www.youtube.com/watch?v=lpdngXQOkBI](https://www.youtube.com/watch?v=lpdngXQOkBI)
+- [https://www.forbes.com/sites/quora/2013/06/13/what-do-googlers-think-of-the-internship-movie/](https://www.forbes.com/sites/quora/2013/06/13/what-do-googlers-think-of-the-internship-movie/)
