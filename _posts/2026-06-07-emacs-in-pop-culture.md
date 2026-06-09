@@ -195,6 +195,28 @@ author Álvaro Ramírez is also the creator behind the YouTube playlist
 [Bending
 Emacs](https://www.youtube.com/playlist?list=PLudVBwrl_ir84jCQtAzDVtBc_oSIBvdCO).
 
+## 2002 Polish movie, *Haker (Hacker)*
+
+> Thank you u/Esnos24 on Reddit for suggesting this entry!
+
+Haker is a Polish comedy film that follows the story of two high
+school friends sharing the passion of hacking and getting themselves in
+trouble with some real gangsters.
+
+In a scene where one of them is having difficulty breaking through a
+firewall, the other suggested, "Have you tried Emacs through
+sendmail?" Now maybe my hacking skills are too amateur for these two,
+but I'm not quite sure what that dialogue is supposed to mean. Emacs
+surely can send mail via sendmail, but that's just ... sending an
+email, not some firewall penetration technique. Historically speaking,
+sendmail does have a reputation of being vulnerable, perhaps the
+writer was referring to this. It's also possible that the English
+subtitles didn't do the best job in translating the original Polish
+dialogue.
+
+![Haker Emacs](/images/haker-emacs.png){: width="90%"}
+_Have you tried Emacs through sendmail?_
+
 ## Honorable mentions
 
 A few honorable mentions that may not fall into pop-culture sightings,
