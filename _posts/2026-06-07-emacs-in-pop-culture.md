@@ -174,6 +174,34 @@ next to him, an all-out war would've started right then and there
 _Scene from The Internship (2013). The presentation slide compares the
 popularity of source code editors_
 
+## 2017 Documentary, *AlphaGo*
+
+> Thank you u/\_0-__-0\_ on Reddit for suggesting this entry!
+
+"AlphaGo - The Movie" is an award-winning documentary about how
+AlphaGo, a program developed by Google DeepMind, mastered the game of
+Go through A.I. (machine learning with convolutional neural networks
+trained by reinforcement learning), and played against top-ranked Go
+player Lee Sedol.
+
+During an introductory scene in which the narrator is explaining what
+"neural networks" mean, the camera shows the Ubuntu desktop of a
+software engineer programming Lua in Emacs.
+
+![AlphaGo](/images/alphago-emacs1.png){: width="90%"}
+_A DeepMind software engineer using TUI Emacs within Tmux, in Gnome Terminal_
+
+The engineer appears to be using the *default* theme in the *default*
+terminal app (Gnome Terminal) on Ubuntu, with the *default* Ubuntu
+Mono font. He is also using the *default* dark theme in GNU Emacs,
+with the background color set to `nil`, so it falls through to use the
+terminal purplish background. A minimalist purist at heart indeed.
+
+![AlphaGo](/images/alphago-emacs2.png){: width="90%"}
+_A close-up shot of the programmer writing Lua in GNU Emacs. Looks
+like there's a typo in the file name._
+
+
 ## 2019-2025 Netflix series, *How to Sell Drugs Online (Fast)*
 
 > Thank you u/MiEdCaLe on Reddit for suggesting this entry!
@@ -294,3 +322,5 @@ hesitate to send me an email at
 - [https://www.youtube.com/watch?v=lpdngXQOkBI](https://www.youtube.com/watch?v=lpdngXQOkBI)
 - [https://www.forbes.com/sites/quora/2013/06/13/what-do-googlers-think-of-the-internship-movie/](https://www.forbes.com/sites/quora/2013/06/13/what-do-googlers-think-of-the-internship-movie/)
 - [https://www.youtube.com/watch?v=wsA7N5wmre8](https://www.youtube.com/watch?v=wsA7N5wmre8)
+- [https://www.reddit.com/r/emacs/comments/glvb68/meme_when_you_see_emacs_on_tv/](https://www.reddit.com/r/emacs/comments/glvb68/meme_when_you_see_emacs_on_tv/)
+- [https://www.youtube.com/watch?v=WXuK6gekU1Y](https://www.youtube.com/watch?v=WXuK6gekU1Y)
