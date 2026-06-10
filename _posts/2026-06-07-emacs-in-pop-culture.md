@@ -16,7 +16,7 @@ Here you go, in no particular order:
 
 ## 2010 Movie, *The Social Network*
 
-The Social Network is a biographical drama film portraying the
+*The Social Network* is a biographical drama film portraying the
 founding of Facebook.
 
 ![The Social Network](/images/social-network-dorm.jpg){: width="60%"}
@@ -38,7 +38,7 @@ definitely necessary to **break out Emacs** and modify that Perl script.*"
 ## 2010 Movie, *Tron: Legacy*
 
 The other movie featuring Emacs coincidentally hit theaters the
-same year, 2010. Tron: Legacy is a well-received sci-fi film and the
+same year, 2010. *Tron: Legacy* is a well-received sci-fi film and the
 second installment of the Tron series. The Daft Punk soundtrack was
 awesome too, to say the least.
 
@@ -53,14 +53,14 @@ system process that protagonist Sam Flynn initiated to attack ENCOM's new OS 12.
 _Emacs' eshell used to grep and kill Flynn's hacking program_
 
 P.S. Inspired by this movie scene, I created an Emacs color theme
-based on the color palette of Tron: Legacy. Check it out at
+based on the color palette of *Tron: Legacy*. Check it out at
 [https://github.com/ianyepan/tron-legacy-emacs-theme](https://github.com/ianyepan/tron-legacy-emacs-theme). My
 repo passed 200 GitHub stars not too long ago. I suppose I made
 quite a few people happy.
 
 ## 2014-2019 HBO, *Silicon Valley*
 
-Silicon Valley is one of my favorite shows (my all-time favorite is
+*Silicon Valley* is one of my favorite shows (my all-time favorite is
 still Mr. Robot). It's a comedy series parodying tech-industry culture,
 and it packs a surprising amount of insight into the software engineer
 lifestyle, the dynamics of VC funding, and the underdog startup's fight
@@ -99,7 +99,7 @@ to review some pull requests : -)
 
 ## 1992-1993 DC Comics, *The Hacker Files*
 
-The Hacker Files is a twelve-issue DC comics mini-series about a
+*The Hacker Files* is a twelve-issue DC comics mini-series about a
 freelance hacker exposing a multinational conspiracy and taking down
 an evil corporation. It's a pretty good read!
 
@@ -112,7 +112,7 @@ _The Hacker Files (1992-1993), Issue #1_
 
 ## 2013-2019 Manga series, *Ōsama-tachi no Viking (The King's Viking)*
 
-Ōsama-tachi no Viking is a Japanese manga series about a high school
+*Ōsama-tachi no Viking* is a Japanese manga series about a high school
 hacker teaming up with a wealthy angel investor to reshape the world
 order.
 
@@ -136,7 +136,7 @@ the moment -- as long as it does the job!
 
 > Thank you u/PuercoPop on Reddit for suggesting this entry!
 
-Key the Metal Idol is a Japanese anime series from the 90s. It follows
+*Key the Metal Idol* is a Japanese anime series from the 90s. It follows
 the story of a robotic girl Tokiko "Key" Mima and is a "somewhat dark
 drama with elements of mecha and sci-fi".
 
@@ -146,7 +146,7 @@ hitting the return key and a scrolling wall of Emacs Lisp shows up on
 his terminal screen.
 
 ![Key the Metal Idol](/images/key-the-metal-idol-emacs.png){: width="95%"}
-_Emacs Lisp sighting in Key the Metal Idol_
+_Emacs Lisp sighting in Key the Metal Idol (1994-1996)_
 
 There is no mistaking for other Lisp variants, both `save-excursion`
 and `set-buffer` are Emacs Lisp specific keywords.
@@ -155,7 +155,7 @@ and `set-buffer` are Emacs Lisp specific keywords.
 
 > Thank you u/dagobah1202 on Reddit for suggesting this entry!
 
-The Internship is a comedy film following the story of two 40-year-old
+*The Internship* is a comedy film following the story of two 40-year-old
 salesmen spending the summer competing with other much younger and
 more technically skilled applicants for a job at Google. Despite its
 many inaccuracies in depicting real software engineer lifestyle at
@@ -171,14 +171,14 @@ next to him, an all-out war would've started right then and there
 (/s).
 
 ![The Internship Emacs vs Vi](/images/the-internship-emacs-vi.png){: width="95%"}
-_Scene from The Internship (2013). The presentation slide compares the
+_Scene from The Internship (2013). A presentation slide compares the
 popularity of source code editors_
 
 ## 2017 Documentary, *AlphaGo*
 
 > Thank you u/\_0-__-0\_ on Reddit for suggesting this entry!
 
-"AlphaGo - The Movie" is an award-winning documentary about how
+*AlphaGo - The Movie* is an award-winning documentary about how
 AlphaGo, a program developed by Google DeepMind, mastered the game of
 Go through A.I. (machine learning with convolutional neural networks
 trained by reinforcement learning), and played against top-ranked Go
@@ -226,11 +226,11 @@ _Lenny, a Vi user, pokes fun at Emacs' nasty default shortcuts_
 
 > Thank you u/xenodium on Reddit for suggesting this entry!
 
-A Murder at the End of the World is a murder mystery / psychological
+*A Murder at the End of the World* is a murder mystery / psychological
 thriller TV miniseries. I am definitely watching this very soon.
 
 In one scene, the main character Darby Hart (played by Emma Corrin)
-asked another young lady out of the blue, "*Are you Vi or Emacs?*" to
+asked a lady out of the blue, "*Are you Vi or Emacs?*" to
 see if she'd show a visible reaction and if not, she was probably not
 a hacker.
 
@@ -247,7 +247,7 @@ Emacs](https://www.youtube.com/playlist?list=PLudVBwrl_ir84jCQtAzDVtBc_oSIBvdCO)
 
 > Thank you u/Esnos24 on Reddit for suggesting this entry!
 
-Haker is a Polish comedy film that follows the story of two high
+*Haker* is a Polish comedy film that follows the story of two high
 school friends sharing the passion of hacking and getting themselves in
 trouble with some real gangsters.
 
@@ -255,7 +255,7 @@ In a scene where one of them is having difficulty breaking through a
 firewall, the other suggested, "*Have you tried Emacs through
 sendmail?*" Now maybe my hacking skills are too amateur for these two,
 but I'm not quite sure what that dialogue is supposed to mean. Emacs
-surely can send mail via sendmail, but that's just ... sending an
+surely can send mail via sendmail, but that's just... sending an
 email, not some firewall penetration technique. Historically speaking,
 sendmail does have a reputation of being vulnerable, perhaps the
 writer was referring to this. It's also possible that the English
