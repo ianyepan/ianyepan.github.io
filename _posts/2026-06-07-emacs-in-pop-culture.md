@@ -58,6 +58,24 @@ based on the color palette of *Tron: Legacy*. Check it out at
 repo passed 200 GitHub stars not too long ago. I suppose I made
 quite a few people happy.
 
+## 2010 Movie, *Arctic Blast*
+
+Another 2010 film -- this time, a sci-fi disaster movie jointly
+produced between Australia and Canada. At around the 20:30 timestamp,
+two scientists, Jack and Zoe, attempt to recover some satellite photos
+from a frozen hard drive. We see a scrolling wall of Emacs Lisp on
+their computer for a brief moment as Jack disappointedly said that
+most of the files are corrupted.
+
+![Arctic Blast](/images/arctic-blast-emacs.png){: width="90%"}
+_Two scientists using Emacs Lisp to recover data from a hard drive_
+
+`;;;###autoload`, `interactive`, and `save-excursion` are all
+unmistakably Emacs Lisp syntax. The Elisp program shown on screen is
+in fact the [xml-parse module source
+code](https://www.emacswiki.org/emacs/xml-parse.el), 
+authored by John Wiegley back in 2001.
+
 ## 2014-2019 HBO, *Silicon Valley*
 
 *Silicon Valley* is one of my favorite shows (my all-time favorite is
@@ -350,3 +368,5 @@ hesitate to send me an email at
 - [https://www.youtube.com/watch?v=wsA7N5wmre8](https://www.youtube.com/watch?v=wsA7N5wmre8)
 - [https://www.reddit.com/r/emacs/comments/glvb68/meme_when_you_see_emacs_on_tv/](https://www.reddit.com/r/emacs/comments/glvb68/meme_when_you_see_emacs_on_tv/)
 - [https://www.youtube.com/watch?v=WXuK6gekU1Y](https://www.youtube.com/watch?v=WXuK6gekU1Y)
+- [https://www.tumblr.com/moviecode/75563286489/movie-arctic-blast-they-are-reconstructing-a](https://www.tumblr.com/moviecode/75563286489/movie-arctic-blast-they-are-reconstructing-a)
+- [https://www.emacswiki.org/emacs/xml-parse.el](https://www.emacswiki.org/emacs/xml-parse.el)
