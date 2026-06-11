@@ -174,6 +174,32 @@ next to him, an all-out war would've started right then and there
 _Scene from The Internship (2013). A presentation slide compares the
 popularity of source code editors_
 
+## 2014-2015 Anime series, *Aldnoah.Zero*
+
+> Thank you Reisen for suggesting this entry via email!
+
+In Episode 5 of Japanese sci-fi anime *Aldnoah.Zero*, we catch
+glimpses of both Emacs and Emacs Lisp during a fight between two
+mechas. Blink and you'd miss it.
+
+Look closely towards the bottom right, our pilot appears to be debugging
+some issues with their `.emacs` initialization file. We've all declared
+[.emacs
+bankruptcy](https://www.emacswiki.org/emacs/DotEmacsBankruptcy) at one
+point so I can certainly relate to the pain. But in the middle of a
+mecha fight? Now that's a first.
+
+![Aldnoah.Zero](/images/aldnoahzero-emacs1.png){: width="90%"}
+_Backing up the .emacs init file to start over is a pain we've all gone
+through at some point_
+
+Some random snippets of Emacs Lisp are also shown on screen
+shortly after. Look closely and you shall recognize keywords like
+`progn`, `insert`, `beginning-of-line`, and `forward-char`.
+
+![Aldnoah.Zero](/images/aldnoahzero-emacs2.png){: width="75%"}
+_Some random Emacs Lisp shown on screen_
+
 ## 2017 Documentary, *AlphaGo*
 
 > Thank you u/\_0-__-0\_ on Reddit for suggesting this entry!
