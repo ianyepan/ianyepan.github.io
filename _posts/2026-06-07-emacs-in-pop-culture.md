@@ -6,6 +6,9 @@ categories: [Emacs]
 tags: [linux, emacs]
 ---
 
+> Thank you for the support, this blog post got featured on
+> the front page of Hacker News (YCombinator).
+
 As an Emacs user, few things are as delightful as catching my favorite
 text editor out in the wild. It doesn't happen often though -- Emacs
 is niche, and pop culture rarely gives it a nod. This post tracks down
