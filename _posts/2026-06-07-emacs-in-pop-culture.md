@@ -13,7 +13,9 @@ As an Emacs user, few things are as delightful as catching my favorite
 text editor out in the wild. It doesn't happen often though -- Emacs
 is niche, and pop culture rarely gives it a nod. This post tracks down
 every one I know of (as of June 2026), and I'll keep adding to it as I
-stumble across more.
+stumble across more. The main list covers on-screen sightings
+(movies, TV series) along with comics and manga. Textual references in
+books are collected separately under "Honorable mentions".
 
 Here you go, in no particular order:
 
@@ -312,10 +314,15 @@ dialogue.
 ![Haker Emacs](/images/haker-emacs.png){: width="90%"}
 _Have you tried Emacs through sendmail?_
 
+P.S. As far-fetched as "hacking through Emacs and mail" sounds,
+there's some real history behind it. See *The Cuckoo's Egg* in the
+[Honorable mentions](#honorable-mentions) below. Maybe the writers
+weren't so far off after all.
+
 ## Honorable mentions
 
-A few honorable mentions that may not fall into pop-culture sightings,
-but are too good to leave out:
+ A few honorable mentions -- textual references and other nods that
+ aren't on-screen sightings, but are too good to leave out:
 
 - **xkcd #378, *Real Programmers*** -- the famous strip where "real
   programmers use butterflies" to flip disk bits, capped by the line
@@ -326,12 +333,25 @@ but are too good to leave out:
   ![XKCD Emacs](/images/xkcd-real-programmers.png){: width="60%"}
   _The origin of M-x butterfly_
 
+- **Clifford Stoll, *The Cuckoo's Egg* (1989)** -- Stoll's first-hand
+  account of hunting down a hacker who had broken into Lawrence
+  Berkeley Lab. The hacker acquired superuser access by exploiting a
+  security hole in GNU Emacs' `movemail` function, which ran with root
+  privileges and could be tricked into overwriting protected system
+  files. (Thank you to multiple people who suggested this entry on
+  Reddit, Hacker News, and via email.)
+
 - **Neal Stephenson, *In the Beginning... Was the Command Line*
   (1999)** -- the sci-fi novelist devotes a loving passage to Emacs,
   calling it "a thermonuclear word processor" and "outshines all other
   editing software in approximately the same way that the noonday sun
   does the stars".
-  
+
+- **Neal Stephenson, *Cryptonomicon* (1999)** -- in the novel,
+  character Randy Waterhouse uses Ordoemacs, a modified version of
+  Emacs that encrypts every file before writing it to disk. (Thank you
+  'dleslie' on Hacker News for suggesting this entry.)
+
 - **And [here is a list of famous Emacs
   users](http://xahlee.info/emacs/misc/famous_emacs_users.html),
   curated by Xah Lee.** Notably:
@@ -373,3 +393,4 @@ hesitate to send me an email at
 - [https://www.youtube.com/watch?v=WXuK6gekU1Y](https://www.youtube.com/watch?v=WXuK6gekU1Y)
 - [https://www.tumblr.com/moviecode/75563286489/movie-arctic-blast-they-are-reconstructing-a](https://www.tumblr.com/moviecode/75563286489/movie-arctic-blast-they-are-reconstructing-a)
 - [https://www.emacswiki.org/emacs/xml-parse.el](https://www.emacswiki.org/emacs/xml-parse.el)
+- [https://dev.to/hyenast2/neal-stephenson-s-cryptonomicon-and-ordoemacs-4g4c](https://dev.to/hyenast2/neal-stephenson-s-cryptonomicon-and-ordoemacs-4g4c)
