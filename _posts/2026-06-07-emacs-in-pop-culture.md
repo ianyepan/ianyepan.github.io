@@ -120,6 +120,20 @@ full-time -- and here I am, writing this blog post in Emacs on a
 Sunday night. And first thing tomorrow at work? Probably fire up Emacs
 to review some pull requests : -)
 
+> Thank you 'neonnoodle' on Hacker News for suggesting the following entry.
+
+In Season 4, Episode 2, during a scene where the Pied Piper team is
+brainstorming feature ideas for their product, "Emacs keybindings"
+appears on a yellow post-it note (near the bottom of the screenshot).
+Despite the long-running jokes about Emacs's finger-twisting chords,
+those bindings are everywhere: they're the default line-editing mode
+in shells like bash and zsh, and macOS honors many of them (`C-a`,
+`C-e`, `C-k`) system-wide in any text field.
+
+![Emacs keybindings](/images/silicon-valley-emacs-keybindings.jpeg){: width="70%"}
+_The team (or more likely just Richard) is thinking of adding Emacs
+keybindings to their product._
+
 ## 1992-1993 DC Comics, *The Hacker Files*
 
 *The Hacker Files* is a twelve-issue DC comics mini-series about a
@@ -394,3 +408,4 @@ hesitate to send me an email at
 - [https://www.tumblr.com/moviecode/75563286489/movie-arctic-blast-they-are-reconstructing-a](https://www.tumblr.com/moviecode/75563286489/movie-arctic-blast-they-are-reconstructing-a)
 - [https://www.emacswiki.org/emacs/xml-parse.el](https://www.emacswiki.org/emacs/xml-parse.el)
 - [https://dev.to/hyenast2/neal-stephenson-s-cryptonomicon-and-ordoemacs-4g4c](https://dev.to/hyenast2/neal-stephenson-s-cryptonomicon-and-ordoemacs-4g4c)
+- [https://news.ycombinator.com/item?id=48502286](https://news.ycombinator.com/item?id=48502286)
