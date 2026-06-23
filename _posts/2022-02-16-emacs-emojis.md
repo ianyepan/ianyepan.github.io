@@ -6,6 +6,15 @@ categories: [Emacs]
 tags: [linux, emacs, tutorial, tips, workflow, programming]
 ---
 
+> **Note:** When I wrote this blog post back in 2022, Emacs did not
+> have builtin support for emoji actions. Starting with Emacs 29
+> (release July 2023) however, the editor supports a variety of useful
+> emoji commands out-of-the-box, such as insert, describe, search, and
+> zoom, etc. If you're using Emacs 29+, consider using the native
+> emoji picker (it's very good, and requires zero setup!). This blog
+> post continues to help those who are on older versions of
+> Emacs. Without further ado...
+
 This short post will help you set up emoji support in Emacs.
 
 First, let's see the results:
